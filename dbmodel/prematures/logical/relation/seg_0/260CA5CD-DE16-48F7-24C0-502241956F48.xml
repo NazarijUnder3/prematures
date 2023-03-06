@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mkf code category" directorySegmentName="seg_0" id="260CA5CD-DE16-48F7-24C0-502241956F48">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:17:05 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>58B745F6-826B-08AD-7926-DEB6E08F127B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33B1FA1C-5093-C9A0-5A9B-B929B497C27B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE9822F0-F2CC-ED3E-E9B4-122BA1C1F471</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

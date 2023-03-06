@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="premature">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_id" id="0F272319-7DE3-92C9-6F53-921E07E15563">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 18:53:58 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_yes_no" id="177A7242-70DC-BBF3-DEBE-ACA1B2638F3D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 10:31:51 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<defaultValue>false</defaultValue>
+<fileName>premature</fileName>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_name" id="21905DF4-6686-65D0-15A5-9459F13C40E4">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:07:21 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_id_small" id="254E95BC-6582-2370-BB3C-8BEF3683AFDD">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:14:41 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_parent_age" id="322B8409-B2C4-894F-FDAE-5D2D8B2F748A">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:57:55 UTC</createdTime>
+<comment><![CDATA[full years]]></comment>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_address_street" id="36752A97-3E01-2D38-9FFB-44AAA69F183E">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:09:18 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_name_eco" id="376DD6B9-4E0A-5718-FE69-1AF01E809657">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:23:49 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_medical_card" id="377CC541-AEE4-41A7-59AB-28AB17F7E349">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:08:06 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<sensitiveType>0A33C8D6-6C9A-DA96-5606-BF6D039F8507</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_comment" id="47F962FC-F9E2-C071-D19F-011A0B723A3A">
+<createdBy>User</createdBy>
+<createdTime>2023-02-27 19:54:13 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>127 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_address_location" id="5CEF1878-3FE7-2DB5-2BB3-00A7616CBDF0">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:15:23 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_name_gender" id="632F9B3A-41BE-C027-AFB7-B1562B2ED05D">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:21:06 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_phone" id="68D4101B-D203-A3CA-6664-6FA5A4BDF771">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:17:37 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_phone_messanger" id="87BAEFD9-DF1B-223C-DB0E-CB23DAC125D4">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:51:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_name_child" id="9A9C9331-CB58-2ADC-9662-6E5BCCDCB4DD">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:00:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_mkf_value" id="B983A7D4-721A-C7E7-A8E6-435D01199BD9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:43:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>A8522058-AF48-A08C-6E32-96A262FF55F6</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_surname" id="C3859CB6-8296-7F43-B2CA-DB00E0CED5F3">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:06:16 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_description" id="D0D60B08-E09C-8A4A-C88A-89945D11AC59">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:16:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_mother_status" id="DDDF8816-A03D-9A02-5BCC-9DE0541AAFC4">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 20:05:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

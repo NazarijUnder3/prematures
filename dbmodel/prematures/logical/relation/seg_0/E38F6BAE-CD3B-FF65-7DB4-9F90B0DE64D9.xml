@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pathology pathology type" directorySegmentName="seg_0" id="E38F6BAE-CD3B-FF65-7DB4-9F90B0DE64D9">
+<createdBy>User</createdBy>
+<createdTime>2023-02-27 18:54:28 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>EBC221DB-586A-7828-DEBB-F1897BF7E911</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12670586-A741-F020-510D-7EE7DFD96262</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA554A0B-7C62-B6AB-F54F-EAFA015C7A3E</targetEntity>
+<transferable>true</transferable>
+</Relation>

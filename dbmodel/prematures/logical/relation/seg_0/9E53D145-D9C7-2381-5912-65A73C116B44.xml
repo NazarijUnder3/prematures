@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disorder sse" directorySegmentName="seg_0" id="9E53D145-D9C7-2381-5912-65A73C116B44">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 10:44:19 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>63F888C1-09FF-A852-FB36-F3EB3BE1F433</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2DCE3A5B-0F54-B5F0-E880-CF744DFE9E60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE7337B3-D06B-3082-E381-E2C3F4510DCF</targetEntity>
+<transferable>true</transferable>
+</Relation>

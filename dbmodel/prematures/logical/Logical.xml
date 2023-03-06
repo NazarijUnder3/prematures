@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B4FECB69-AEB1-4A0B-A7D0-A47991BA4B0D" mainViewID="0B5903F5-7365-B368-8176-D5E8F3ADA1F0">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 18:48:05 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

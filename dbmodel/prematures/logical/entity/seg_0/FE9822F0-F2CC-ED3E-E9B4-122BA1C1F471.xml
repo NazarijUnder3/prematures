@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE9822F0-F2CC-ED3E-E9B4-122BA1C1F471" name="mkf code">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:14:17 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mkf id" id="296AD637-EE35-3AAC-5AE7-44467372446A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:14:17 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mkf name" id="B9F5C075-10BA-37E2-D351-37A0FE813F4B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:14:17 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mkf category id" id="2ABF019E-57B2-67F3-88A2-BCCC19AF9139">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:17:05 UTC</createdTime>
+<generatorID>260CA5CD-DE16-48F7-24C0-502241956F48</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>71ECD784-FCF0-642F-DC43-CA2E6FF502A9</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2DCA8C4-3527-1C70-9F0F-C3EC61A4366A" name="hospital PK">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:14:17 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>296AD637-EE35-3AAC-5AE7-44467372446A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

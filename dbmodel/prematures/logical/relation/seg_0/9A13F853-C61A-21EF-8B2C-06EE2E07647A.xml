@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disorder strabismus" directorySegmentName="seg_0" id="9A13F853-C61A-21EF-8B2C-06EE2E07647A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 10:45:04 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>018EFBF4-BFC8-39F7-8ADD-A7DCE3CE55D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ACE35153-B5ED-B611-81FB-9E94C880A11B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE7337B3-D06B-3082-E381-E2C3F4510DCF</targetEntity>
+<transferable>true</transferable>
+</Relation>

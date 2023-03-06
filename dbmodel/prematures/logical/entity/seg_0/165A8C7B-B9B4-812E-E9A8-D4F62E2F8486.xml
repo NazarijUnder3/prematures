@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="165A8C7B-B9B4-812E-E9A8-D4F62E2F8486" name="mkf">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:21:11 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="child id" id="75F25F1C-5062-CB5A-FA27-DAAD45C42438">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:22:10 UTC</createdTime>
+<generatorID>0F176C4E-8467-534B-BE86-B9BDFFA56D24</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>C518099F-9D46-95D8-FCB4-D6A25911C84F</referedAttribute>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mkf id" id="2EF10554-A7E3-10C8-7FE7-F92B9370CF10">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:24:11 UTC</createdTime>
+<generatorID>D3179F1D-35C2-DD65-7967-842AAB90529D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>296AD637-EE35-3AAC-5AE7-44467372446A</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observation time" id="A1AF3C2E-8C06-5972-423F-A9063857EAC4">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:38:42 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<listOfValues>
+<valueDef value="1" description="month"/>
+<valueDef value="12" description="month"/>
+<valueDef value="24" description="month"/>
+<valueDef value="3" description="month"/>
+<valueDef value="6" description="month"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mkf value" id="BA044860-5E88-8887-785C-C27C5295009B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:45:08 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A8522058-AF48-A08C-6E32-96A262FF55F6</logicalDatatype>
+<domain>B983A7D4-721A-C7E7-A8E6-435D01199BD9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mkf description" id="8CAE2EB6-96EF-293E-ACA1-E01FA4A6854B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:45:34 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AAA8BE3-346F-713F-B6EF-8ED46C5CF2FB" name="mkf PK">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:23:02 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75F25F1C-5062-CB5A-FA27-DAAD45C42438</attributeRef>
+<attributeRef>2EF10554-A7E3-10C8-7FE7-F92B9370CF10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

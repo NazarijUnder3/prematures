@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disorder skin" directorySegmentName="seg_0" id="06D90308-6098-55F8-F213-335813B90667">
+<createdBy>User</createdBy>
+<createdTime>2023-03-06 17:21:44 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5867748A-D35E-529F-59C0-FADDCD45E9B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE7337B3-D06B-3082-E381-E2C3F4510DCF</targetEntity>
+<transferable>true</transferable>
+</Relation>

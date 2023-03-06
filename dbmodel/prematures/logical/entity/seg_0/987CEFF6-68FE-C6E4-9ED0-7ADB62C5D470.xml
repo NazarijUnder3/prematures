@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470" name="child">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 18:49:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[information about babies]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="child id" id="C518099F-9D46-95D8-FCB4-D6A25911C84F">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 18:50:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="child name" id="17201A32-9700-1902-F629-EEA493D18E13">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 18:59:04 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>9A9C9331-CB58-2ADC-9662-6E5BCCDCB4DD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="child surname" id="FA271D2E-2E46-7537-82EB-EEAF2CB6A9B8">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:28:37 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>C3859CB6-8296-7F43-B2CA-DB00E0CED5F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hospital id" id="580840DE-C3E5-D01C-B190-3F4AA9EB086D">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:33:34 UTC</createdTime>
+<generatorID>3738C328-2AD1-5DAC-2DB4-4B250D5B7A8B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>41ED9CFB-2FEE-24C1-C666-D7ABC7BEEC56</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender id" id="57FB4412-A08F-A2DA-ADC7-78CF3A01EA32">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:36:46 UTC</createdTime>
+<generatorID>86CDC68B-8738-B92C-7FA6-F77B410A65EB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>C51F810F-59D2-1246-E5BC-C0421895645C</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locality id" id="A1B17D8A-8801-9082-4D85-5CB03105DF33">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:47:26 UTC</createdTime>
+<generatorID>9861C4A2-6243-3861-4021-5163F025A023</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>A6673FE3-CB89-9198-7D51-EB1CB9DB8B20</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eco id" id="465B33A5-E9D8-9C3D-7F33-BFE46E33AAFC">
+<createdBy>User</createdBy>
+<createdTime>2023-02-24 14:59:53 UTC</createdTime>
+<generatorID>D38FA777-B8EE-31F8-5759-32034F345814</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>7437D26F-DA55-6212-A911-BE5BE1EA38B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pregnancy id" id="39D905BD-2567-21F7-1F16-D3454A3368DE">
+<createdBy>User</createdBy>
+<createdTime>2023-02-27 19:29:07 UTC</createdTime>
+<generatorID>4BADEAC1-BCB5-E302-1DAC-92266CFCCBEC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>1399E0B4-17FB-4EE3-F66D-9016F7BFDFA0</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="055E3A4B-C369-92AA-4868-3D45959BF52B" name="child PK">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 18:57:37 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C518099F-9D46-95D8-FCB4-D6A25911C84F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

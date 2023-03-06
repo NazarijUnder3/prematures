@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="240A831E-63AA-AF15-D6AE-E127C0A46CAD" name="apnea">
+<createdBy>User</createdBy>
+<createdTime>2023-02-28 11:13:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="apnea id" id="298EC8E7-43E1-CF24-BF8B-5CA09BC563B9">
+<createdBy>User</createdBy>
+<createdTime>2023-02-28 11:13:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apnea name" id="DF2E7F5D-5840-5CF7-A13C-4BF2CAE018E9">
+<createdBy>User</createdBy>
+<createdTime>2023-02-28 11:13:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EC89190-10D4-CBE0-E72F-6021397C5CB9" name="hospital PK">
+<createdBy>User</createdBy>
+<createdTime>2023-02-28 11:13:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>298EC8E7-43E1-CF24-BF8B-5CA09BC563B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

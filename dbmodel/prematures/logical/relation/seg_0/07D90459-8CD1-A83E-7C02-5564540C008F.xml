@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pregnancy multi" directorySegmentName="seg_0" id="07D90459-8CD1-A83E-7C02-5564540C008F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-06 18:50:14 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>CCFEB13A-BF76-01C6-9A18-7212ECBDB18B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74D77A46-06AA-CB23-8115-B8766E742B56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0595C77B-6DF7-8E9B-8E33-A41E2B8C9524</targetEntity>
+<transferable>true</transferable>
+</Relation>

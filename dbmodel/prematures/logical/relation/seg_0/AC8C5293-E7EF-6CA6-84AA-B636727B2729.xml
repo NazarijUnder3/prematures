@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child phone" directorySegmentName="seg_0" id="AC8C5293-E7EF-6CA6-84AA-B636727B2729">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:52:43 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>055E3A4B-C369-92AA-4868-3D45959BF52B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE42ECF6-8019-5371-D9EF-0A262B5031D5</targetEntity>
+<transferable>true</transferable>
+</Relation>

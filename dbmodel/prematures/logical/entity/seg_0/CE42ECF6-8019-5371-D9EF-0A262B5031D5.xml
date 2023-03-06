@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE42ECF6-8019-5371-D9EF-0A262B5031D5" name="phone">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:48:10 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="child id" id="873A2A9B-B2A4-20D9-B776-0B3326C55723">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:52:43 UTC</createdTime>
+<generatorID>AC8C5293-E7EF-6CA6-84AA-B636727B2729</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>C518099F-9D46-95D8-FCB4-D6A25911C84F</referedAttribute>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="A3EC76EC-E5A1-4010-CDE4-14C72E96149E">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:48:20 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>68D4101B-D203-A3CA-6664-6FA5A4BDF771</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone messanger" id="9BFF20CE-2F9A-9FED-7B2C-11EF310F571F">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:48:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[information about messangeres for communication]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>87BAEFD9-DF1B-223C-DB0E-CB23DAC125D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone comment" id="A5B563D9-E72E-D0B7-F38D-68FE9D07EFF2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-04 09:47:05 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DB23BC8-FD28-EA5C-E494-16496A3BF6D0" name="phone PK">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:53:31 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>873A2A9B-B2A4-20D9-B776-0B3326C55723</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

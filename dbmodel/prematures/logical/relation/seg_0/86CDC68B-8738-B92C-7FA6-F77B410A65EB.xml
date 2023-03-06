@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child gender" directorySegmentName="seg_0" id="86CDC68B-8738-B92C-7FA6-F77B410A65EB">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:36:46 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>DD353C59-0579-A35D-E457-3096CBFB6FC4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D930AAA-3305-6B9A-6624-B67457BBDB75</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
+<transferable>true</transferable>
+</Relation>

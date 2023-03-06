@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pregnancy multi condition" directorySegmentName="seg_0" id="CE754B3A-9C98-EE10-41E9-A830C27AB7F2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-06 18:49:37 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>5D42952B-0A87-2149-1BDC-F16B03DB48C9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA9C9A98-72F8-99D4-1614-415C35511068</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0595C77B-6DF7-8E9B-8E33-A41E2B8C9524</targetEntity>
+<transferable>true</transferable>
+</Relation>

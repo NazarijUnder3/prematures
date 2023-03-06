@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child hospital" directorySegmentName="seg_0" id="3738C328-2AD1-5DAC-2DB4-4B250D5B7A8B">
+<createdBy>User</createdBy>
+<createdTime>2023-02-23 19:33:34 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>23DC3D22-5A69-D84C-8726-C522F0121F08</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79075E9E-4DF0-74AD-EBD5-F10481C4E01C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
+<transferable>true</transferable>
+</Relation>
