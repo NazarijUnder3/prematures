@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D3356B92-1FCB-2865-9FDC-46EA0C4798E3" containerWithKeyObject="312FBCA5-EB74-9F11-5FF6-09480D3C634B" localFKIndex="C7ACAE84-58CD-823F-C955-5DB939B092E8" name="pregnancy_compitation_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>AB7BE3B9-3DF3-B187-8749-B7EE2F97155A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>compitation</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2A1CAB7-CF83-2890-FFE2-940DF257883E</referredTableID>
+<keyObject>789EB5C0-BFCC-0A8B-037F-E7B465C9E10B</keyObject>
+<referredKeyID>789EB5C0-BFCC-0A8B-037F-E7B465C9E10B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>compitation_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

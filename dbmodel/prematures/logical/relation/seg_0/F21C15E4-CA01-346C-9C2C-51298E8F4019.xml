@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disability status 30" directorySegmentName="seg_0" id="F21C15E4-CA01-346C-9C2C-51298E8F4019">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:04:44 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>AFAC2595-1079-436E-D789-2DC9299276AF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F502E82-DFEF-3B58-7601-EC8592BF2CEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2DCF5E1-50B1-C0C6-FE64-AE429E2F3A7E</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="846B271D-08EF-715B-0E6F-E49781918A11" containerWithKeyObject="5B28712F-048C-8EF7-363E-3EC21CA024ED" localFKIndex="6280E15A-19C5-32C6-D7DC-C6CA69637B1A" name="disability_intracranial_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>1A7F00C2-E160-E4F6-5A22-078F7E87DDEA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>intracranial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73069D6D-4A1A-5C9C-3061-EF8667FA3CA0</referredTableID>
+<keyObject>08DFA7DD-7350-529C-FA7F-8DA903F24876</keyObject>
+<referredKeyID>08DFA7DD-7350-529C-FA7F-8DA903F24876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>intracranial_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

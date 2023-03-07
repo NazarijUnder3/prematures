@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="BAB9CD90-04EC-F534-7C8E-CD52CDD28F73" containerWithKeyObject="312FBCA5-EB74-9F11-5FF6-09480D3C634B" localFKIndex="87DC3231-AC62-4ED1-95F7-DCD1B64A5399" name="pregnancy_amniotic_fluid_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>008BCC59-79C0-313D-43D2-3EA72469562E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>amniotic_fluid</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D978377C-01B9-A32F-869D-883612745599</referredTableID>
+<keyObject>395C123D-B148-F299-545C-77379E51AA58</keyObject>
+<referredKeyID>395C123D-B148-F299-545C-77379E51AA58</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>amniotic_fluid_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

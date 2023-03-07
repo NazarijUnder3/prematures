@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child sepsis" directorySegmentName="seg_0" id="18D28DA0-1F1A-C114-D171-F876DAADBC2C">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:16:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>76310B8B-2592-6C5C-A4C5-DCE0D4839CC7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>880B31B5-A0EC-17E7-E56D-1FDCE7F728F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
+<transferable>true</transferable>
+</Relation>

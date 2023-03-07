@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="793D8427-AC96-27D1-8BA0-28D7E798C66E" name="breathing_syndrom">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>53448F96-D270-E333-6201-DFE654DE691A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="breathing_syndrom_id" id="18384F99-DA0C-E994-A5EB-C78DBEEB95AC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>A6C67816-E970-2A0C-7D7D-742D69845EE8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="breathing_syndrom_name" id="7FE994C8-E666-CACD-19B2-581F20F037F9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>A46AD371-0A44-57CE-4756-DEBFDC55228A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="5D24F32E-331C-A59F-77AB-DD9672ECEEAC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="F588DB42-CBBD-ECC2-4704-1476A5B95A7F"/>
+</propertyMap>
+</Column>
+<Column name="ts" id="850D9EF9-EC25-3924-3037-16CF6442CDB3">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="7FA5CDCB-6481-DC35-38CE-4E20CEA4CBF8"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C1CF2CA-CB8D-B1A5-BA21-61AF2ABECF47" name="breathing_syndrom_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>3C84F1F2-F874-8669-1DDA-F6050E70CA7D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18384F99-DA0C-E994-A5EB-C78DBEEB95AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

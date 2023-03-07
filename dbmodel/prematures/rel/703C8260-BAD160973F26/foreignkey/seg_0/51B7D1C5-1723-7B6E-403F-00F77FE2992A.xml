@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51B7D1C5-1723-7B6E-403F-00F77FE2992A" containerWithKeyObject="D59255E5-86D5-D85B-7A25-8827028C0DD4" localFKIndex="9A307607-A15E-CBBC-54DA-F6AE54FCF3FC" name="child_apnea_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>49CE7064-7566-1402-4BF0-5D2A6EB2635D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>apnea</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>861B537C-CD5B-2DD3-E6D3-62A068C97A8B</referredTableID>
+<keyObject>74C19577-52DE-3DB6-27CE-D60AAF9ABB20</keyObject>
+<referredKeyID>74C19577-52DE-3DB6-27CE-D60AAF9ABB20</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>apnea_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

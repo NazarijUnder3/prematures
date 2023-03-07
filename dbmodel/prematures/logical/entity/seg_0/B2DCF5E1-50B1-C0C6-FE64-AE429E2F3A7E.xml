@@ -43,6 +43,185 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="breathing failure id" id="E2016EE1-BBB2-8831-7B6C-B449E9426D41">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:45:20 UTC</createdTime>
+<generatorID>A901437B-97FD-D2AA-63D3-D9AC46911862</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>BDF867B0-2F18-2C98-102E-05BF3C670BB9</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="breathing syndrom id" id="691674A2-F61D-EC7C-1CF4-CF88C57F2C4F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:46:24 UTC</createdTime>
+<generatorID>3665E6CD-E554-4B35-E805-1989F233CD8F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>A6C67816-E970-2A0C-7D7D-742D69845EE8</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="intracranial id" id="E81FD270-D540-E8F0-BF6C-E9FB6C4FD0B3">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:47:19 UTC</createdTime>
+<generatorID>1A7F00C2-E160-E4F6-5A22-078F7E87DDEA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>0B644B97-A203-2206-FD0D-0EB00B464226</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="therapy start id" id="6192040C-BF9D-67C8-0DDE-0054A9EE2A60">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:47:40 UTC</createdTime>
+<generatorID>168EDBD4-581E-1C68-0B7C-8F787558CC43</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>00253F06-436D-1F4C-C34A-0159595768E2</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="immersion id" id="01AF7A05-5A6D-7DB1-ADC4-83A357D6C582">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:47:57 UTC</createdTime>
+<generatorID>0236ABF1-5690-F915-7DFB-4789760A383C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>8E815229-E754-D95A-E3D8-6CE36A533726</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leukomalacia id" id="52806CF5-D363-A8E2-FBD5-07882403530B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:04:21 UTC</createdTime>
+<generatorID>A8319DD6-015E-AD6E-FDD1-3682D6F15476</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>97F44023-B9C0-FAA1-BF37-5491C16CE978</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status 30 id" id="0DDCE09E-BD78-05EB-C826-A3EA4BC5ACAE">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:04:44 UTC</createdTime>
+<generatorID>F21C15E4-CA01-346C-9C2C-51298E8F4019</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>B570CE38-5400-75E9-A448-0A5A7727FE1B</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paraventricular id" id="5481E3E9-39D6-A0AE-A837-7030B1A9CE24">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:05:08 UTC</createdTime>
+<generatorID>3FC84FEC-1891-221B-682A-B890E9A046C8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>213C1A3C-68DA-1255-965A-F8D44812E840</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="abilitation id" id="67806867-41F2-DE10-DB56-556534381D65">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:05:23 UTC</createdTime>
+<generatorID>61E86DB4-7E61-52B2-751C-C926F6976F54</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>DD89EC89-0FDA-5BF6-F5CD-DF4999A3B09F</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sei" id="BAE134DF-51C9-36EE-8F31-F3266A644A91">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:27:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Syndrome of endogenous intoxication]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ne" id="1CAB2C50-CCB9-6C54-702B-40C8A6DB01D5">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:28:55 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="encephalopathy" id="9F103F61-7A20-073C-69FA-9A8BDF166694">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:30:42 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="20FE6539-F9CD-618F-A49C-CCA4FB8B3A3A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:33:21 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A83037AB-2555-B89B-522A-1A483E993F2B" name="disabilities PK">

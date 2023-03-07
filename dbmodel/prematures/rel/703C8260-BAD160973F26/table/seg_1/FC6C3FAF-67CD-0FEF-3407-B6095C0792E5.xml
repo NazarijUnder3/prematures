@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="FC6C3FAF-67CD-0FEF-3407-B6095C0792E5" name="vision">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>D62A93AE-C822-1130-A366-70796EA5FF80</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vision" id="BF6034B4-FD58-F9F5-FC53-E14DA12C2CE3">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>CB8B04F5-87A9-4E80-1113-A682FF05EEB6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vision_id" id="87372702-D7CF-1675-5989-5C5483582CEF">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="user_id" id="FEF88F08-12C0-0029-58F4-52469F3BAC34">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="F588DB42-CBBD-ECC2-4704-1476A5B95A7F"/>
+</propertyMap>
+</Column>
+<Column name="ts" id="AD6F9B03-CD0D-3E6E-42DF-084E9ACFDA24">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="7FA5CDCB-6481-DC35-38CE-4E20CEA4CBF8"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96F7BA8B-CEC1-C818-5E1C-8C1B30AFB882" name="vision_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="87372702-D7CF-1675-5989-5C5483582CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disability intracranial" directorySegmentName="seg_0" id="1A7F00C2-E160-E4F6-5A22-078F7E87DDEA">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:47:19 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>BF6B5689-D654-8973-2286-5E11E5D5EBC8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F71A0544-8129-CE3B-A98C-9E64B4A124B8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2DCF5E1-50B1-C0C6-FE64-AE429E2F3A7E</targetEntity>
+<transferable>true</transferable>
+</Relation>

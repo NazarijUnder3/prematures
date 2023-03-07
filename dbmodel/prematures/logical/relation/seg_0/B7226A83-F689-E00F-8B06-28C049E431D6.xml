@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child convulsion" directorySegmentName="seg_0" id="B7226A83-F689-E00F-8B06-28C049E431D6">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:15:22 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>169C33F0-658D-F570-F5F5-0E4205053882</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7386C2C0-A974-FC32-EE3C-504C8DAA8C46</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
+<transferable>true</transferable>
+</Relation>

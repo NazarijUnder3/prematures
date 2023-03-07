@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7906BF5F-3ACA-9314-2D42-A97EA3245DC2" containerWithKeyObject="E5C3BDA4-7876-213F-313C-7C967A686948" localFKIndex="75F0D972-3F0D-646D-BC63-B0C78DB1661F" name="disorder_git_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>AEF94982-5FE7-95A0-789B-684F45291A89</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>git</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8571C0D7-98F4-6378-12CB-BC9D77F13CE7</referredTableID>
+<keyObject>CBBC8B75-33BD-5CEB-4BBA-52D8047EF982</keyObject>
+<referredKeyID>CBBC8B75-33BD-5CEB-4BBA-52D8047EF982</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>git_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

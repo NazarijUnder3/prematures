@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="68FD4830-2F09-1AF6-0D97-D60F0F115750" containerWithKeyObject="E5C3BDA4-7876-213F-313C-7C967A686948" localFKIndex="F4256D13-E484-6262-5587-38F3221D229C" name="disorder_ims_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>53C18834-7D38-ED37-DC20-932133B1B766</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>ims</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84CA73D6-4C8E-6342-1336-80C8994816B7</referredTableID>
+<keyObject>92C527FA-41BB-296B-3F64-FD60292F321A</keyObject>
+<referredKeyID>92C527FA-41BB-296B-3F64-FD60292F321A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ims_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

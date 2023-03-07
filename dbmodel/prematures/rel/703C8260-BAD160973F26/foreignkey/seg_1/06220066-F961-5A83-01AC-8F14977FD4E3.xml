@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="06220066-F961-5A83-01AC-8F14977FD4E3" containerWithKeyObject="5B28712F-048C-8EF7-363E-3EC21CA024ED" localFKIndex="D2B50C02-01A9-4772-DD6E-F3502014C4D5" name="disability_leukomalacia_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>A8319DD6-015E-AD6E-FDD1-3682D6F15476</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>leukomalacia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80901049-1D01-9357-BD45-1BB29477F6A3</referredTableID>
+<keyObject>C54C9769-BE4B-3D6F-2BCA-AF6FC2C9CF58</keyObject>
+<referredKeyID>C54C9769-BE4B-3D6F-2BCA-AF6FC2C9CF58</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>leukomalacia_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

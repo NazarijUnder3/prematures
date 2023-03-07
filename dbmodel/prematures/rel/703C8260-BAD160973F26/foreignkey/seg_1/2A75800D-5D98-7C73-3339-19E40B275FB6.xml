@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="2A75800D-5D98-7C73-3339-19E40B275FB6" containerWithKeyObject="D59255E5-86D5-D85B-7A25-8827028C0DD4" localFKIndex="EF828F42-5868-D842-FC37-3FDF5DA5F59E" name="child_sepsis_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>18D28DA0-1F1A-C114-D171-F876DAADBC2C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>sepsis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D26C80C5-E406-69F6-5697-C5021E44CCBA</referredTableID>
+<keyObject>E2C8B2DF-C5B8-ABA9-1789-FE626EC8E6AD</keyObject>
+<referredKeyID>E2C8B2DF-C5B8-ABA9-1789-FE626EC8E6AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sepsis_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

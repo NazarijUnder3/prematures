@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disability paraventicular" directorySegmentName="seg_0" id="3FC84FEC-1891-221B-682A-B890E9A046C8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:05:08 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>857935BE-CE2F-C34E-C322-394FB0DE8128</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3514BE30-9A17-C4CE-7057-6CF464437AA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2DCF5E1-50B1-C0C6-FE64-AE429E2F3A7E</targetEntity>
+<transferable>true</transferable>
+</Relation>

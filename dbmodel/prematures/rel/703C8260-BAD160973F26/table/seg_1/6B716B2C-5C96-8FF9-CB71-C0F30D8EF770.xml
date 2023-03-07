@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="6B716B2C-5C96-8FF9-CB71-C0F30D8EF770" name="rf">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>9FCEE304-6452-6FA8-92BE-8EF54A093A22</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rf_id" id="4CAB78DF-B6E0-4855-AACD-EDD1EE8A6972">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>5D4E83B3-515A-29D8-97B9-ED68B1FC20D3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rf_name" id="0C39443C-DB26-A38F-E839-61C3D7385AD5">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>E52ADA4A-5488-0863-F244-BE2A2D761647</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="04B0D633-7547-C3E2-D53B-D894C6FA695F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="F588DB42-CBBD-ECC2-4704-1476A5B95A7F"/>
+</propertyMap>
+</Column>
+<Column name="ts" id="4FABC0F9-1E5D-5FC9-0CBE-C4AC9D60E7E3">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="7FA5CDCB-6481-DC35-38CE-4E20CEA4CBF8"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="757BADC4-7CC4-8DA2-7D94-8688504EE5DA" name="rf_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>C7C49F71-8DC5-3076-9C7A-683419786C83</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CAB78DF-B6E0-4855-AACD-EDD1EE8A6972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

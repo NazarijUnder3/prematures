@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="disability therapy start" directorySegmentName="seg_0" id="168EDBD4-581E-1C68-0B7C-8F787558CC43">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 17:47:40 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>CF5EF501-4F55-43E0-D4B8-17C7ABD5694B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5413CEA2-541B-0C70-AEB1-3F86C49C6799</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2DCF5E1-50B1-C0C6-FE64-AE429E2F3A7E</targetEntity>
+<transferable>true</transferable>
+</Relation>

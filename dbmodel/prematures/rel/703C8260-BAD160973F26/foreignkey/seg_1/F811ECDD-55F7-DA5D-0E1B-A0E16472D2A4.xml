@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="F811ECDD-55F7-DA5D-0E1B-A0E16472D2A4" containerWithKeyObject="E5C3BDA4-7876-213F-313C-7C967A686948" localFKIndex="598EADAA-3653-0702-D5AB-B2469874CD79" name="disorder_disorder_kind_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>509BDB4A-67F2-0829-263B-5B008BF74A5E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>disorder_kind</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>49E1F670-E87E-204A-7739-2B57A7909172</referredTableID>
+<keyObject>F638E847-0681-9ED3-4E71-D42878A751BD</keyObject>
+<referredKeyID>F638E847-0681-9ED3-4E71-D42878A751BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>disorder_kind_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

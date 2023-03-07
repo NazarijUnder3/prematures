@@ -52,6 +52,110 @@
 <domain>C3859CB6-8296-7F43-B2CA-DB00E0CED5F3</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="gestation" id="74B039D5-AEBC-C824-9F39-CCE42C64C9A9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:02:29 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>410512F5-291C-C97C-F7C8-4572304201C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>20</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="height" id="9BF66FB5-D4A6-F82E-0ACB-67126F7812B2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:08:25 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>EEC956E8-F2AB-6252-CC64-EAA866CB1C55</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>20</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="weight" id="2C39B8EC-B9A9-85C2-D9DE-769880AA8ED5">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:04:05 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>6BD96E8E-4DBD-4339-B8DC-380BE01FF849</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>500</beginValue>
+<endValue>5000</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="apgar0" id="4A2C4A61-27CA-1CC0-3438-C6333BDBC18F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:08:55 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>6A7A6D10-C463-2360-15ED-94BA852014A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>9</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="apgar1" id="4EC98493-3D96-B074-AB27-A75ACBC9F42F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:09:56 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>6A7A6D10-C463-2360-15ED-94BA852014A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>9</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="asphyxia" id="E7B3AACD-B8F9-F609-27C2-AC0CDCABC547">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:17:18 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="hospital id" id="580840DE-C3E5-D01C-B190-3F4AA9EB086D">
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 19:33:34 UTC</createdTime>
@@ -120,6 +224,187 @@
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="convulsion id" id="50D9EFB1-9F10-41D4-C72B-6FFA7AFEF4ED">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:15:22 UTC</createdTime>
+<generatorID>B7226A83-F689-E00F-8B06-28C049E431D6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>3D467E78-0D0C-A963-ECC8-55DD653B30C6</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apnea id" id="BBB9E15C-087A-8F2E-5234-1B953EE3CBF8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:15:44 UTC</createdTime>
+<generatorID>49CE7064-7566-1402-4BF0-5D2A6EB2635D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>298EC8E7-43E1-CF24-BF8B-5CA09BC563B9</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sepsis id" id="C76AAA8D-C6E7-E304-38B5-907205569B66">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:16:35 UTC</createdTime>
+<generatorID>18D28DA0-1F1A-C114-D171-F876DAADBC2C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>6BC2F26A-C2F4-57D8-E525-5E491D1E8827</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sepsis ethiology id" id="888650E2-D2BE-0B53-680A-3D6E195614F5">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:16:54 UTC</createdTime>
+<generatorID>81FF2C1F-1E74-51A0-8B2B-F10A5ABD16D3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>90331470-91C7-3FDB-443F-23B72201EFDA</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pcr id" id="EA25B13B-BA1D-EAB4-7778-806577A7A37E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:17:30 UTC</createdTime>
+<generatorID>55E7CF3F-3706-121C-5D61-83301AFA24F3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>2AADE91A-FE6B-4BB6-0F02-8DFAC9DD301A</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rt kfg id" id="BD78A25F-E610-E59B-1115-F62089ABCD03">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:19:11 UTC</createdTime>
+<generatorID>2F230389-94FD-7964-D78D-86A03CA07930</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>35FD122A-2197-AFF0-3B92-A90F9BA364CB</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reanimation" id="596AB18C-BBDD-CC72-EB1F-0B40A93C734C">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:19:31 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alv" id="F64D774B-6C6D-24B0-E7D7-6F9C00ACA68E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:19:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artificial lung ventilation]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>D06FE790-296A-F21D-0EA2-B356C1D7EE64</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="cpap" id="8EA218AD-134E-9FB8-CBC2-172DFB047C99">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:20:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Continuous positive airway pressure]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>AEE8B97B-4067-8AB1-467E-6DDEEA3123B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ph" id="CA40C5C0-BEE0-ED26-1CC7-80944E885756">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:24:05 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>CA4C3021-85A1-2881-7845-8F5C8D95A720</logicalDatatype>
+<domain>C6584D6C-0FD1-4B38-F42F-363481C347C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>15</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="surfactant" id="8AD9439E-A7C6-A071-3AE0-6570BE9A6A2D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:26:21 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="child card" id="7C011588-9B89-5795-6D7B-2B3625DB12A1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:36:11 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>4329A708-D98F-A206-FA33-51038F5959A2</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

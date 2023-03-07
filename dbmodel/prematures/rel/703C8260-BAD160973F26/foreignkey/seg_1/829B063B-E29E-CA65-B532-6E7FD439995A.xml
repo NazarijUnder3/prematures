@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="829B063B-E29E-CA65-B532-6E7FD439995A" containerWithKeyObject="5B28712F-048C-8EF7-363E-3EC21CA024ED" localFKIndex="0D51D0BC-63B6-9E4C-E4AD-AD8F40D922AA" name="disability_abilitation_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>61E86DB4-7E61-52B2-751C-C926F6976F54</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>abilitation</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>848BC9C7-C988-1A1A-10D9-E3F54B558E29</referredTableID>
+<keyObject>45982004-8866-59C7-5E1F-E8960ADF3CCF</keyObject>
+<referredKeyID>45982004-8866-59C7-5E1F-E8960ADF3CCF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>abilitation_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

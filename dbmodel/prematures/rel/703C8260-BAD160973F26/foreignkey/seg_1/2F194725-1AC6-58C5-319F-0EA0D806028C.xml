@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="2F194725-1AC6-58C5-319F-0EA0D806028C" containerWithKeyObject="5B28712F-048C-8EF7-363E-3EC21CA024ED" localFKIndex="12F84629-B59C-5234-0D47-2051218CD2FA" name="disability_breathing_syndrom_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>3665E6CD-E554-4B35-E805-1989F233CD8F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>breathing_syndrom</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>793D8427-AC96-27D1-8BA0-28D7E798C66E</referredTableID>
+<keyObject>5C1CF2CA-CB8D-B1A5-BA21-61AF2ABECF47</keyObject>
+<referredKeyID>5C1CF2CA-CB8D-B1A5-BA21-61AF2ABECF47</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>breathing_syndrom_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

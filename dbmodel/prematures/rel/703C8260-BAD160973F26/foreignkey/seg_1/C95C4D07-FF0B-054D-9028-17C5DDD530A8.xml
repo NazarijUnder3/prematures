@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="C95C4D07-FF0B-054D-9028-17C5DDD530A8" containerWithKeyObject="E5C3BDA4-7876-213F-313C-7C967A686948" localFKIndex="8A5EF770-5978-C357-C2D3-A5B431867C4E" name="disorder_slf_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 20:07:09 UTC</createdTime>
+<generatorID>527C34C3-7F2B-D5B9-38CD-D985537F036D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>slf</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57890C36-CC60-B767-A826-0442F8F4D925</referredTableID>
+<keyObject>02CD8FE5-20C0-0C8C-7601-F75A0EDD7279</keyObject>
+<referredKeyID>02CD8FE5-20C0-0C8C-7601-F75A0EDD7279</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>slf_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

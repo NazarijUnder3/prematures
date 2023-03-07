@@ -83,6 +83,142 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="compitation id" id="A2A17F47-8925-01F1-9141-85C4ACDA222D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:11:17 UTC</createdTime>
+<generatorID>AB7BE3B9-3DF3-B187-8749-B7EE2F97155A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>626FDDD9-1602-5B08-A8D7-D97B25772413</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amniotic fluid id" id="D0DB0352-7315-E69C-8DEF-3596379B5683">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:11:32 UTC</createdTime>
+<generatorID>008BCC59-79C0-313D-43D2-3EA72469562E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>6F5D46E9-0986-6CC4-8CF2-A0CA3CAA549B</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fluid id" id="992D5FAD-5944-8C11-7A68-E70160047916">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:11:42 UTC</createdTime>
+<generatorID>E87F62D2-4972-4F4A-0402-E1BD5D1DE4BD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>1796BDB2-769B-7B74-CD6B-3E866773D979</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status id" id="0AA707EF-4319-C831-0735-0F5492EE376B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:12:46 UTC</createdTime>
+<generatorID>38DF01E6-9EC2-6E66-14FD-B565CC6E9AD7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>162AE82A-50F8-BA54-D38D-A365B72F3689</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bmi id" id="852A90B3-9AB8-ED3F-A949-EEF574C90457">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:49:08 UTC</createdTime>
+<generatorID>03CDE9E2-AB37-4CCF-0B15-5682F9A7A862</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>02D62686-69FA-91B5-994D-957E956C7BA4</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="antenatal" id="76492D51-4553-AD39-3E90-E08F44380540">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:50:24 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="infertility" id="D2DE2BFA-E944-F18A-B13F-3FF98DE8CFFB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:50:58 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<defaultValue>false</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presentation id" id="99232365-B046-1A3F-DC3B-1198619AA467">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:54:47 UTC</createdTime>
+<generatorID>B65C8D63-CFDB-0CDC-D463-CEC8E26C326C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>D9660619-0089-BA0C-CA58-7B574ED44A4D</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birth" id="B0D4E157-C0DB-0A77-E4B9-29F74B17D6BC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:55:32 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>79F55FFD-4F1F-C9FE-CF2C-DD6541867938</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery id" id="F9196A9A-E66B-17A3-7099-F7718A604E6B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:58:57 UTC</createdTime>
+<generatorID>81F5E122-6DF7-DB5B-480F-4E40FAB8AB95</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>F18C5F48-2E94-63F6-06CF-5C88B38EE8D6</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8623A736-45BD-2F46-476D-4880D31C660F" name="pregnancy PK">

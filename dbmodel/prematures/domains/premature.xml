@@ -54,6 +54,15 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_ts" id="36A836FE-10FE-500B-0254-6AB3D66A7F3C">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:15:00 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<fileName>premature</fileName>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_name_eco" id="376DD6B9-4E0A-5718-FE69-1AF01E809657">
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 19:23:49 UTC</createdTime>
@@ -72,6 +81,29 @@
 <fileName>premature</fileName>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <sensitiveType>0A33C8D6-6C9A-DA96-5606-BF6D039F8507</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_gestation" id="410512F5-291C-C97C-F7C8-4572304201C9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:01:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>20</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_card" id="4329A708-D98F-A206-FA33-51038F5959A2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:37:06 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<fileName>premature</fileName>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_comment" id="47F962FC-F9E2-C071-D19F-011A0B723A3A">
 <createdBy>User</createdBy>
@@ -110,6 +142,56 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_apgar" id="6A7A6D10-C463-2360-15ED-94BA852014A9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:09:11 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>9</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_weight" id="6BD96E8E-4DBD-4339-B8DC-380BE01FF849">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:04:36 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>500</beginValue>
+<endValue>5000</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_birth_count" id="79F55FFD-4F1F-C9FE-CF2C-DD6541867938">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 18:56:00 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>20</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_diagnosis" id="876C5513-5F7A-C078-6870-2F0A42ABA5C4">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:12:48 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>B516D1A8-884D-5F2F-37B5-20E4A7353C2B</logicalDatatype>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_phone_messanger" id="87BAEFD9-DF1B-223C-DB0E-CB23DAC125D4">
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 19:51:12 UTC</createdTime>
@@ -128,6 +210,20 @@
 <fileName>premature</fileName>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_cpap" id="AEE8B97B-4067-8AB1-467E-6DDEEA3123B7">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:22:41 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_mkf_value" id="B983A7D4-721A-C7E7-A8E6-435D01199BD9">
 <createdBy>User</createdBy>
@@ -148,6 +244,36 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_ph" id="C6584D6C-0FD1-4B38-F42F-363481C347C4">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:24:17 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<fileName>premature</fileName>
+<logicalDatatype>CA4C3021-85A1-2881-7845-8F5C8D95A720</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>15</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_alv" id="D06FE790-296A-F21D-0EA2-B356C1D7EE64">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:21:07 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_description" id="D0D60B08-E09C-8A4A-C88A-89945D11AC59">
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 19:16:54 UTC</createdTime>
@@ -164,6 +290,20 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <fileName>premature</fileName>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_height" id="EEC956E8-F2AB-6252-CC64-EAA866CB1C55">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:05:26 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>20</beginValue>
+<endValue>60</endValue>
+</rangeDef>
+</listOfRanges>
 </Domain>
 </domains>
 </DomainFile>
