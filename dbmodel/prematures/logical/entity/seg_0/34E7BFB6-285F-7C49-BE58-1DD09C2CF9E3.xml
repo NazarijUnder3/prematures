@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34E7BFB6-285F-7C49-BE58-1DD09C2CF9E3" name="disorder type">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:18:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[List of disorders]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:18:44 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>79A3C367-F9B2-DF9C-FFB0-9F48E8CF7E4D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E6127EAA-F275-B203-555E-698F16399B4C" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:50:53 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>C03DA300-A03A-BC43-2FFE-EC1B8DA2D640</newElementsIDs>
+<usedAttributes>
+<attributeRef>C03DA300-A03A-BC43-2FFE-EC1B8DA2D640</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

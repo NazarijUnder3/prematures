@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22AFA169-00F3-262A-5884-D22DA81ACC18" name="sepsis ethiology">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:13:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Etiology of sepsis\intrauterine (congenital) infections]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:13:56 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>90331470-91C7-3FDB-443F-23B72201EFDA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0083B52E-D37D-F3F5-6549-624EBDB4E48B" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:46:04 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>C16CDB9A-680C-617E-4B67-CA803B3D12A2</newElementsIDs>
+<usedAttributes>
+<attributeRef>C16CDB9A-680C-617E-4B67-CA803B3D12A2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

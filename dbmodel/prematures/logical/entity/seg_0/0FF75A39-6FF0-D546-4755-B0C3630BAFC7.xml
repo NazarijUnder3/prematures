@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FF75A39-6FF0-D546-4755-B0C3630BAFC7" name="multipregnancy result">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:08:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[The outcome of multiple pregnancy]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:08:33 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>5C3FB68A-3A2D-9A11-BDE8-CC8479A4D722</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="49A03F49-64AA-FAE2-EC79-CBB08A07B77A" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:31:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>5CA229D1-081A-C780-CF7A-F1112EC1F5F5</newElementsIDs>
+<usedAttributes>
+<attributeRef>5CA229D1-081A-C780-CF7A-F1112EC1F5F5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA52B931-6C69-2A1D-3635-ECBF814B2C09" name="git">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 17:16:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gastrointestinal tract]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -16,7 +17,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="git" id="70F30182-A639-C268-CABD-CB6D8C213CFE">
+<Attribute name="git id" id="3D52AA8C-468A-0505-0043-EDF5338B9842">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:56:31 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="git name" id="70F30182-A639-C268-CABD-CB6D8C213CFE">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 17:16:11 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
@@ -29,4 +42,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E2156CF-8E5B-1140-8B6B-10D70F29F10A" name="git pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:56:36 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D52AA8C-468A-0505-0043-EDF5338B9842</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="53CC91C3-7899-A526-E532-D13407655E98" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:56:40 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>70F30182-A639-C268-CABD-CB6D8C213CFE</newElementsIDs>
+<usedAttributes>
+<attributeRef>70F30182-A639-C268-CABD-CB6D8C213CFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

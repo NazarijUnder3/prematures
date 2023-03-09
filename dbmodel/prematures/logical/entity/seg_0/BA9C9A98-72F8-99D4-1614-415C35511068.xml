@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA9C9A98-72F8-99D4-1614-415C35511068" name="multipregnancy condition">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:08:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Child birth by count]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -34,8 +35,9 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:08:34 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

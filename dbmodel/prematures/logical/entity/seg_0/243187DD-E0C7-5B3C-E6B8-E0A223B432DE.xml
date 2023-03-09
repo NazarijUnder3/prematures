@@ -16,7 +16,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="hearing" id="7263198D-6216-EBC9-F461-11C182222B1F">
+<Attribute name="hearing id" id="83DD17E8-66DD-411C-A4D8-3318FA99D807">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:58:13 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hearing name" id="7263198D-6216-EBC9-F461-11C182222B1F">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 17:16:21 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
@@ -29,4 +41,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78D37A8B-37BF-599D-1209-A0065C6AA97D" name="hearing pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:58:19 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83DD17E8-66DD-411C-A4D8-3318FA99D807</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="57E6D64E-C3C4-D566-2B2C-01E30B510816" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:58:22 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>7263198D-6216-EBC9-F461-11C182222B1F</newElementsIDs>
+<usedAttributes>
+<attributeRef>7263198D-6216-EBC9-F461-11C182222B1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

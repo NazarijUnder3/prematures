@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF531345-E833-17E7-0992-77CEEDA6E83F" name="breathing failure">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:15:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Respiratory disorders]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:15:24 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BDF867B0-2F18-2C98-102E-05BF3C670BB9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C2AF791D-E38E-68C6-C572-260648564B4D" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:41:38 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>55740DEC-02B2-67F9-607B-98EC7F5578F0</newElementsIDs>
+<usedAttributes>
+<attributeRef>55740DEC-02B2-67F9-607B-98EC7F5578F0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -16,7 +16,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="mps" id="2C378655-4966-A47D-C6AD-72D1D0338D19">
+<Attribute name="mps id" id="1B57DFA0-F49A-7F79-6127-2A2D7428EB07">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:54:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mps name" id="2C378655-4966-A47D-C6AD-72D1D0338D19">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 17:16:21 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
@@ -29,4 +41,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB543F18-3890-703C-2461-287BAB45F3FA" name="mps pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:54:57 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B57DFA0-F49A-7F79-6127-2A2D7428EB07</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="956A1795-5C50-CE05-F100-7A70F98232CC" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:55:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>2C378655-4966-A47D-C6AD-72D1D0338D19</newElementsIDs>
+<usedAttributes>
+<attributeRef>2C378655-4966-A47D-C6AD-72D1D0338D19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0595C77B-6DF7-8E9B-8E33-A41E2B8C9524" name="pregnancy">
 <createdBy>User</createdBy>
 <createdTime>2023-02-27 18:26:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pregnancy Information]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -204,6 +205,12 @@
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>79F55FFD-4F1F-C9FE-CF2C-DD6541867938</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>20</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="delivery id" id="F9196A9A-E66B-17A3-7099-F7718A604E6B">
 <createdBy>User</createdBy>
@@ -219,14 +226,42 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="user id" id="3CC398D7-B480-0BFA-D2C8-E9997DCA142D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 18:05:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[UserID making the change]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ts" id="C41DBBBD-EB62-883B-5ED4-D69365E5B3C5">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 18:05:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Change timestamp]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8623A736-45BD-2F46-476D-4880D31C660F" name="pregnancy PK">
 <createdBy>User</createdBy>
 <createdTime>2023-02-27 18:27:00 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

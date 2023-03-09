@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B901ADDD-1818-ECB7-3905-7FE3D15B4890" name="amniotic fluid">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:10:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Amniotic fluid]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:10:42 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6F5D46E9-0986-6CC4-8CF2-A0CA3CAA549B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="80D8C9ED-F921-BD38-F680-573ABAA625DB" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:32:21 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>6561B6BE-A1EA-D987-FD10-68BD0E6F5A0F</newElementsIDs>
+<usedAttributes>
+<attributeRef>6561B6BE-A1EA-D987-FD10-68BD0E6F5A0F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

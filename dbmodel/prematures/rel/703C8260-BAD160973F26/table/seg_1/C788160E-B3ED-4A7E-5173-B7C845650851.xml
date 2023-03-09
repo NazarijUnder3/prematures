@@ -72,5 +72,16 @@
 <colUsage columnID="706B96DC-A0EC-8C0B-8101-CC333FB10B55"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E311121A-0D58-7859-9682-FB989FA30AF1" name="pathology_type_pathology_name_un">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:23:45 UTC</createdTime>
+<generatorID>2FD31F05-E583-29BB-11C6-BC1954A9AB8A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14BE2A9E-CC82-0AE4-244A-F4ECF992A536"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

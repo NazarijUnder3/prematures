@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E2F2FC8-EA9D-6197-ED11-B16F7F42D262" name="leukomalacia">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:16:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Periventricular leukomalacia]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:16:51 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>97F44023-B9C0-FAA1-BF37-5491C16CE978</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="33567664-D3A9-A888-F8EC-2EAEB9569F91" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:34:07 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>8758F2B3-8AE9-EC4D-A479-839634BB8580</newElementsIDs>
+<usedAttributes>
+<attributeRef>8758F2B3-8AE9-EC4D-A479-839634BB8580</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

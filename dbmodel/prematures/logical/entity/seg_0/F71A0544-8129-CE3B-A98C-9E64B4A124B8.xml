@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F71A0544-8129-CE3B-A98C-9E64B4A124B8" name="intracranial">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:15:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Intracranial hemorrhage]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:15:59 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0B644B97-A203-2206-FD0D-0EB00B464226</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="98BDE295-FA2E-9416-ED9D-274A8B2878DB" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:43:11 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>3905592C-4825-BA53-CD13-957A3B9A6171</newElementsIDs>
+<usedAttributes>
+<attributeRef>3905592C-4825-BA53-CD13-957A3B9A6171</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

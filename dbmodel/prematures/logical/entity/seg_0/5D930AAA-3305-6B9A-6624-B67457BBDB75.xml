@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D930AAA-3305-6B9A-6624-B67457BBDB75" name="gender">
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 19:35:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Genders]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 19:35:50 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C51F810F-59D2-1246-E5BC-C0421895645C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B94C423B-77D3-51BF-8181-BAE94A1872C6" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:47:47 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>B96AE7BC-20F7-7CFD-6547-2D0185EA7CB7</newElementsIDs>
+<usedAttributes>
+<attributeRef>B96AE7BC-20F7-7CFD-6547-2D0185EA7CB7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5C339BF-ADDC-A552-CA33-96D7924E077E" name="bmi">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 18:47:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Body Mass Index]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -46,12 +47,25 @@
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 18:47:40 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>02D62686-69FA-91B5-994D-957E956C7BA4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="575FDA46-684E-3E7A-0CA8-0333F0404335" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:31:03 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>B4A3847B-D727-21F7-ABF2-D3617EAEB644</newElementsIDs>
+<usedAttributes>
+<attributeRef>B4A3847B-D727-21F7-ABF2-D3617EAEB644</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="locality_locality_id" id="C2BC3AA1-878B-877C-FB8F-1191806E0AA8">
+<Column name="locality parent id" id="C2BC3AA1-878B-877C-FB8F-1191806E0AA8">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 20:07:09 UTC</createdTime>
 <generatorID>6AC7776E-9EA8-28A4-6915-D011A56B5F92</generatorID>

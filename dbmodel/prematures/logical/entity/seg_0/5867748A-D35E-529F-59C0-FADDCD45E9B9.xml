@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5867748A-D35E-529F-59C0-FADDCD45E9B9" name="skin">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 17:16:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Skin, stigmas]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -16,7 +17,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="skin" id="B60DF60E-F184-0FDD-1DBC-00DAAAEC8A6E">
+<Attribute name="skin id" id="F0662AD7-0319-7F98-DAD1-F5DF75553B8A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:57:32 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skin name" id="B60DF60E-F184-0FDD-1DBC-00DAAAEC8A6E">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 17:16:12 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
@@ -29,4 +42,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B501D947-3AD2-D212-B13E-63711A0DD5B1" name="Key_1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:57:23 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>B60DF60E-F184-0FDD-1DBC-00DAAAEC8A6E</newElementsIDs>
+<usedAttributes>
+<attributeRef>B60DF60E-F184-0FDD-1DBC-00DAAAEC8A6E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FADF77DB-791B-F0B2-FEA4-36250BC442BC" name="skin pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-09 17:57:38 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0662AD7-0319-7F98-DAD1-F5DF75553B8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
