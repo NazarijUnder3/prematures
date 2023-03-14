@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="591D46C5-FA11-990A-A17A-7184B37186BB" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="physical">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Motor disability]]></commentInRDBMS>
+<generatorID>AB54C7C4-5D17-A507-BCBC-6F7F5C4D5A9C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="physical_id" id="776F12CD-A93A-C788-1E8F-85567FB9BE8F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>193E56D1-197F-4832-5EB7-C5EBD7AC9976</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="physical_name" id="5EAD1785-5164-D6DB-15BC-DC07E5924127">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>31AF17EF-ABF8-46AE-E93B-8A9AD80E8D0B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFFB5430-30AA-9027-30E1-6A0009692E66" name="physical_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>6F07D431-1E75-6F36-ED78-C4FF96B7BC47</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="776F12CD-A93A-C788-1E8F-85567FB9BE8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BC22FF8-6C19-153E-5E3A-2F242F0981E5" name="physical_physical_name_un">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>B00A7358-1634-F308-1EC4-C6AA8EB783D2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EAD1785-5164-D6DB-15BC-DC07E5924127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

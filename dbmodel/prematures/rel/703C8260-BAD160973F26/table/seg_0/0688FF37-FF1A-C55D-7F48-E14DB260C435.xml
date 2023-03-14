@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0688FF37-FF1A-C55D-7F48-E14DB260C435" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="eco">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[In vitro fertilization]]></commentInRDBMS>
+<generatorID>96BE5E43-7136-B9F6-320C-328C59098CFC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="eco_id" id="1AD9E092-5E1E-7145-B95A-DF070AE3F10D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>7437D26F-DA55-6212-A911-BE5BE1EA38B7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eco_name" id="4AA2EE5A-3CB8-97DF-53C9-E500A578192F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>E90DB122-E144-C1C8-0C5F-3DC935A7A2B4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>376DD6B9-4E0A-5718-FE69-1AF01E809657</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="89F109D1-CF91-872E-8D0B-3157D34E0D15">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>A402CF3B-E339-E0E1-BA7A-25F76F050741</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="066A01EB-F68B-D96F-26BC-EA7D191A324A" name="eco_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>52FAD705-C933-D7D1-E0A9-E6EDE86145E5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD9E092-5E1E-7145-B95A-DF070AE3F10D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="088523F3-D981-C484-A326-4E2ABA2F4996" name="eco_eco_name_un">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>CE1A6348-8493-F6E8-16FE-5B72AC2C5C84</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AA2EE5A-3CB8-97DF-53C9-E500A578192F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

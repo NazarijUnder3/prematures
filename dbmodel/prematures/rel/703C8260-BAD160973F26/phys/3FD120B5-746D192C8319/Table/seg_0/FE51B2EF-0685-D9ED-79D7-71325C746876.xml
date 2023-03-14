@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="es" directorySegmentName="seg_0" id="FE51B2EF-0685-D9ED-79D7-71325C746876">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:53:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="es_id" id="D7D70939-2F14-80BB-88C7-EF41835019DE">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:53:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="es_name" id="ED883B63-72F7-F2A5-67E6-DFA6DD100487">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:53:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="es_pk" id="1207CF8A-4895-70B0-2205-3B7B6A7A2A01">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:53:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="es_es_name_un" id="3E9AD703-7EB7-19B7-6A23-592D133690FB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:53:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

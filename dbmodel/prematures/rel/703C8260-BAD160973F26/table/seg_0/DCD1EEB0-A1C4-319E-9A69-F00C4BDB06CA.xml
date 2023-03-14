@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCD1EEB0-A1C4-319E-9A69-F00C4BDB06CA" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="pathology">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[List of pathologies diagnost during pregnancy]]></commentInRDBMS>
+<generatorID>FA554A0B-7C62-B6AB-F54F-EAFA015C7A3E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pregnancy_id" id="3B4541B8-8A2D-B8FE-1EBB-3ED1CDAB2792">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9806E336-F4C0-3BB3-A21A-12704A4D63B5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F274B8D6-2ADC-A399-9BB7-827A8D0E7557" referredColumn="0C1E1636-7235-687E-0A57-19112EC83448"/>
+</associations>
+</Column>
+<Column name="pathology_id" id="C33FC8A6-B5D2-A144-63CD-C09149884283">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>BBB95545-BBB0-E981-399F-4A699780E8C6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE0F9F2D-9D7E-E09C-F65B-C43B59E33E21" referredColumn="58EA0560-CF7D-C0DF-0E8B-A1354A3A0187"/>
+</associations>
+</Column>
+<Column name="pathology_full_name" id="B215AD09-8422-DB4E-EBDF-377D0D4CEA36">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>BF94930B-B20E-2E96-C4D8-E393D7102DC7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pathology_short_name" id="9B08F874-A5BA-03C2-C2C2-82D291DA3ED9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F09C45C3-75EA-BD1F-8961-7864C1659A2F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75159872-F197-3897-E469-9D349DBC4F3B" name="pathology_pathology_type_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>E38F6BAE-CD3B-FF65-7DB4-9F90B0DE64D9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C33FC8A6-B5D2-A144-63CD-C09149884283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D91AAECB-7CB0-11F5-9367-D7801BF3869D" name="pathology_pregnancy_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>54B5286C-1202-FED3-E10B-5510076477CF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B4541B8-8A2D-B8FE-1EBB-3ED1CDAB2792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7740E36-E602-1C75-8A8B-06CAE2AD4AA6" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="phone">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>CE42ECF6-8019-5371-D9EF-0A262B5031D5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="child_id" id="7CEA10B8-1D77-D339-8CCB-988D98739C1E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>873A2A9B-B2A4-20D9-B776-0B3326C55723</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22470100-B748-76C2-4E46-76C15EC22D42" referredColumn="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
+</associations>
+</Column>
+<Column name="phone" id="337CC264-C397-35FF-19AF-EAF0F23C701C">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>A3EC76EC-E5A1-4010-CDE4-14C72E96149E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>68D4101B-D203-A3CA-6664-6FA5A4BDF771</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_messanger" id="B4EB764A-F6D0-3A17-0A8C-713F058F7643">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[information about messangeres for communication]]></commentInRDBMS>
+<generatorID>9BFF20CE-2F9A-9FED-7B2C-11EF310F571F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>87BAEFD9-DF1B-223C-DB0E-CB23DAC125D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_comment" id="15AB4814-756B-C91D-BAD5-FCA194D391B1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>A5B563D9-E72E-D0B7-F38D-68FE9D07EFF2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40543B56-8E47-C7A3-7F90-C386732068FD" name="phone_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>7DB23BC8-FD28-EA5C-E494-16496A3BF6D0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CEA10B8-1D77-D339-8CCB-988D98739C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C73F4AA-3557-C596-757F-91163BBCCEB4" name="phone_child_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>AC8C5293-E7EF-6CA6-84AA-B636727B2729</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CEA10B8-1D77-D339-8CCB-988D98739C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

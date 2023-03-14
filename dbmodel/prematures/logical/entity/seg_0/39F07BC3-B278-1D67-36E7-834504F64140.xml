@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39F07BC3-B278-1D67-36E7-834504F64140" name="wd">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Wakefulness disorder]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wd id" id="027BEE9E-299A-4B9A-1D45-55040EEF393B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wd name" id="6EFA2644-5928-C3E4-F45F-75571ED5AAFC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F1C897E-F2D4-02AD-44BB-77E7B22D511E" name="hospital PK">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>027BEE9E-299A-4B9A-1D45-55040EEF393B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="493B0487-5188-4D34-C3BE-2EBABE35FBC8" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>6EFA2644-5928-C3E4-F45F-75571ED5AAFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="followup wd" directorySegmentName="seg_0" id="93DE0BFE-2D5E-7C20-BF6C-3CD7CC475BDE">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:45 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>0F1C897E-F2D4-02AD-44BB-77E7B22D511E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39F07BC3-B278-1D67-36E7-834504F64140</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>656AE141-3F1B-2247-00E4-9FF8BF4105DB</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,646 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5900ABEF-D0F0-7AB0-75FD-CB90DF4B6BC3" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="disorder">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[disabilities as of 2 years]]></commentInRDBMS>
+<generatorID>DE7337B3-D06B-3082-E381-E2C3F4510DCF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="child_id" id="A79EC081-5EA4-0BEB-E5EC-80F678085CE8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>0E346109-1B0A-25A3-BC58-28FE65FA9960</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A486565-77B1-04DD-6BDF-93A419DBAA49" referredColumn="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
+</associations>
+</Column>
+<Column name="disability_oficial" id="1DD9B810-A32A-1D69-6F07-2E1BBD588384">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>59130E0B-5921-40CC-66D3-A44592790000</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disability_sign" id="5AFBF6A7-703C-BF67-12E7-F394E2D9CBD4">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>DA4A7254-0254-270C-2322-187E639F10DD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="physical_id" id="C36756C6-6254-3568-24C3-A932B060C97E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9D9E0227-B120-72E1-D67A-4F83C989BDB3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="188C8A7E-0802-2FDC-D51C-9A2C89141ADE" referredColumn="776F12CD-A93A-C788-1E8F-85567FB9BE8F"/>
+</associations>
+</Column>
+<Column name="slf_id" id="931E1198-7C63-979A-DB3F-6742EC44DE21">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>D4CB1B73-1192-3D2A-DE04-56C95E1C2C79</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F2652CC-B833-B22F-55B1-977949B944D1" referredColumn="C6C10D57-CEE6-E35D-F938-8FC1AF3003C7"/>
+</associations>
+</Column>
+<Column name="gc_id" id="48F55AC7-EAB2-BBE3-D2C9-67F9E28F64EC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9684ADFB-78CC-38FE-6FB5-6ABDED1D458B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17753043-BA85-2A15-A153-E07D8C989747" referredColumn="123831D6-5C10-01C8-1DB5-001EA7BF496E"/>
+</associations>
+</Column>
+<Column name="sse_id" id="8BDF2422-FE2B-5628-2CFA-A9847F2D9A01">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>70E5D5AD-4420-324B-2FF8-31C2D8EE10A3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76B6E2CC-870D-002C-B985-101C577AAA87" referredColumn="344A0C81-8D1B-8814-142A-08DBC338632A"/>
+</associations>
+</Column>
+<Column name="rf_id" id="964EAB66-92C8-ECEC-4D0E-CECB176CD039">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C5F7736D-3122-2DBF-ED90-F76ED6D2DE73</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CC8F4FB-3E86-085E-7546-FC0C542330B5" referredColumn="A1E0BBD4-56DA-1C9B-F1C2-6AAA95007528"/>
+</associations>
+</Column>
+<Column name="pf_id" id="C2A0F9DD-11C9-98AD-067D-E05ADB8D4962">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>BFEE238D-105D-AAAE-1484-44BA15F7F110</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68ECF312-4BEC-98E5-7450-2FE10528B38A" referredColumn="E64119DB-7B88-DA57-D432-83A638A3C6C1"/>
+</associations>
+</Column>
+<Column name="strabismus_id" id="920DD9AC-4174-5E5A-4371-BD295D0EEBC7">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>8602E512-92FA-FF53-AEB1-15863441BE1E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84135468-2999-3024-4F9F-2FC820E4F361" referredColumn="D214CA62-2F9A-1B13-E59A-DB44F3C94033"/>
+</associations>
+</Column>
+<Column name="disorder_kind_id" id="F8C614F1-0A89-117F-DF65-A0CCC22B2B12">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C0F80807-53F7-5C26-798E-96A13C8EEB19</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFCB2017-1CE3-C270-6C91-59CAD3BEEF1F" referredColumn="1187E584-9158-7684-D4C9-ABDB0151E1EB"/>
+</associations>
+</Column>
+<Column name="disorder_type_id" id="903F469C-8E91-C22B-5532-9AB0539FF84F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>DFF408F8-E729-97EC-01B5-743D8567336C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CA688CC-457E-6A1E-5E6C-1FDD3F37929F" referredColumn="4A7AEAF4-EF6D-0649-ABFE-6395767DD859"/>
+</associations>
+</Column>
+<Column name="ims_id" id="6BDAF8D4-94B2-359C-922D-B2B273F0D0D1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>0DF23EA8-5D4F-21E3-16EB-6E36C7D5487E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D7B59B1-6ECE-7E45-6941-87A04BDA0560" referredColumn="FE3FE50F-D236-517A-930F-709588FFA6FD"/>
+</associations>
+</Column>
+<Column name="mps_id" id="A29CC938-EE1A-CB48-54F2-1D61A4812E3B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F9C86C20-6A1A-6957-5EA2-3BDF4F303FCE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6C1CA35-18AC-FF2F-378A-A49AC39D8046" referredColumn="E722D295-5FB6-B1A9-E224-0955202A5432"/>
+</associations>
+</Column>
+<Column name="es_id" id="1112C455-DD54-C52A-155B-306EE1915386">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>0C87B640-B7BB-FB0E-499A-15EE51B89A5C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33E65DB1-4171-CB29-B715-502664C0D239" referredColumn="D7D70939-2F14-80BB-88C7-EF41835019DE"/>
+</associations>
+</Column>
+<Column name="cvs_id" id="DE3CFCB2-2446-BE39-BFAE-04E8B44B597F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9C96E476-DE06-6E2A-28CC-00E9A70C31F6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="776DB3A2-D212-1033-8861-48CA5697C526" referredColumn="1808AFC9-7501-8BC6-1E25-3C5B2E31669B"/>
+</associations>
+</Column>
+<Column name="vision_id" id="3C60D413-5724-8019-56CD-E07CD6F80C34">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>B3D57318-B2E5-BF84-C60C-C80D37F27020</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04627E7E-6E7D-9C08-98D4-C6811EB734BC" referredColumn="D3658708-E5E4-AAE3-3F18-2258E6BE79DD"/>
+</associations>
+</Column>
+<Column name="git_id" id="38E63A7B-75F8-D627-9D58-014E955138A6">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>605D586B-5C28-3805-7B23-621FE12BFF45</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B6F4767-AE94-5513-62BD-3A34AA7881AC" referredColumn="9282C58A-2E33-C659-CD4E-C8C6E8068C2A"/>
+</associations>
+</Column>
+<Column name="bs_id" id="75A85EDA-C389-B8A4-4908-F71C3F639BEB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F66EE416-7C1C-E7EF-E704-D8498E855E9F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92C2E13D-2AA3-0847-D081-01EE46BFD5F2" referredColumn="800C9E2E-2A48-CB6A-2F74-F2F312631C33"/>
+</associations>
+</Column>
+<Column name="mrt_id" id="D2E56C5F-ED58-255A-728B-76C37D411B91">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>906ED0F0-0275-18F8-E967-526A7EC649BC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B456BE65-76A4-3797-8100-7EFF6F9E8F41" referredColumn="45CE5D7B-14C2-E477-E86F-9F99707DE9DC"/>
+</associations>
+</Column>
+<Column name="skin_id" id="0DEA6EBD-6C82-4A4F-38D6-7BFEBAC99267">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>D78CF74D-2DFE-4E2E-2F7C-CF311C823ECF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="943C8B37-341F-1282-2904-D61E286B4700" referredColumn="9EA5179D-19FA-1181-253D-3A47BE9AF69A"/>
+</associations>
+</Column>
+<Column name="ct_id" id="2D3AEBB4-5726-E5D7-2F18-501003B8CEF2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C9797827-9FAC-4E2E-A734-CBC93375505D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E5640A2-E9B8-D2BE-3A91-AA83139DD44D" referredColumn="26EF84BF-5CCD-A508-F105-597C094EA409"/>
+</associations>
+</Column>
+<Column name="hearing_id" id="8F7805F2-CD48-A348-75D6-60BEE627A184">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>7590E9D7-9505-8075-520B-7EEE47B29F06</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A37A207C-A5A4-4A85-6907-A0CEE9B435A1" referredColumn="025DA24F-C847-93DD-1DDA-6777DDE54778"/>
+</associations>
+</Column>
+<Column name="user_id" id="594885FF-B3A8-64B4-50F1-92C491CAE3E6">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[UserID making the change]]></commentInRDBMS>
+<generatorID>B4452930-F9B3-AD17-8B51-A7A9138C3421</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ts" id="C3ABF7C2-A628-FF4A-2693-1D69CD4EA409">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Change timestamp]]></commentInRDBMS>
+<generatorID>C94EE257-55F7-3467-57CA-CFB5B79D8285</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="374BBC1F-9FC2-B39D-1D3C-D5CB4A70451F" name="disorder_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>E5806CB4-6095-33CB-5B85-1B15D1FDDF65</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A79EC081-5EA4-0BEB-E5EC-80F678085CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FEA7817-DCF5-0006-761E-F2A7C19CDF06" name="disorder_child_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F529F61A-9648-AD8C-006A-596F79BCA500</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A79EC081-5EA4-0BEB-E5EC-80F678085CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4768E816-EE81-1B43-8E24-F1A9E1EEA139" name="disorder_bs_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>B8ECD135-7650-E31D-1BFB-C3606DED6A66</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75A85EDA-C389-B8A4-4908-F71C3F639BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="745FAFD0-6562-E2BB-83FD-04265D945B6F" name="disorder_ct_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>8294DD38-A6C6-5694-2A50-CCAE48045EF5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D3AEBB4-5726-E5D7-2F18-501003B8CEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42EDA1B5-AAA0-9881-343F-4BA16F554966" name="disorder_cvs_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>4FB846D1-C45A-88EF-1C88-79B66D32DB84</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3CFCB2-2446-BE39-BFAE-04E8B44B597F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="087785D3-F038-3452-7209-24985FC60696" name="disorder_disorder_kind_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>509BDB4A-67F2-0829-263B-5B008BF74A5E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8C614F1-0A89-117F-DF65-A0CCC22B2B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4935ED00-DB8C-F83B-D7D2-025F84A4498A" name="disorder_disorder_type_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>3E461F4D-3D67-454B-931C-8CF3CFC78EBF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="903F469C-8E91-C22B-5532-9AB0539FF84F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADE1FCB1-CA26-1317-C5EE-EDC78833E6A3" name="disorder_es_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>1C433906-F1C4-A378-EF6C-48AC33BE34E6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1112C455-DD54-C52A-155B-306EE1915386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E279D66B-53E5-7DDA-5D3D-044D1D4F32FC" name="disorder_gc_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>7CD8CD4E-09A4-4D98-BDD2-8023EA60F153</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48F55AC7-EAB2-BBE3-D2C9-67F9E28F64EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6751D826-C4A5-4543-2BB5-5480EED4AC9A" name="disorder_git_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>AEF94982-5FE7-95A0-789B-684F45291A89</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E63A7B-75F8-D627-9D58-014E955138A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E531BA11-E896-79CC-7050-CF6FAC0A482F" name="disorder_hearing_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F4FFD407-4F14-171C-9342-F182772DEAB9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7805F2-CD48-A348-75D6-60BEE627A184"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A254C51-9514-3CC0-EC57-6706ECFCF9CE" name="disorder_ims_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>53C18834-7D38-ED37-DC20-932133B1B766</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BDAF8D4-94B2-359C-922D-B2B273F0D0D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC180D6C-8C47-5EA1-FABF-A1684B847246" name="disorder_mps_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C490BB0F-D9E5-E47B-B7D7-22ED30E71471</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A29CC938-EE1A-CB48-54F2-1D61A4812E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1291067-1203-7021-F270-F7372F5CD7FF" name="disorder_mrt_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C32B11BB-2582-199A-B43D-1A9F341F93CF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E56C5F-ED58-255A-728B-76C37D411B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7AFBFB0-F59E-2C61-3DF9-4667A51033FD" name="disorder_pf_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>02D1945B-5D4E-FAEB-33A8-1C9962E12F40</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A0F9DD-11C9-98AD-067D-E05ADB8D4962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EDE32FC-D4AB-BAB8-E460-F01001BCB31B" name="disorder_physical_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>7AE78608-0C87-186F-676C-7C6B25967729</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C36756C6-6254-3568-24C3-A932B060C97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAC32D2E-D28D-3361-8036-86470AA33ECE" name="disorder_rf_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9F23EA56-6C9F-C029-2D30-421CCC401572</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="964EAB66-92C8-ECEC-4D0E-CECB176CD039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DE6C466-6CAF-02A5-3342-8B6450617B4B" name="disorder_skin_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>06D90308-6098-55F8-F213-335813B90667</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DEA6EBD-6C82-4A4F-38D6-7BFEBAC99267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D39C078B-C94D-32A7-230D-F8D8879BD50A" name="disorder_slf_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>527C34C3-7F2B-D5B9-38CD-D985537F036D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="931E1198-7C63-979A-DB3F-6742EC44DE21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="524F00B7-B9C7-5846-681A-34C4619BB9D9" name="disorder_sse_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9E53D145-D9C7-2381-5912-65A73C116B44</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BDF2422-FE2B-5628-2CFA-A9847F2D9A01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="573805B8-C6D4-E06D-2E7B-529B8013443E" name="disorder_strabismus_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>9A13F853-C61A-21EF-8B2C-06EE2E07647A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="920DD9AC-4174-5E5A-4371-BD295D0EEBC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D036445-13BA-B439-6B38-0951A70AD68C" name="disorder_vision_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>599B752D-23EC-95E7-35AC-509937868B35</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C60D413-5724-8019-56CD-E07CD6F80C34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

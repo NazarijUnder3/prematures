@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75C5E7C1-4674-25F3-584C-1B90F152D076" containerWithKeyObject="2896848C-6F79-CA91-0222-F18DAAF0C5BB" localFKIndex="51F302F9-2AC3-8F2C-55D6-E3BB1F184510" name="child_convulsion_fkv1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>FECB9479-A39C-492E-886D-F35D734EB223</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>convulsion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>020D0DDF-E267-660D-212A-BB2C29A70868</referredTableID>
+<keyObject>9423965B-0595-B1B5-F73A-A665ABBB56CA</keyObject>
+<referredKeyID>9423965B-0595-B1B5-F73A-A665ABBB56CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>convulsion_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

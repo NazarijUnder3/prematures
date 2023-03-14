@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FE49D73-5ECF-DE17-F77E-6CDB6C087DF8" containerWithKeyObject="2896848C-6F79-CA91-0222-F18DAAF0C5BB" localFKIndex="038F2CA5-3672-97FD-E060-F3FFB20F29BE" name="child_pcr_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>55E7CF3F-3706-121C-5D61-83301AFA24F3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>pcr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C43FB02-F4E9-79EC-052A-7CCCE6FF140A</referredTableID>
+<keyObject>937AACBE-DB49-2043-A906-37F7CDAE2D3C</keyObject>
+<referredKeyID>937AACBE-DB49-2043-A906-37F7CDAE2D3C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pcr_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

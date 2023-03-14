@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13CB712F-F073-3B13-A717-5015B91729C1" containerWithKeyObject="EA8A42A9-A88F-457A-64BE-B13EBA1DEB77" localFKIndex="AB3125D0-8375-B796-F413-471F9EAF6C40" name="mkf_code_mkf_code_category_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>260CA5CD-DE16-48F7-24C0-502241956F48</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>mkf_code_category</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4FDAC9DA-F39F-C478-9E1F-0014DF01539D</referredTableID>
+<keyObject>C7653A49-39B1-0FDC-0C6B-E5EA7492C043</keyObject>
+<referredKeyID>C7653A49-39B1-0FDC-0C6B-E5EA7492C043</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mkf_category_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

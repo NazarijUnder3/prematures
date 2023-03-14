@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="656AE141-3F1B-2247-00E4-9FF8BF4105DB" name="followup">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 18:54:16 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="followup comment" id="7ACC9B06-E1F7-F197-A87D-8D05C041AF06">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 18:56:04 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="followup time" id="ABEF0FF2-3112-DD2F-FBF0-E9076CC5761D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 18:55:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>D5530A7F-0DA3-B3EE-0EE4-069002A30A26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="child id" id="4A13BE37-7ADE-8E68-8B7F-1A28C6D69BB5">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:02:32 UTC</createdTime>
+<generatorID>9EFB25B1-11FE-3236-7F09-29EBA4D64C24</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>C518099F-9D46-95D8-FCB4-D6A25911C84F</referedAttribute>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="strabismus" id="6D6C0D7A-F2EA-079B-5F13-FE66732407EB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:03:48 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dss" id="CB6435A3-2E5C-EFF8-62D0-6609BF1C81B8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:04:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Delayed speech skills]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asd" id="75F553CA-E977-178B-C0B6-C0B0E6A74DE8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:07:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Autism spectrum disorder]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ee" id="365FE6F9-0823-C291-B475-98D86E79A6CA">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:08:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Excessive excitability]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fad" id="C3D76CAC-7245-520C-CD39-B1694673ADF9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:08:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Falling asleep disturbance]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wd id" id="BC54DD02-8325-F259-7346-73B1930169D7">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:10:45 UTC</createdTime>
+<generatorID>93DE0BFE-2D5E-7C20-BF6C-3CD7CC475BDE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>027BEE9E-299A-4B9A-1D45-55040EEF393B</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sd" id="04370205-F23C-952C-D2DE-ACCEBA52B9C7">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:12:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sleep disturbance]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ps id" id="B79FBBC8-17A4-8F79-E996-67DAFD971B0E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:14:18 UTC</createdTime>
+<generatorID>077DFBEF-849E-D8DD-FF18-B6D3F99B3AF8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>6C8ABAA1-28F5-7BCD-B7BD-C1BB6E98940A</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="coordination id" id="3BA8047D-91DF-8828-5132-03FD479FE59B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:15:31 UTC</createdTime>
+<generatorID>C59372B9-280F-4D64-F7F2-A273104A5041</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>D708D900-A6E6-E2FA-1754-881A5521E12E</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disorder structure" id="DECCC53D-A100-B350-CDA2-4C79464A1B8A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:16:22 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BB9E980-2F78-158C-4F56-BC472EB311C0" name="followup pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:02:45 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A13BE37-7ADE-8E68-8B7F-1A28C6D69BB5</attributeRef>
+<attributeRef>ABEF0FF2-3112-DD2F-FBF0-E9076CC5761D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

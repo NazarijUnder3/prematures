@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6C1CA35-18AC-FF2F-378A-A49AC39D8046" containerWithKeyObject="5900ABEF-D0F0-7AB0-75FD-CB90DF4B6BC3" localFKIndex="BC180D6C-8C47-5EA1-FABF-A1684B847246" name="disorder_mps_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C490BB0F-D9E5-E47B-B7D7-22ED30E71471</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>mps</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB55AF40-58F4-067E-E037-2327F1BD1BBA</referredTableID>
+<keyObject>ACA8D566-B965-2789-91A5-51E731DF29D2</keyObject>
+<referredKeyID>ACA8D566-B965-2789-91A5-51E731DF29D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mps_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

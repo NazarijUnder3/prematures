@@ -297,7 +297,7 @@
 			<automatic_idx value="{table}_{column}_idx"/>
 			<colck value="{table}_{column}_chk"/>
 			<colnnc value="{table abbr}_{column}_nn"/>
-			<column_foreign_key value="{ref table}_{ref column}"/>
+			<column_foreign_key value="{ref column}"/>
 			<ui value="{entity} pk"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_pk"/>
@@ -405,12 +405,11 @@
 	</model_compare_storage_props_filter>
 	<naming_options>
 		<model_options objectid="703C8260-0AB3-959A-EC1B-BAD160973F26">
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
+			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="63" case_type="1" valid_characters="null" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
-			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
+			<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="30" case_type="2" valid_characters="null" all_valid="true" />
 		</model_options>
 		<model_options objectid="B4FECB69-AEB1-4A0B-A7D0-A47991BA4B0D">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="63" case_type="1" valid_characters="[a-z][A-Z][0-9] _$" all_valid="false" />
@@ -443,6 +442,36 @@
 				<schemas value="70"/>
 				<subviews value="70"/>
 				<arcs value="70"/>
+				<physical_models_estimates>
+							<physical_model_703C8260-0AB3-959A-EC1B-BAD160973F26_Oracle_Database_12c>
+								<physical_model_name value="Oracle Database 12c"/>
+								<clusters value="70"/>
+								<contexts value="70"/>
+								<dBs value="70"/>
+								<dimensions value="70"/>
+								<directories value="70"/>
+								<diskGroups value="70"/>
+								<externalTables value="70"/>
+								<snapshots value="70"/>
+								<roles value="70"/>
+								<rollbackSegments value="70"/>
+								<segments value="70"/>
+								<sequences value="70"/>
+								<storedProcedures value="70"/>
+								<functions value="70"/>
+								<packages value="70"/>
+								<collectionTypes value="70"/>
+								<structuredTypes value="70"/>
+								<synonyms value="70"/>
+								<tables value="70"/>
+								<tableSpaces value="70"/>
+								<temporaryTableSpaces value="70"/>
+								<undoTableSpaces value="70"/>
+								<users value="70"/>
+								<views value="70"/>
+								<triggers value="70"/>
+							</physical_model_703C8260-0AB3-959A-EC1B-BAD160973F26_Oracle_Database_12c>
+				</physical_models_estimates>
 			</relational_model_0_estimates>
 		</relational_model_estimates>
 	</design_estimates>

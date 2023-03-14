@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5413CEA2-541B-0C70-AEB1-3F86C49C6799" name="therapy start">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5413CEA2-541B-0C70-AEB1-3F86C49C6799" name="npt">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:18:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[Age of initiation of therapy]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Neuro protective therapy begining]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="therapy start id" id="00253F06-436D-1F4C-C34A-0159595768E2">
+<Attribute name="npt id" id="00253F06-436D-1F4C-C34A-0159595768E2">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:18:22 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
@@ -29,7 +29,7 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="therapy start name" id="7DC11CD2-32CE-FBAD-CA80-4EAD527261AD">
+<Attribute name="npt name" id="7DC11CD2-32CE-FBAD-CA80-4EAD527261AD">
 <createdBy>User</createdBy>
 <createdTime>2023-02-28 11:18:22 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
@@ -60,8 +60,9 @@
 <createdBy>User</createdBy>
 <createdTime>2023-03-09 17:42:17 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <newElementsIDs>7DC11CD2-32CE-FBAD-CA80-4EAD527261AD</newElementsIDs>
 <usedAttributes>

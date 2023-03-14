@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88D684C5-751E-10DD-4227-A4513C74DBCA" containerWithKeyObject="5366D93E-E4B7-BFBB-A6DD-EA7F845A45D6" localFKIndex="08CC3D90-9538-CF35-5E65-302AF1A6E053" name="disability_npt_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>168EDBD4-581E-1C68-0B7C-8F787558CC43</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>npt</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E10446F2-FADF-A273-B53A-DE562280D017</referredTableID>
+<keyObject>6B5BA8A9-4770-E46D-882A-8D31109CB383</keyObject>
+<referredKeyID>6B5BA8A9-4770-E46D-882A-8D31109CB383</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>npt_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="followup ps" directorySegmentName="seg_0" id="077DFBEF-849E-D8DD-FF18-B6D3F99B3AF8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:14:18 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>74327DC8-364E-F004-2BF0-D5C3B13874E6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>970A0477-ECD9-F013-B691-943A3A19A3A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>656AE141-3F1B-2247-00E4-9FF8BF4105DB</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -153,7 +153,6 @@
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
 <domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<defaultValue>false</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hospital id" id="580840DE-C3E5-D01C-B190-3F4AA9EB086D">
@@ -226,9 +225,10 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="convulsion id" id="50D9EFB1-9F10-41D4-C72B-6FFA7AFEF4ED">
+<Attribute name="convulsion0 id" id="50D9EFB1-9F10-41D4-C72B-6FFA7AFEF4ED">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 18:15:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Convulsion\apnea at birth]]></commentInRDBMS>
 <generatorID>B7226A83-F689-E00F-8B06-28C049E431D6</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
@@ -239,20 +239,23 @@
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>convulsion0 id</preferredAbbreviation>
 </Attribute>
-<Attribute name="apnea id" id="BBB9E15C-087A-8F2E-5234-1B953EE3CBF8">
+<Attribute name="convulsion7 id" id="3C321D41-AD55-6B5C-042D-8405A96619CB">
 <createdBy>User</createdBy>
-<createdTime>2023-03-07 18:15:44 UTC</createdTime>
-<generatorID>49CE7064-7566-1402-4BF0-5D2A6EB2635D</generatorID>
+<createdTime>2023-03-14 18:39:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Convulsion\apnea during 1 week]]></commentInRDBMS>
+<generatorID>FECB9479-A39C-492E-886D-F35D734EB223</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
-<referedAttribute>298EC8E7-43E1-CF24-BF8B-5CA09BC563B9</referedAttribute>
+<referedAttribute>3D467E78-0D0C-A963-ECC8-55DD653B30C6</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>convulsion7 id</preferredAbbreviation>
 </Attribute>
 <Attribute name="sepsis id" id="C76AAA8D-C6E7-E304-38B5-907205569B66">
 <createdBy>User</createdBy>
@@ -282,7 +285,7 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pcr id" id="EA25B13B-BA1D-EAB4-7778-806577A7A37E">
+<Attribute name="pcr blood id" id="EA25B13B-BA1D-EAB4-7778-806577A7A37E">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 18:17:30 UTC</createdTime>
 <generatorID>55E7CF3F-3706-121C-5D61-83301AFA24F3</generatorID>
@@ -295,6 +298,22 @@
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>pcr blood id</preferredAbbreviation>
+</Attribute>
+<Attribute name="pcr saliva id" id="49B8E74C-7296-63CF-3244-42F0D66CB0E1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:25:22 UTC</createdTime>
+<generatorID>7A43F75F-D982-6984-06B4-4E7FFBA29731</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>2AADE91A-FE6B-4BB6-0F02-8DFAC9DD301A</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>pcr saliva id</preferredAbbreviation>
 </Attribute>
 <Attribute name="rt kfg id" id="BD78A25F-E610-E59B-1115-F62089ABCD03">
 <createdBy>User</createdBy>
@@ -320,7 +339,6 @@
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
 <domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<defaultValue>false</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="alv" id="F64D774B-6C6D-24B0-E7D7-6F9C00ACA68E">
@@ -391,7 +409,6 @@
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
 <domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<defaultValue>false</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="child card" id="7C011588-9B89-5795-6D7B-2B3625DB12A1">
@@ -432,6 +449,64 @@
 <logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
 <domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
 <defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ir" id="E6F6B91D-DA48-7CF3-09B0-DDF33757C30E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:19:28 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>06486523-3F9B-4A75-3B1C-76D4105FE629</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0.5</beginValue>
+<endValue>1</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="white body id" id="84096621-8388-CCF1-0078-8A65EA159BB9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:22:01 UTC</createdTime>
+<generatorID>DCF8B20C-6D4A-8583-7484-277C5DF0509C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>35B6CA7D-16AF-0AE6-B9E6-549BD4B4884C</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reflex id" id="724B5D46-E2B5-97A2-2BAE-BBF021CAD0DF">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:23:49 UTC</createdTime>
+<generatorID>3F7E504B-B694-DB00-1594-BB75F466D2C6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>FC03414A-E94F-8530-3A33-8A27EBECE10E</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ne" id="612B34D6-0859-1301-6B80-ED13395FB635">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:26:51 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

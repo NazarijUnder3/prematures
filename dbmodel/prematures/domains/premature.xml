@@ -1,6 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="premature">
 <domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_ir" id="06486523-3F9B-4A75-3B1C-76D4105FE629">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:19:46 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0.5</beginValue>
+<endValue>1</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_id" id="0F272319-7DE3-92C9-6F53-921E07E15563">
 <createdBy>User</createdBy>
 <createdTime>2023-02-23 18:53:58 UTC</createdTime>
@@ -14,7 +28,6 @@
 <createdTime>2023-03-04 10:31:51 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
-<defaultValue>false</defaultValue>
 <fileName>premature</fileName>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
 </Domain>
@@ -211,6 +224,21 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <sensitiveType>BBC9A774-92FA-9E8B-B97C-A1FDEC74B8CE</sensitiveType>
 </Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_time_observation" id="9C6721DF-DB8C-5331-8DDF-2109CD86107A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 18:30:49 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfValues>
+<valueDef value="1" description=""/>
+<valueDef value="12" description=""/>
+<valueDef value="24" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="6" description=""/>
+</listOfValues>
+</Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_cpap" id="AEE8B97B-4067-8AB1-467E-6DDEEA3123B7">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 19:22:41 UTC</createdTime>
@@ -281,6 +309,20 @@
 <avTSortOrder>0</avTSortOrder>
 <fileName>premature</fileName>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="d_time_followup" id="D5530A7F-0DA3-B3EE-0EE4-069002A30A26">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 18:59:49 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>premature</fileName>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+<valueDef value="1.5" description=""/>
+<valueDef value="2" description=""/>
+</listOfValues>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_mother_status" id="DDDF8816-A03D-9A02-5BCC-9DE0541AAFC4">
 <createdBy>User</createdBy>

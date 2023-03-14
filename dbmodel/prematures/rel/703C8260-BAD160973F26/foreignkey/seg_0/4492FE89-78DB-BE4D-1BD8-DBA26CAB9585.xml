@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4492FE89-78DB-BE4D-1BD8-DBA26CAB9585" containerWithKeyObject="5366D93E-E4B7-BFBB-A6DD-EA7F845A45D6" localFKIndex="F0F0A919-8B86-7271-9062-067D8168AFC9" name="disability_hemorrhage_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>3FC84FEC-1891-221B-682A-B890E9A046C8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>hemorrhage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>563DBB10-AF08-B926-1512-A8BEED4773E8</referredTableID>
+<keyObject>5CE67E9C-874A-B216-E5A3-EE62856A617D</keyObject>
+<referredKeyID>5CE67E9C-874A-B216-E5A3-EE62856A617D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>hemorrhage_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

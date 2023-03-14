@@ -5,4 +5,9 @@
 <ownerDesignName>prematures</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>E47C355E-1CD9-966E-728F-0D20E9166A92</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F971B93D-BF01-5FEB-6722-FFAB26451F85">
+<designStoragePath>G:\1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

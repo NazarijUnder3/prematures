@@ -40,7 +40,6 @@
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
 <domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<defaultValue>false</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="disability sign" id="DA4A7254-0254-270C-2322-187E639F10DD">
@@ -53,7 +52,6 @@
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
 <domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<defaultValue>false</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="physical id" id="9D9E0227-B120-72E1-D67A-4F83C989BDB3">
@@ -163,20 +161,6 @@
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
 <referedAttribute>80CDD96C-6D9D-FB15-5A4A-D9D99767917B</referedAttribute>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="reflex id" id="2CDFDBF2-3B46-2199-57E5-2FFAB03DDDBF">
-<createdBy>User</createdBy>
-<createdTime>2023-03-04 10:45:38 UTC</createdTime>
-<generatorID>E55F2DBF-F5DF-B456-9972-B6C3EDA39644</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
-</engineerTo>
-<referedAttribute>FC03414A-E94F-8530-3A33-8A27EBECE10E</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>

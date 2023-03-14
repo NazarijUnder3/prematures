@@ -1,0 +1,414 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="920627B8-7EF1-44A3-1C69-80816D284D39" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="pregnancy">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pregnancy Information]]></commentInRDBMS>
+<generatorID>0595C77B-6DF7-8E9B-8E33-A41E2B8C9524</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pregnancy_id" id="0C1E1636-7235-687E-0A57-19112EC83448">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>1399E0B4-17FB-4EE3-F66D-9016F7BFDFA0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mother_id" id="2D08C7D7-FEDF-CC13-FFD4-4695B1ED98A7">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>E87BF216-77B9-7CC6-2796-237D5D4AAF58</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37AD022A-6DDD-1B6E-37AC-AF6D494FE3B1" referredColumn="00799BA0-1B3F-0559-E6AD-120E8A3331F1"/>
+</associations>
+</Column>
+<Column name="multipregnancy_condition_id" id="E830AB6D-668B-058D-B25C-88BA45EF8D9E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>C9595B81-6AAB-AD5D-244E-E1EF9DDBC0A8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCD58619-BDCB-351B-AC55-7F031652044B" referredColumn="3A55BBB3-0C7A-0E25-24CE-D70CFF07E7EA"/>
+</associations>
+</Column>
+<Column name="multipregnancy_result_id" id="9A0CD6DC-1748-095B-CCFA-9478DAF6904A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>08AA6567-E35D-0C00-D45A-6A302A96732F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7465E73-C1DB-E629-7759-45B47EA81F8D" referredColumn="708BE2D6-F668-A8C1-7015-54E13478A2C5"/>
+</associations>
+</Column>
+<Column name="multipregnancy_id" id="B62EAB50-FFB0-2432-9A65-1B0148CCA71B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>50C943F5-E573-B1BC-9E42-A872131D8BFC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A952F674-0348-614B-5A80-BC774DE24F7F" referredColumn="2E72D5B6-6E55-CDC7-A6CC-7E42072C1B16"/>
+</associations>
+</Column>
+<Column name="compitation_id" id="1C2FB026-BE43-CCE8-5239-84C759EBA85E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>A2A17F47-8925-01F1-9141-85C4ACDA222D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E0A48E4-136E-B942-45F6-680BB022151C" referredColumn="83C45729-AA6C-8AF8-A549-B8D3F8526818"/>
+</associations>
+</Column>
+<Column name="amniotic_fluid_id" id="F94C3779-007D-832A-EA2E-BD9570163F5D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>D0DB0352-7315-E69C-8DEF-3596379B5683</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D03C534-93D0-C9F9-C0DC-25071A1AFB22" referredColumn="B42DA479-A569-FAA2-BFF9-A3BE43949B3A"/>
+</associations>
+</Column>
+<Column name="fluid_id" id="6E9C2B2D-A979-5523-BEFD-164F3239AE85">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>992D5FAD-5944-8C11-7A68-E70160047916</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48E6A138-79EE-6A4C-49CC-C7F16954743E" referredColumn="AF32FBBF-793B-FAFC-7C90-DAEB0D8658F1"/>
+</associations>
+</Column>
+<Column name="status_id" id="6A17A8DC-8D4E-66DD-2189-54F11F0A9705">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>0AA707EF-4319-C831-0735-0F5492EE376B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95384BAC-708F-E3FC-58D7-E78A4EBFEAAD" referredColumn="07D115F9-F7A2-C53E-6A8D-D699B8B184F9"/>
+</associations>
+</Column>
+<Column name="bmi_id" id="D6A35FD2-D21F-A374-80A7-C87A8D5DE824">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>852A90B3-9AB8-ED3F-A949-EEF574C90457</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4627E5B4-C396-738B-5C1E-65F3F93BFE0B" referredColumn="CF0A3ADB-B55A-89D8-AC56-CE5DB8D9084B"/>
+</associations>
+</Column>
+<Column name="antenatal" id="629C3466-2E3E-496D-8ECC-E0AFF05E0A66">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>76492D51-4553-AD39-3E90-E08F44380540</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="infertility" id="45937ED0-E220-79EC-A200-D7AAC8BAB54B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>D2DE2BFA-E944-F18A-B13F-3FF98DE8CFFB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presentation_id" id="BA9355B6-46F2-0C69-1D40-39EF0F76C404">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>99232365-B046-1A3F-DC3B-1198619AA467</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67E184A8-0EB8-BB18-EEDA-5E8465239791" referredColumn="B4DFD5B3-6BCA-B283-3314-307B9BBEFA57"/>
+</associations>
+</Column>
+<Column name="birth" id="C975D6A4-8CAF-1069-D8C5-D8C82874E968">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>B0D4E157-C0DB-0A77-E4B9-29F74B17D6BC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>79F55FFD-4F1F-C9FE-CF2C-DD6541867938</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>20</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="delivery_id" id="36E7EA31-966F-F420-2D37-DED2742FD3A3">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F9196A9A-E66B-17A3-7099-F7718A604E6B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F39D8AA-47C5-F401-416D-EB3F4CF31B1D" referredColumn="B231188A-CCF3-30BA-45C7-A3F1308EA00D"/>
+</associations>
+</Column>
+<Column name="user_id" id="CED066C9-22E0-8173-2E7A-0660CD3358FD">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[UserID making the change]]></commentInRDBMS>
+<generatorID>3CC398D7-B480-0BFA-D2C8-E9997DCA142D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ts" id="5EB3AADE-8B78-BB9B-1A46-8E540DD97FE2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Change timestamp]]></commentInRDBMS>
+<generatorID>C41DBBBD-EB62-883B-5ED4-D69365E5B3C5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50F0BA37-E8AF-66B5-5D7A-3EBCFD5C160B" name="pregnancy_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>8623A736-45BD-2F46-476D-4880D31C660F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C1E1636-7235-687E-0A57-19112EC83448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95653CF7-B53C-C96C-5B80-60D574D425B9" name="pregnancy_mother_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>32A1FD10-309B-BC7A-5521-FB712B4991B0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D08C7D7-FEDF-CC13-FFD4-4695B1ED98A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E738AF2E-9913-B4C0-91BC-5CFD5D4B3838" name="pregnancy_amniotic_fluid_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>008BCC59-79C0-313D-43D2-3EA72469562E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F94C3779-007D-832A-EA2E-BD9570163F5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A3E5DE1-6CCD-F8AA-F7E5-84F7C767CE59" name="pregnancy_bmi_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>03CDE9E2-AB37-4CCF-0B15-5682F9A7A862</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A35FD2-D21F-A374-80A7-C87A8D5DE824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE17B546-09A5-5E8A-E5D0-E81F8CF919E9" name="pregnancy_compitation_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>AB7BE3B9-3DF3-B187-8749-B7EE2F97155A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C2FB026-BE43-CCE8-5239-84C759EBA85E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C762F942-3BD8-0664-0704-4DA61ACFAC0E" name="pregnancy_dad_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>13D59300-326F-4F29-774F-7310942CBA60</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="9D8F438A-2D5C-7AED-787A-734A716A3400" name="pregnancy_delivery_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>81F5E122-6DF7-DB5B-480F-4E40FAB8AB95</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36E7EA31-966F-F420-2D37-DED2742FD3A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D47B97B7-84EA-9D65-C89F-BA2CEB8C7CAA" name="pregnancy_fluid_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>E87F62D2-4972-4F4A-0402-E1BD5D1DE4BD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9C2B2D-A979-5523-BEFD-164F3239AE85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="804FECCD-7E67-60A8-BB17-9C441A39D9CD" name="pregnancy_multipregnancy_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>07D90459-8CD1-A83E-7C02-5564540C008F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B62EAB50-FFB0-2432-9A65-1B0148CCA71B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC207823-EAA8-0CE7-4477-85F920513F21" name="pregnancy_multipregnancy_condition_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>CE754B3A-9C98-EE10-41E9-A830C27AB7F2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E830AB6D-668B-058D-B25C-88BA45EF8D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E2A9BAA-4C02-B10F-D7F4-7EBE41496C6E" name="pregnancy_multipregnancy_result_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>00CBF8CE-5DD4-95AB-0C8E-773C0FA0E2C5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A0CD6DC-1748-095B-CCFA-9478DAF6904A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51059931-0316-3B2B-0DBD-F543853EBD2D" name="pregnancy_presentation_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>B65C8D63-CFDB-0CDC-D463-CEC8E26C326C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA9355B6-46F2-0C69-1D40-39EF0F76C404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16EC6624-93CA-1AC5-4DD2-2910D72A647C" name="pregnancy_status_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>38DF01E6-9EC2-6E66-14FD-B565CC6E9AD7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A17A8DC-8D4E-66DD-2189-54F11F0A9705"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

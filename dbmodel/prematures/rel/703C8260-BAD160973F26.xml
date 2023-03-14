@@ -6,5 +6,11 @@
 <shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
 <useTemplateTable>true</useTemplateTable>
-<templateTableID>C568E237-4325-CBFE-11A1-E75680F212A8</templateTableID>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>1.ddl</fileName>
+<pathName>C:\Users\User\Desktop</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
 </relationalModel>

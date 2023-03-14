@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04627E7E-6E7D-9C08-98D4-C6811EB734BC" containerWithKeyObject="5900ABEF-D0F0-7AB0-75FD-CB90DF4B6BC3" localFKIndex="2D036445-13BA-B439-6B38-0951A70AD68C" name="disorder_vision_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>599B752D-23EC-95E7-35AC-509937868B35</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>vision</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96CA3CB1-1A09-C290-E312-8F732E4CD711</referredTableID>
+<keyObject>01032301-954D-3ADA-2535-E95C0416ADCA</keyObject>
+<referredKeyID>01032301-954D-3ADA-2535-E95C0416ADCA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vision_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

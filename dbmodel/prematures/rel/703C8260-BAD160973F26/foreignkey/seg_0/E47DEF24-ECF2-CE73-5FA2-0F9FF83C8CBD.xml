@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E47DEF24-ECF2-CE73-5FA2-0F9FF83C8CBD" containerWithKeyObject="5366D93E-E4B7-BFBB-A6DD-EA7F845A45D6" localFKIndex="0E2A2C86-8DC4-6F32-C582-339557DC9520" name="disability_immersion_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>0236ABF1-5690-F915-7DFB-4789760A383C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>immersion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68B66D5B-13D9-5C06-6639-D308109EC69F</referredTableID>
+<keyObject>48F721E9-A80C-A3DB-5F91-20312CA34FB1</keyObject>
+<referredKeyID>48F721E9-A80C-A3DB-5F91-20312CA34FB1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>immersion_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

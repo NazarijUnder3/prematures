@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A37A207C-A5A4-4A85-6907-A0CEE9B435A1" containerWithKeyObject="5900ABEF-D0F0-7AB0-75FD-CB90DF4B6BC3" localFKIndex="E531BA11-E896-79CC-7050-CF6FAC0A482F" name="disorder_hearing_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F4FFD407-4F14-171C-9342-F182772DEAB9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>hearing</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE0B2DB5-9220-60D9-5E99-6DA29EC64300</referredTableID>
+<keyObject>8E55C7F6-A749-DCB4-1BD9-3D7897FA590F</keyObject>
+<referredKeyID>8E55C7F6-A749-DCB4-1BD9-3D7897FA590F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>hearing_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
