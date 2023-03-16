@@ -5,7 +5,7 @@
 <generatorID>7CD8CD4E-09A4-4D98-BDD2-8023EA60F153</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>gc</referredTableLongName>
+<referredTableLongName>main.gc</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>1E33F98C-D225-E903-2DD2-9416455507EA</referredTableID>
 <keyObject>E5F38B04-C2A4-AA3F-EBDF-D93711D716CF</keyObject>

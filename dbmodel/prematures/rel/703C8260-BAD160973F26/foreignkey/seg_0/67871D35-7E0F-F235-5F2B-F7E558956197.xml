@@ -5,7 +5,7 @@
 <generatorID>2F230389-94FD-7964-D78D-86A03CA07930</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>rt_kfg</referredTableLongName>
+<referredTableLongName>main.rt_kfg</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>1EAC38B1-6A3C-910A-E2EF-B995FA8B345F</referredTableID>
 <keyObject>670590F5-23B4-B9A4-A019-CE9C8C7A7DF2</keyObject>

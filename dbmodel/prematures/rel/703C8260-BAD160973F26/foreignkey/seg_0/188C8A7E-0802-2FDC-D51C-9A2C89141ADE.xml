@@ -5,7 +5,7 @@
 <generatorID>7AE78608-0C87-186F-676C-7C6B25967729</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>physical</referredTableLongName>
+<referredTableLongName>main.physical</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>591D46C5-FA11-990A-A17A-7184B37186BB</referredTableID>
 <keyObject>DFFB5430-30AA-9027-30E1-6A0009692E66</keyObject>

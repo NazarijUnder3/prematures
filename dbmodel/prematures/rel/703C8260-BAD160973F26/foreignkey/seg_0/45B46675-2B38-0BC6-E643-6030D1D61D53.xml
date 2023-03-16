@@ -5,7 +5,7 @@
 <generatorID>C59372B9-280F-4D64-F7F2-A273104A5041</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>coordination</referredTableLongName>
+<referredTableLongName>main.coordination</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>3ED6A096-867C-84A4-7FBC-F9D9204C1669</referredTableID>
 <keyObject>1911182D-C225-5104-F750-5F0400A4CAE8</keyObject>

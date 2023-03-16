@@ -5,7 +5,7 @@
 <generatorID>06D90308-6098-55F8-F213-335813B90667</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>skin</referredTableLongName>
+<referredTableLongName>main.skin</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>CBA29A6B-3D89-0352-5EA6-749456204559</referredTableID>
 <keyObject>6CAD9701-7EDC-7D48-0C36-69B2C4BB43DF</keyObject>

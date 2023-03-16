@@ -5,7 +5,7 @@
 <generatorID>A901437B-97FD-D2AA-63D3-D9AC46911862</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>breathing_failure</referredTableLongName>
+<referredTableLongName>main.breathing_failure</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>ADB27155-2E1E-8D6F-0D09-15D3B0E868AA</referredTableID>
 <keyObject>3A6BC547-8D6B-3E30-2E07-945B6F13BD37</keyObject>

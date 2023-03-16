@@ -5,7 +5,7 @@
 <generatorID>7A43F75F-D982-6984-06B4-4E7FFBA29731</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>pcr</referredTableLongName>
+<referredTableLongName>main.pcr</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>1C43FB02-F4E9-79EC-052A-7CCCE6FF140A</referredTableID>
 <keyObject>937AACBE-DB49-2043-A906-37F7CDAE2D3C</keyObject>

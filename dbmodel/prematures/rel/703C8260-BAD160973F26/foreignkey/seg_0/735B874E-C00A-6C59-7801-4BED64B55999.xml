@@ -5,7 +5,7 @@
 <generatorID>61E86DB4-7E61-52B2-751C-C926F6976F54</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>habilitation</referredTableLongName>
+<referredTableLongName>main.habilitation</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>0B058893-CCCF-C964-7E16-1969DEE12D0F</referredTableID>
 <keyObject>7E43F189-9DBD-E833-F34F-5D6A3C6CFDA4</keyObject>

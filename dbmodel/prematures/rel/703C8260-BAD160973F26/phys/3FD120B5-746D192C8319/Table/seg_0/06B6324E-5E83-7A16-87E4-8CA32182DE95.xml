@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="track_table_list" directorySegmentName="seg_0" id="06B6324E-5E83-7A16-87E4-8CA32182DE95">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<schemaObject>BF70CED7-FFC4-EB93-35B1-851C62B54376</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="schema_name" id="122FBFB8-292C-3AC5-3D50-3AD1DCA6BDDC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="table_process" id="2A6BBB40-D7E4-74E9-C7E8-EFB3DF4B6C23">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="track_row" id="3D6CBC4B-D700-0EAD-EEB4-F5448F07DC94">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="table_name" id="53A378FA-808D-57D1-0293-3233A37BB1A4">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="exclude_column" id="5BA339FA-6A28-2B08-341B-5837CFC6CAEE">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="track_stm" id="A9826E2B-333A-44CE-CCCF-5B6FEF6FDC57">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="track_table_list_pk" id="EF5995B8-AAD6-F580-2C02-A72E676F12E0">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

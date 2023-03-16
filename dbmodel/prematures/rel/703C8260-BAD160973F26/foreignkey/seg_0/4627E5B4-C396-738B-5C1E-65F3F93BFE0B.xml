@@ -5,7 +5,7 @@
 <generatorID>03CDE9E2-AB37-4CCF-0B15-5682F9A7A862</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>bmi</referredTableLongName>
+<referredTableLongName>main.bmi</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B942BB0B-D2A7-EF3D-265E-33983B8ABC09</referredTableID>
 <keyObject>4B919DEC-0A52-114A-C955-2237359A803E</keyObject>

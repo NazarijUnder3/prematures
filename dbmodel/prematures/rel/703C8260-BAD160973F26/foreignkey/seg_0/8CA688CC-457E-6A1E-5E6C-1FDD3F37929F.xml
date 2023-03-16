@@ -5,7 +5,7 @@
 <generatorID>3E461F4D-3D67-454B-931C-8CF3CFC78EBF</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>disorder_type</referredTableLongName>
+<referredTableLongName>main.disorder_type</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>382F9684-7E9C-0FAB-8554-F97B783C330E</referredTableID>
 <keyObject>F3566DDD-D993-9A5E-023D-018BB7C026F5</keyObject>

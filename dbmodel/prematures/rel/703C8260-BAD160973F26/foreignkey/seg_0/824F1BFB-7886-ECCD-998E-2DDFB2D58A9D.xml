@@ -5,7 +5,7 @@
 <generatorID>81FF2C1F-1E74-51A0-8B2B-F10A5ABD16D3</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>sepsis_ethiology</referredTableLongName>
+<referredTableLongName>main.sepsis_ethiology</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>E756F1D3-52FC-B062-E2D1-03DA17FFE5B3</referredTableID>
 <keyObject>9ED024AC-C67B-07BE-DF53-664977332989</keyObject>

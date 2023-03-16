@@ -5,7 +5,7 @@
 <generatorID>FECB9479-A39C-492E-886D-F35D734EB223</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>convulsion</referredTableLongName>
+<referredTableLongName>main.convulsion</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>020D0DDF-E267-660D-212A-BB2C29A70868</referredTableID>
 <keyObject>9423965B-0595-B1B5-F73A-A665ABBB56CA</keyObject>

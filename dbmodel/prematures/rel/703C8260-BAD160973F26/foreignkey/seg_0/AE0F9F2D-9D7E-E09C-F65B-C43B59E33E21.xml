@@ -5,7 +5,7 @@
 <generatorID>E38F6BAE-CD3B-FF65-7DB4-9F90B0DE64D9</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>pathology_type</referredTableLongName>
+<referredTableLongName>main.pathology_type</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>6CE2A9B9-31A0-3087-00AA-336106F5E12F</referredTableID>
 <keyObject>02AA1804-5B73-DDE3-F310-3F1C4209CC44</keyObject>

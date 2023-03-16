@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="change_queue" directorySegmentName="seg_1" id="5EE1B6B4-DC55-D3D7-E880-48A071E30440">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<schemaObject>BF70CED7-FFC4-EB93-35B1-851C62B54376</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="target_status" id="0663719C-A990-01A2-91DA-93064932EDFC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="time_clk" id="09B8DEC2-19E0-C14C-0178-5057243C6CAB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="schema_name" id="0B67E853-9B13-6E63-6E87-01CD5BDE1FCF">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="object_type" id="1BFE2519-5790-AE8A-CF45-321E35DF47EA">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tx_id_assigned" id="1D886FA3-627F-7A77-BD19-9ABDA7652B73">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="time_tx" id="3B1C3DA2-B3A7-F29C-9420-9A52AB3EB82D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="object_id" id="3D92F4B9-534F-9D2E-E6F2-8A1AC074E179">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tx_id" id="4B52C30C-464A-0879-0324-FC0E7EF79E77">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="app_name" id="56D71B34-6133-1DEA-466B-65FBA02D183E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="client_addr" id="815D6C7A-3288-ABAE-1CA5-4EB38E617A91">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="old_data" id="928010CA-33A3-1794-7199-71538C289F4A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="event_id" id="93557C51-666D-DCE8-B535-FDF3DDB5C92E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="statement_only" id="9D4777C4-6637-9054-71C2-ED58A879E735">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="new_data" id="AAF9686B-925A-C860-AEDC-77764A09CC46">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="operation" id="B3BB0A5B-C489-E2F4-C2F8-6CAC2B9F7570">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_name" id="C3E37EA8-017E-3AE3-199F-6E322C2686CD">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="object_name" id="D446E976-AE1A-1491-EDBF-DB62EAF8BC3F">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="client_query" id="D789B9B4-3BBB-964E-64E3-F831643454B4">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="client_port" id="E0F76B99-4392-1F35-2005-B56B292BE5CB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tx_status" id="EF3AA8BD-1171-4B47-234B-05DBDDFFC7D1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="time_stm" id="F4298157-9E19-34D3-0917-93E1C48B58C9">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="change_queue_pk" id="11DE9C1E-C296-2239-D6F0-3C9AC8DFD8E1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="change_queue_operation_check" id="C1588F9D-D6E2-1578-6DE6-3AAC0A951133">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="change_queue_target_status_check" id="E467B3AA-5C24-0AE4-03E3-536620CBB567">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

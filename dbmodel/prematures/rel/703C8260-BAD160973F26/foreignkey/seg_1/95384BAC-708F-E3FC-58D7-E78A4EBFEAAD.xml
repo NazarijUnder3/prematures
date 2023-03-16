@@ -5,7 +5,7 @@
 <generatorID>38DF01E6-9EC2-6E66-14FD-B565CC6E9AD7</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>status</referredTableLongName>
+<referredTableLongName>main.status</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>5B6C1B57-AED8-A2C5-ABAC-9647974D3EDB</referredTableID>
 <keyObject>EA490979-254F-B923-2044-13D98C5A081E</keyObject>

@@ -5,7 +5,7 @@
 <generatorID>86CDC68B-8738-B92C-7FA6-F77B410A65EB</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>gender</referredTableLongName>
+<referredTableLongName>main.gender</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>BA7A5063-CBF8-FB6A-0A4C-65E8D62D42AF</referredTableID>
 <keyObject>DB9ABB3D-FE4B-B06E-BA95-C02CE93712A3</keyObject>

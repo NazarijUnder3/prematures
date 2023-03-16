@@ -5,7 +5,7 @@
 <generatorID>3665E6CD-E554-4B35-E805-1989F233CD8F</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>breathing_syndrom</referredTableLongName>
+<referredTableLongName>main.breathing_syndrom</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>2431492E-64A8-26D9-79C5-7F537AB94FF5</referredTableID>
 <keyObject>96F1B667-365B-763C-01BE-FB41C5F81A72</keyObject>

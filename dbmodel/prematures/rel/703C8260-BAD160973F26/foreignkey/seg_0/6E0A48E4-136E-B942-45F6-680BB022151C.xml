@@ -5,7 +5,7 @@
 <generatorID>AB7BE3B9-3DF3-B187-8749-B7EE2F97155A</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>compitation</referredTableLongName>
+<referredTableLongName>main.compitation</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>64466854-7EBC-57E3-CA57-DA4FDE3CF17A</referredTableID>
 <keyObject>177B5F2F-3C53-6463-BCA4-4A69BC5326A5</keyObject>

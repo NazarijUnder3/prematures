@@ -5,7 +5,7 @@
 <generatorID>D38FA777-B8EE-31F8-5759-32034F345814</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>eco</referredTableLongName>
+<referredTableLongName>main.eco</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>0688FF37-FF1A-C55D-7F48-E14DB260C435</referredTableID>
 <keyObject>066A01EB-F68B-D96F-26BC-EA7D191A324A</keyObject>

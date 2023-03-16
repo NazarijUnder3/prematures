@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06B6324E-5E83-7A16-87E4-8CA32182DE95" schemaObject="BF70CED7-FFC4-EB93-35B1-851C62B54376" name="track_table_list">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>CFDBEDB4-82C2-0657-77F3-908FF21B10E9</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="schema_name" id="122FBFB8-292C-3AC5-3D50-3AD1DCA6BDDC">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>09AE1C70-D32F-78D9-81BA-5C23B7D0BE1B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F38039C8-5559-29EB-2D2A-397FD2B042CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="table_name" id="53A378FA-808D-57D1-0293-3233A37BB1A4">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>89CDFC0A-8E9E-173A-251B-80B8D48D1740</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F38039C8-5559-29EB-2D2A-397FD2B042CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="table_process" id="2A6BBB40-D7E4-74E9-C7E8-EFB3DF4B6C23">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>8C71A198-F22E-A7A5-8921-8F3EF997CC99</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="track_row" id="3D6CBC4B-D700-0EAD-EEB4-F5448F07DC94">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>496A257D-C212-640D-5CF8-A3E99216FB00</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="track_stm" id="A9826E2B-333A-44CE-CCCF-5B6FEF6FDC57">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>550A07BE-DEC3-7807-EF21-C634C0BD54D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="exclude_column" id="5BA339FA-6A28-2B08-341B-5837CFC6CAEE">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>5B765E7A-31B5-C5CA-7D4F-BD5EFFD47759</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF5995B8-AAD6-F580-2C02-A72E676F12E0" name="track_table_list_pk">
+<sourceDDLFile>2.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>935A9C4B-338E-936E-3453-0D948448B06B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="122FBFB8-292C-3AC5-3D50-3AD1DCA6BDDC"/>
+<colUsage columnID="53A378FA-808D-57D1-0293-3233A37BB1A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

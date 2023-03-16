@@ -5,7 +5,7 @@
 <generatorID>9A13F853-C61A-21EF-8B2C-06EE2E07647A</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>strabismus</referredTableLongName>
+<referredTableLongName>main.strabismus</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B11F7FE1-0267-5B1F-A6A9-B967D2528BD1</referredTableID>
 <keyObject>FDE0DEAF-92F8-11C4-99B5-CD1487AC1130</keyObject>

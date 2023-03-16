@@ -5,7 +5,7 @@
 <generatorID>93DE0BFE-2D5E-7C20-BF6C-3CD7CC475BDE</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>wd</referredTableLongName>
+<referredTableLongName>main.wd</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F44205B5-4EA6-02E5-77A9-B0231ED59A2F</referredTableID>
 <keyObject>11189D9A-1EAE-B87A-5A05-7C2443EEE764</keyObject>

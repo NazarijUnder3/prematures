@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EE1B6B4-DC55-D3D7-E880-48A071E30440" schemaObject="BF70CED7-FFC4-EB93-35B1-851C62B54376" name="change_queue">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>141E0516-2FBB-CA69-AB7D-9412EC485A4B</importedID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_id" id="93557C51-666D-DCE8-B535-FDF3DDB5C92E">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>AE87528C-FCC6-BDA9-6A2F-54677B468C2F</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="time_tx" id="3B1C3DA2-B3A7-F29C-9420-9A52AB3EB82D">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>7921FDA1-E33E-4E56-DC3B-1F148144D5A1</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_stm" id="F4298157-9E19-34D3-0917-93E1C48B58C9">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>06D9612C-2EC0-72B5-CCC2-2EDB09FF312A</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time_clk" id="09B8DEC2-19E0-C14C-0178-5057243C6CAB">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>2E0BB9D2-938E-7BB7-999C-DCA3BAE67D59</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_id" id="4B52C30C-464A-0879-0324-FC0E7EF79E77">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>A76A79A0-B55B-93A8-865D-3875314DD454</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_id_assigned" id="1D886FA3-627F-7A77-BD19-9ABDA7652B73">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>14A582FD-1CC1-345A-5C68-F49B0848DB63</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="object_id" id="3D92F4B9-534F-9D2E-E6F2-8A1AC074E179">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>1719DD9F-81B1-479D-A042-D190BEA59000</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statement_only" id="9D4777C4-6637-9054-71C2-ED58A879E735">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>70CE4EEA-95F4-0AFC-7044-AE1917A10692</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="schema_name" id="0B67E853-9B13-6E63-6E87-01CD5BDE1FCF">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>D0A015CC-D342-F945-EA2C-E947E7461938</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DF691B0-9AAE-C221-5572-7E98AD0758BC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="object_name" id="D446E976-AE1A-1491-EDBF-DB62EAF8BC3F">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>10107F12-4FB6-8043-17C8-D0D4B8EA51D5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DF691B0-9AAE-C221-5572-7E98AD0758BC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="object_type" id="1BFE2519-5790-AE8A-CF45-321E35DF47EA">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>BAD2FD80-0F10-D4AC-8F7A-A52367B3E761</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66542F50-5AA1-04CA-825B-C83420960771</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_name" id="C3E37EA8-017E-3AE3-199F-6E322C2686CD">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>6551A3F6-3F5B-1EB0-7EA1-A9033758A8C4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DF691B0-9AAE-C221-5572-7E98AD0758BC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_status" id="EF3AA8BD-1171-4B47-234B-05DBDDFFC7D1">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>A5EC2CF6-BF8B-6D88-B005-36CC3F63FA4F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B15F066-9189-2B1C-82E5-56F89F153D71</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="app_name" id="56D71B34-6133-1DEA-466B-65FBA02D183E">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>D34611C8-819B-1E2D-135F-7DBD241D6371</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DF691B0-9AAE-C221-5572-7E98AD0758BC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_addr" id="815D6C7A-3288-ABAE-1CA5-4EB38E617A91">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>F6F9A3EA-8DF3-DFE7-C43C-8C1304FECDF0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_port" id="E0F76B99-4392-1F35-2005-B56B292BE5CB">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>5B538D54-5E24-A2C9-6801-2E6C500C35F6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operation" id="B3BB0A5B-C489-E2F4-C2F8-6CAC2B9F7570">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>C928A5AA-20E9-208B-AF1C-C2A4E8C55297</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="old_data" id="928010CA-33A3-1794-7199-71538C289F4A">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>1E078BE4-C2BB-4687-EBBE-E52BC7609275</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="new_data" id="AAF9686B-925A-C860-AEDC-77764A09CC46">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>57B6F59A-DC35-622A-1099-E23F7F68A57A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_query" id="D789B9B4-3BBB-964E-64E3-F831643454B4">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>51B5ACFD-26AE-6D6F-1263-2D935751783A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="target_status" id="0663719C-A990-01A2-91DA-93064932EDFC">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>6C390CFE-9564-81CA-B8FD-2D1A05613FC5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F0D63DE6-DE68-79F7-BA37-5D759846BF6B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11DE9C1E-C296-2239-D6F0-3C9AC8DFD8E1" name="change_queue_pk">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>AC150786-B67F-6EE4-8557-8985DF41C7D7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93557C51-666D-DCE8-B535-FDF3DDB5C92E"/>
+<colUsage columnID="3B1C3DA2-B3A7-F29C-9420-9A52AB3EB82D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="change_queue_operation_check" directorySegmentName="seg_0" id="C1588F9D-D6E2-1578-6DE6-3AAC0A951133">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>AACB17D1-18C7-2435-8345-4277B5A29D3A</importedID>
+<rule><![CDATA[operation IN ('I', 'U', 'D', 'T')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="change_queue_target_status_check" directorySegmentName="seg_0" id="E467B3AA-5C24-0AE4-03E3-536620CBB567">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<importedID>2282DE1D-C63B-23B9-18AA-61CD05950FBE</importedID>
+<rule><![CDATA[target_status IN ('new', 'processing', 'done')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

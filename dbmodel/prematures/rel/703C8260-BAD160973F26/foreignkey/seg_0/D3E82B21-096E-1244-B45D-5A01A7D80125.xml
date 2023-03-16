@@ -5,7 +5,7 @@
 <generatorID>A8319DD6-015E-AD6E-FDD1-3682D6F15476</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>leukomalacia</referredTableLongName>
+<referredTableLongName>main.leukomalacia</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>CE361F40-9D1B-0218-6E10-BDC1D86228F1</referredTableID>
 <keyObject>35E125DA-9278-9C21-26A7-516E1579299A</keyObject>

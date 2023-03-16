@@ -5,7 +5,7 @@
 <generatorID>54B5286C-1202-FED3-E10B-5510076477CF</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>pregnancy</referredTableLongName>
+<referredTableLongName>main.pregnancy</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>920627B8-7EF1-44A3-1C69-80816D284D39</referredTableID>
 <keyObject>50F0BA37-E8AF-66B5-5D7A-3EBCFD5C160B</keyObject>

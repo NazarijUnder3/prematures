@@ -5,7 +5,7 @@
 <generatorID>D3179F1D-35C2-DD65-7967-842AAB90529D</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>mkf_code</referredTableLongName>
+<referredTableLongName>main.mkf_code</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>EA8A42A9-A88F-457A-64BE-B13EBA1DEB77</referredTableID>
 <keyObject>FA0B9E31-8E80-90C2-AE27-EFC1E247B943</keyObject>

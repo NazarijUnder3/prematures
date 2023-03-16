@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="2_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="1B15F066-9189-2B1C-82E5-56F89F153D71">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_65" id="4DF691B0-9AAE-C221-5572-7E98AD0758BC">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>65</dataTypeSize>
+<fileName>2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="66542F50-5AA1-04CA-825B-C83420960771">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_0" id="F0D63DE6-DE68-79F7-BA37-5D759846BF6B">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:12:54 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="F38039C8-5559-29EB-2D2A-397FD2B042CB">
+<createdBy>User</createdBy>
+<createdTime>2023-03-15 18:11:35 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60</dataTypeSize>
+<fileName>2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -5,7 +5,7 @@
 <generatorID>1A7F00C2-E160-E4F6-5A22-078F7E87DDEA</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>intracranial</referredTableLongName>
+<referredTableLongName>main.intracranial</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>342A87ED-C745-FF72-2D83-3701E27C98B8</referredTableID>
 <keyObject>A71DCD39-0257-873B-533F-DD8DD22C0988</keyObject>

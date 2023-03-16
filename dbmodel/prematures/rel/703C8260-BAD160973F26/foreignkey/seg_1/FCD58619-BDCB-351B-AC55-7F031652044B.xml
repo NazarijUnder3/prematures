@@ -5,7 +5,7 @@
 <generatorID>CE754B3A-9C98-EE10-41E9-A830C27AB7F2</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
-<referredTableLongName>multipregnancy_condition</referredTableLongName>
+<referredTableLongName>main.multipregnancy_condition</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B36A0811-EBBB-5624-37C0-EBF4E43AE21E</referredTableID>
 <keyObject>4765AEBE-EEF0-6BC0-D214-3D8A1D026711</keyObject>
