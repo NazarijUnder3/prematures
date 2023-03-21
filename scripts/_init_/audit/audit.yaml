@@ -1,0 +1,98 @@
+databaseChangeLog:
+- changeSet:
+    id: create_audit
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: create_audit
+    comment: create audit
+- include:
+    author: NP
+    runOnChange: false
+    file: _init_/audit/create_schema.sql
+- include:
+    author: NP
+    runOnChange: false
+    file: _init_/audit/create_tables.sql
+- include:
+    author: NP
+    runOnChange: false
+    file: _init_/audit/create_views.sql
+- changeSet:
+    id: 1
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create partition management functions
+    changes:
+    - createProcedure:
+        schemaName: audit
+        path: _init_/audit/partition_manage.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists audit.fn_partition_add;
+    - sql: 
+        sql: drop function if exists audit.fn_partition_create;
+    - sql:
+        sql: drop function if exists audit.fn_partition_extend;
+- changeSet:
+    id: 2
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create partition management functions
+    changes:
+    - createProcedure:
+        schemaName: audit
+        path: _init_/audit/audit_manage.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists audit.fn_track_change
+    - sql: 
+        sql: drop function if exists audit.fn_audit_table_set(regclass, boolean, boolean, text[])
+    - sql: 
+        sql: drop procedure if exists audit.fn_audit_table_drop
+    - sql: 
+        sql: drop function if exists audit.fn_audit_table_set(regclass, boolean, boolean)
+    - sql: 
+        sql: drop function if exists audit.fn_audit_table_set(regclass)
+    - sql: 
+        sql: drop function if exists audit.fn_audit_schema_set
+    - sql: 
+        sql: drop procedure if exists audit.fn_audit_schema_drop
+    - sql: 
+        sql: drop procedure if exists audit.fn_audit_schema_disable;
+    - sql:
+        sql: drop procedure if exists audit.fn_audit_schema_enable;
+    - sql:
+        sql: drop procedure if exists audit.fn_audit_schema;
+    - sql:
+        sql: drop function if exists audit.fn_track_table_list_set;
+    - sql:
+        sql: drop function if exists audit.fn_track_table_list_drop;
+    - sql:
+        sql: drop function if exists audit.fn_track_table_list_fill;
+- changeSet:
+    id: 5
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create functions to list tracked tables
+    changes:
+    - createProcedure:
+        schemaName: audit
+        path: _init_/audit/audit_stats.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists audit.fn_tracked_table_name
+    - sql: 
+        sql: drop function if exists audit.fn_non_tracked_table_name
+- include:
+    author: NP
+    runOnChange: false
+    file: _init_/audit/create_views_queue.sql
