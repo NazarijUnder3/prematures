@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69384ED0-DA0D-E50F-2227-C500C772094B" name="track table list">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>06B6324E-5E83-7A16-87E4-8CA32182DE95</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="schema name" id="49B5D961-C4B8-DF91-1E48-ED41F9C6E69E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>122FBFB8-292C-3AC5-3D50-3AD1DCA6BDDC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F38039C8-5559-29EB-2D2A-397FD2B042CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="table name" id="0EBB37DD-3967-BA2B-5B29-5177FCA05A55">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>53A378FA-808D-57D1-0293-3233A37BB1A4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F38039C8-5559-29EB-2D2A-397FD2B042CB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="table process" id="A7ED3BBC-2DCC-656E-2D1B-F90DA13B201E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>2A6BBB40-D7E4-74E9-C7E8-EFB3DF4B6C23</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="track row" id="7CEA5709-1126-B5C9-A049-C2819DDE5013">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>3D6CBC4B-D700-0EAD-EEB4-F5448F07DC94</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="track stm" id="F249609C-F990-2F05-5CE8-465C38666A8D">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>A9826E2B-333A-44CE-CCCF-5B6FEF6FDC57</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exclude column" id="29D2D755-818F-0800-E803-0894F51DB95E">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>5BA339FA-6A28-2B08-341B-5837CFC6CAEE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F1B23B0-923D-B67A-58F1-61E9D52745A1" name="track table list pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-20 18:31:33 UTC</createdTime>
+<generatorID>EF5995B8-AAD6-F580-2C02-A72E676F12E0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49B5D961-C4B8-DF91-1E48-ED41F9C6E69E</attributeRef>
+<attributeRef>0EBB37DD-3967-BA2B-5B29-5177FCA05A55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
