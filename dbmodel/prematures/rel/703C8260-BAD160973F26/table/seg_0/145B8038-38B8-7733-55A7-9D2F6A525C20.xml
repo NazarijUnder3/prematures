@@ -2,12 +2,25 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="145B8038-38B8-7733-55A7-9D2F6A525C20" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="dad">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dad age group: less\greater or equal then 40]]></commentInRDBMS>
 <generatorID>5728A140-07C4-632C-98B5-F7920CF57772</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dad_age_id" id="C6B13E44-7A0D-38C0-225D-9CFC9395570A">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:34:04 UTC</createdTime>
+<generatorID>E39849EA-6884-D1C0-7CB4-73E9B3A6D81C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="dad_age" id="C25EFE60-4ECF-47E7-A36B-48DB6D056534">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -22,15 +35,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C0E45C97-6268-96FB-1C5A-4D4B37C6D18B" name="dad_pk">
+<ind_PK_UK id="C1BA033D-B0DA-CEBB-0759-90047DB3C43A" name="dad_pk">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>F55CEBE7-C38E-1F5E-0A6C-4DDC73ED7A39</generatorID>
+<createdTime>2023-03-24 19:38:48 UTC</createdTime>
+<generatorID>2DE27E4A-12B4-6864-0A4E-1525988DBE59</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B13E44-7A0D-38C0-225D-9CFC9395570A"/>
+</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

@@ -49,7 +49,7 @@
 <colUsage columnID="F5B15DCB-DEC6-80CD-5511-C719BF6E98B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD3B429C-96CC-B878-D877-DDBAAC0ACD7D" name="habilitation_habilitation_name_un">
+<ind_PK_UK id="FD3B429C-96CC-B878-D877-DDBAAC0ACD7D" name="habilitation_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>168BE57C-7E39-F337-B30A-F9E5C9DF9743</generatorID>

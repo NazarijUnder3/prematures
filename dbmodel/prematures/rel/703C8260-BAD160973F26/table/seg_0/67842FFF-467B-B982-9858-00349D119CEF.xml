@@ -20,6 +20,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="mother_first_name" id="B5B9A6FC-3CDE-5455-2D8C-A2E1C64D5936">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:34:04 UTC</createdTime>
+<generatorID>210FBF41-03D2-ECFC-4631-C6C3EBEFFADE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mother_last_name" id="C70F8C6E-AE5D-70EB-07F9-1232BCCBDC07">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:34:04 UTC</createdTime>
+<generatorID>AA3E755B-B7F7-FBAC-D0B5-83755E49FF3A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>C3859CB6-8296-7F43-B2CA-DB00E0CED5F3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="796C9124-5B7C-D3CC-A763-7391471485AB" name="mother_pk">

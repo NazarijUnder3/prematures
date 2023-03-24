@@ -49,7 +49,7 @@
 <colUsage columnID="CE7E433B-3DFB-6128-604F-C6ADD97EAC04"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BC629E04-A451-F006-B14E-624988A0073A" name="sepsis_ethiology_sepsis_ethiology_name_un">
+<ind_PK_UK id="BC629E04-A451-F006-B14E-624988A0073A" name="sepsis_ethiology_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>0083B52E-D37D-F3F5-6549-624EBDB4E48B</generatorID>

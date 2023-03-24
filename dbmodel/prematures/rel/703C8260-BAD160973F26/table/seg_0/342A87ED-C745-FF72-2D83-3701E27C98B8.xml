@@ -49,7 +49,7 @@
 <colUsage columnID="616C4168-0243-18B3-47DA-497B082CA34B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="273174E2-F951-2B76-313C-F31F46129351" name="intracranial_intracranial_name_un">
+<ind_PK_UK id="273174E2-F951-2B76-313C-F31F46129351" name="intracranial_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>98BDE295-FA2E-9416-ED9D-274A8B2878DB</generatorID>

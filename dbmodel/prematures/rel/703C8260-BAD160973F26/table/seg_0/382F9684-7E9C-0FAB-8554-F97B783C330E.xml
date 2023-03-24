@@ -49,7 +49,7 @@
 <colUsage columnID="4A7AEAF4-EF6D-0649-ABFE-6395767DD859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5F14699E-E545-005A-143B-DA77F6BBC664" name="disorder_type_disorder_type_name_un">
+<ind_PK_UK id="5F14699E-E545-005A-143B-DA77F6BBC664" name="disorder_type_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>E6127EAA-F275-B203-555E-698F16399B4C</generatorID>

@@ -49,7 +49,7 @@
 <colUsage columnID="83C45729-AA6C-8AF8-A549-B8D3F8526818"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5EBDCD47-9571-18EC-F158-15C10B16AF22" name="compitation_compitation_name_un">
+<ind_PK_UK id="5EBDCD47-9571-18EC-F158-15C10B16AF22" name="compitation_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>E7558CA3-65A0-96F6-2D33-435CF2994098</generatorID>

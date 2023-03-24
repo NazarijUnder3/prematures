@@ -251,6 +251,33 @@
 <defaultValue>CURRENT_TIMESTAMP</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="mother age" id="81CB101F-0501-206A-EB11-D2814692A0E8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:29:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[At the birth]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>322B8409-B2C4-894F-FDAE-5D2D8B2F748A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dad age id" id="A3094260-131B-E398-DC00-5FA06CC81263">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:36:39 UTC</createdTime>
+<generatorID>13D59300-326F-4F29-774F-7310942CBA60</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>E39849EA-6884-D1C0-7CB4-73E9B3A6D81C</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8623A736-45BD-2F46-476D-4880D31C660F" name="pregnancy PK">

@@ -49,7 +49,7 @@
 <colUsage columnID="C9B12012-FC55-61C5-51DC-9B7328BB399A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C5AF9F64-963C-DEF6-C9BD-F76BA1AEE80F" name="breathing_syndrom_breathing_syndrom_name_un">
+<ind_PK_UK id="C5AF9F64-963C-DEF6-C9BD-F76BA1AEE80F" name="breathing_syndrom_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>637B1B26-44CC-2180-4E6D-631634A91E14</generatorID>
