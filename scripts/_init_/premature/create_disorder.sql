@@ -8,127 +8,149 @@
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.disorder
-CREATE TABLE main.disorder (
-    child_id           INTEGER NOT NULL,
-    disability_oficial boolean NOT NULL,
-    disability_sign    boolean NOT NULL,
-    physical_id        SMALLINT NOT NULL,
-    slf_id             SMALLINT NOT NULL,
-    gc_id              SMALLINT NOT NULL,
-    sse_id             SMALLINT NOT NULL,
-    rf_id              SMALLINT NOT NULL,
-    pf_id              SMALLINT NOT NULL,
-    strabismus_id      SMALLINT NOT NULL,
-    disorder_kind_id   SMALLINT NOT NULL,
-    disorder_type_id   SMALLINT NOT NULL,
-    ims_id             SMALLINT NOT NULL,
-    mps_id             SMALLINT NOT NULL,
-    es_id              SMALLINT NOT NULL,
-    cvs_id             SMALLINT NOT NULL,
-    vision_id          SMALLINT NOT NULL,
-    git_id             SMALLINT NOT NULL,
-    bs_id              SMALLINT NOT NULL,
-    mrt_id             SMALLINT NOT NULL,
-    skin_id            SMALLINT NOT NULL,
-    ct_id              SMALLINT NOT NULL,
-    hearing_id         SMALLINT NOT NULL,
-    user_id            INTEGER NOT NULL,
-    ts                 TIMESTAMP WITH TIME ZONE DEFAULT current_timestamp NOT NULL
+create table if not exists main.disorder (
+    child_id           INTEGER not null,
+    disability_oficial boolean not null,
+    disability_sign    boolean not null,
+    physical_id        smallint not null,
+    slf_id             smallint not null,
+    gc_id              smallint not null,
+    sse_id             smallint not null,
+    rf_id              smallint not null,
+    pf_id              smallint not null,
+    strabismus_id      smallint not null,
+    disorder_kind_id   smallint not null,
+    disorder_type_id   smallint not null,
+    ims_id             smallint not null,
+    mps_id             smallint not null,
+    es_id              smallint not null,
+    cvs_id             smallint not null,
+    vision_id          smallint not null,
+    git_id             smallint not null,
+    bs_id              smallint not null,
+    mrt_id             smallint not null,
+    skin_id            smallint not null,
+    ct_id              smallint not null,
+    hearing_id         smallint not null,
+    user_id            INTEGER not null,
+    ts                 TIMESTAMP WITH TIME ZONE DEFAULT current_timestamp not null
 );
 
-COMMENT ON TABLE main.disorder IS
+comment on table main.disorder is
     'disabilities as of 2 years';
 
-COMMENT ON COLUMN main.disorder.user_id IS
+COMMENT ON COLUMN main.disorder.user_id is
     'UserID making the change';
 
-COMMENT ON COLUMN main.disorder.ts IS
+COMMENT ON COLUMN main.disorder.ts is
     'Change timestamp';
 
-ALTER TABLE main.disorder ADD CONSTRAINT disorder_pk PRIMARY KEY ( child_id );
+alter table main.disorder 
+	add constraint disorder_pk \r\n\t\tprimary key ( child_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_bs_fk FOREIGN KEY ( bs_id )
+alter table main.disorder
+    
+	add constraint disorder_bs_fk FOREIGN KEY ( bs_id )
         REFERENCES main.bs ( bs_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_child_fk FOREIGN KEY ( child_id )
+alter table main.disorder
+    
+	add constraint disorder_child_fk FOREIGN KEY ( child_id )
         REFERENCES main.child ( child_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_ct_fk FOREIGN KEY ( ct_id )
+alter table main.disorder
+    
+	add constraint disorder_ct_fk FOREIGN KEY ( ct_id )
         REFERENCES main.ct ( ct_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_cvs_fk FOREIGN KEY ( cvs_id )
+alter table main.disorder
+    
+	add constraint disorder_cvs_fk FOREIGN KEY ( cvs_id )
         REFERENCES main.cvs ( cvs_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_disorder_kind_fk FOREIGN KEY ( disorder_kind_id )
+alter table main.disorder
+    
+	add constraint disorder_disorder_kind_fk FOREIGN KEY ( disorder_kind_id )
         REFERENCES main.disorder_kind ( disorder_kind_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_disorder_type_fk FOREIGN KEY ( disorder_type_id )
+alter table main.disorder
+    
+	add constraint disorder_disorder_type_fk FOREIGN KEY ( disorder_type_id )
         REFERENCES main.disorder_type ( disorder_type_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_es_fk FOREIGN KEY ( es_id )
+alter table main.disorder
+    
+	add constraint disorder_es_fk FOREIGN KEY ( es_id )
         REFERENCES main.es ( es_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_gc_fk FOREIGN KEY ( gc_id )
+alter table main.disorder
+    
+	add constraint disorder_gc_fk FOREIGN KEY ( gc_id )
         REFERENCES main.gc ( gc_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_git_fk FOREIGN KEY ( git_id )
+alter table main.disorder
+    
+	add constraint disorder_git_fk FOREIGN KEY ( git_id )
         REFERENCES main.git ( git_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_hearing_fk FOREIGN KEY ( hearing_id )
+alter table main.disorder
+    
+	add constraint disorder_hearing_fk FOREIGN KEY ( hearing_id )
         REFERENCES main.hearing ( hearing_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_ims_fk FOREIGN KEY ( ims_id )
+alter table main.disorder
+    
+	add constraint disorder_ims_fk FOREIGN KEY ( ims_id )
         REFERENCES main.ims ( ims_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_mps_fk FOREIGN KEY ( mps_id )
+alter table main.disorder
+    
+	add constraint disorder_mps_fk FOREIGN KEY ( mps_id )
         REFERENCES main.mps ( mps_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_mrt_fk FOREIGN KEY ( mrt_id )
+alter table main.disorder
+    
+	add constraint disorder_mrt_fk FOREIGN KEY ( mrt_id )
         REFERENCES main.mrt ( mrt_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_pf_fk FOREIGN KEY ( pf_id )
+alter table main.disorder
+    
+	add constraint disorder_pf_fk FOREIGN KEY ( pf_id )
         REFERENCES main.pf ( pf_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_physical_fk FOREIGN KEY ( physical_id )
+alter table main.disorder
+    
+	add constraint disorder_physical_fk FOREIGN KEY ( physical_id )
         REFERENCES main.physical ( physical_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_rf_fk FOREIGN KEY ( rf_id )
+alter table main.disorder
+    
+	add constraint disorder_rf_fk FOREIGN KEY ( rf_id )
         REFERENCES main.rf ( rf_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_skin_fk FOREIGN KEY ( skin_id )
+alter table main.disorder
+    
+	add constraint disorder_skin_fk FOREIGN KEY ( skin_id )
         REFERENCES main.skin ( skin_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_slf_fk FOREIGN KEY ( slf_id )
+alter table main.disorder
+    
+	add constraint disorder_slf_fk FOREIGN KEY ( slf_id )
         REFERENCES main.slf ( slf_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_sse_fk FOREIGN KEY ( sse_id )
+alter table main.disorder
+    
+	add constraint disorder_sse_fk FOREIGN KEY ( sse_id )
         REFERENCES main.sse ( sse_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_strabismus_fk FOREIGN KEY ( strabismus_id )
+alter table main.disorder
+    
+	add constraint disorder_strabismus_fk FOREIGN KEY ( strabismus_id )
         REFERENCES main.strabismus ( strabismus_id );
 
-ALTER TABLE main.disorder
-    ADD CONSTRAINT disorder_vision_fk FOREIGN KEY ( vision_id )
+alter table main.disorder
+    
+	add constraint disorder_vision_fk FOREIGN KEY ( vision_id )
         REFERENCES main.vision ( vision_id );
 
 -- Permissions

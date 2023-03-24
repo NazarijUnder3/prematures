@@ -8,17 +8,20 @@
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.wd
-CREATE TABLE main.wd (
-    wd_id   SMALLINT NOT NULL,
-    wd_name varchar NOT NULL
+create table if not exists main.wd (
+    wd_id   smallint not null,
+    wd_name varchar not null
 );
 
-COMMENT ON TABLE main.wd IS
+comment on table main.wd is
     'Wakefulness disorder';
 
-ALTER TABLE main.wd ADD CONSTRAINT wd_pk PRIMARY KEY ( wd_id );
+alter table main.wd 
+	add constraint wd_pk \r\n\t\tprimary key ( wd_id );
 
-ALTER TABLE main.wd ADD CONSTRAINT wd_wd_name_un UNIQUE ( wd_name );
+alter table main.wd 
+	add constraint wd_wd_name_un 
+		unique ( wd_name );
 
 -- Permissions
 revoke all on main.wd from public;
@@ -28,17 +31,20 @@ revoke all on main.wd from public;
 
 --changeset NP:2 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.ps
-CREATE TABLE main.ps (
-    ps_id   SMALLINT NOT NULL,
-    ps_name varchar NOT NULL
+create table if not exists main.ps (
+    ps_id   smallint not null,
+    ps_name varchar not null
 );
 
-COMMENT ON TABLE main.ps IS
+comment on table main.ps is
     'Pyramidal symptoms';
 
-ALTER TABLE main.ps ADD CONSTRAINT ps_pk PRIMARY KEY ( ps_id );
+alter table main.ps 
+	add constraint ps_pk \r\n\t\tprimary key ( ps_id );
 
-ALTER TABLE main.ps ADD CONSTRAINT ps_ps_name_un UNIQUE ( ps_name );
+alter table main.ps 
+	add constraint ps_ps_name_un 
+		unique ( ps_name );
 
 -- Permissions
 revoke all on main.ps from public;
@@ -48,17 +54,20 @@ revoke all on main.ps from public;
 
 --changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.coordination
-CREATE TABLE main.coordination (
-    coordination_id   SMALLINT NOT NULL,
-    coordination_name varchar NOT NULL
+create table if not exists main.coordination (
+    coordination_id   smallint not null,
+    coordination_name varchar not null
 );
 
-COMMENT ON TABLE main.coordination IS
+comment on table main.coordination is
     'Coordination disorders';
 
-ALTER TABLE main.coordination ADD CONSTRAINT coordination_pk PRIMARY KEY ( coordination_id );
+alter table main.coordination 
+	add constraint coordination_pk \r\n\t\tprimary key ( coordination_id );
 
-ALTER TABLE main.coordination ADD CONSTRAINT coordination_name_un UNIQUE ( coordination_name );
+alter table main.coordination 
+	add constraint coordination_name_un 
+		unique ( coordination_name );
 
 -- Permissions
 revoke all on main.coordination from public;

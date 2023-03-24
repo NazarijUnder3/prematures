@@ -8,145 +8,161 @@
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.child
-CREATE TABLE main.child (
+create table if not exists main.child (
     child_id            INTEGER
         GENERATED ALWAYS AS IDENTITY ( START WITH 1 )
-    NOT NULL,
-    child_name          varchar NOT NULL,
-    child_surname       varchar NOT NULL,
-    gestation           SMALLINT NOT NULL,
-    height              SMALLINT NOT NULL,
-    weight              SMALLINT NOT NULL,
-    apgar0              SMALLINT NOT NULL,
-    apgar1              SMALLINT,
-    asphyxia            boolean NOT NULL,
-    hospital_id         SMALLINT NOT NULL,
-    gender_id           SMALLINT NOT NULL,
-    locality_id         SMALLINT NOT NULL,
-    eco_id              SMALLINT NOT NULL,
-    pregnancy_id        SMALLINT NOT NULL,
-    "convulsion0 id"    SMALLINT NOT NULL,
-    "convulsion7 id"    SMALLINT NOT NULL,
-    sepsis_id           SMALLINT NOT NULL,
-    sepsis_ethiology_id SMALLINT NOT NULL,
-    "pcr blood id"      SMALLINT NOT NULL,
-    "pcr saliva id"     SMALLINT NOT NULL,
-    rt_kfg_id           SMALLINT NOT NULL,
-    reanimation         boolean NOT NULL,
-    alv                 SMALLINT,
-    cpap                SMALLINT,
-    ph                  NUMERIC NOT NULL,
-    surfactant          boolean NOT NULL,
+    not null,
+    child_name          varchar not null,
+    child_surname       varchar not null,
+    gestation           smallint not null,
+    height              smallint not null,
+    weight              smallint not null,
+    apgar0              smallint not null,
+    apgar1              smallint,
+    asphyxia            boolean not null,
+    hospital_id         smallint not null,
+    gender_id           smallint not null,
+    locality_id         smallint not null,
+    eco_id              smallint not null,
+    pregnancy_id        smallint not null,
+    "convulsion0 id"    smallint not null,
+    "convulsion7 id"    smallint not null,
+    sepsis_id           smallint not null,
+    sepsis_ethiology_id smallint not null,
+    "pcr blood id"      smallint not null,
+    "pcr saliva id"     smallint not null,
+    rt_kfg_id           smallint not null,
+    reanimation         boolean not null,
+    alv                 smallint,
+    cpap                smallint,
+    ph                  NUMERIC not null,
+    surfactant          boolean not null,
     child_card          varchar,
-    user_id             INTEGER NOT NULL,
-    ts                  TIMESTAMP WITH TIME ZONE DEFAULT current_timestamp NOT NULL,
-    ir                  SMALLINT NOT NULL,
-    white_body_id       SMALLINT NOT NULL,
-    reflex_id           SMALLINT NOT NULL,
-    ne                  boolean NOT NULL
+    user_id             INTEGER not null,
+    ts                  TIMESTAMP WITH TIME ZONE DEFAULT current_timestamp not null,
+    ir                  smallint not null,
+    white_body_id       smallint not null,
+    reflex_id           smallint not null,
+    ne                  boolean not null
 );
 
-ALTER TABLE main.child ADD CHECK ( gestation BETWEEN 20 AND 50 );
+alter table main.child ADD CHECK ( gestation BETWEEN 20 AND 50 );
 
-ALTER TABLE main.child ADD CHECK ( height BETWEEN 20 AND 60 );
+alter table main.child ADD CHECK ( height BETWEEN 20 AND 60 );
 
-ALTER TABLE main.child ADD CHECK ( weight BETWEEN 500 AND 5000 );
+alter table main.child ADD CHECK ( weight BETWEEN 500 AND 5000 );
 
-ALTER TABLE main.child ADD CHECK ( apgar0 BETWEEN 1 AND 9 );
+alter table main.child ADD CHECK ( apgar0 BETWEEN 1 AND 9 );
 
-ALTER TABLE main.child ADD CHECK ( apgar1 BETWEEN 1 AND 9 );
+alter table main.child ADD CHECK ( apgar1 BETWEEN 1 AND 9 );
 
-ALTER TABLE main.child ADD CHECK ( alv BETWEEN 1 AND 60 );
+alter table main.child ADD CHECK ( alv BETWEEN 1 AND 60 );
 
-ALTER TABLE main.child ADD CHECK ( cpap BETWEEN 1 AND 60 );
+alter table main.child ADD CHECK ( cpap BETWEEN 1 AND 60 );
 
-ALTER TABLE main.child ADD CHECK ( ph BETWEEN 1 AND 15 );
+alter table main.child ADD CHECK ( ph BETWEEN 1 AND 15 );
 
-ALTER TABLE main.child
+alter table main.child
     ADD CHECK ( ir BETWEEN 0.5 AND 1 );
 
-COMMENT ON TABLE main.child IS
+comment on table main.child is
     'information about babies';
 
-COMMENT ON COLUMN main.child."convulsion0 id" IS
+COMMENT ON COLUMN main.child."convulsion0 id" is
     'Convulsion\apnea at birth';
 
-COMMENT ON COLUMN main.child."convulsion7 id" IS
+COMMENT ON COLUMN main.child."convulsion7 id" is
     'Convulsion\apnea during 1 week';
 
-COMMENT ON COLUMN main.child.alv IS
+COMMENT ON COLUMN main.child.alv is
     'Artificial lung ventilation';
 
-COMMENT ON COLUMN main.child.cpap IS
+COMMENT ON COLUMN main.child.cpap is
     'Continuous positive airway pressure';
 
-COMMENT ON COLUMN main.child.user_id IS
+COMMENT ON COLUMN main.child.user_id is
     'UserID making the change';
 
-COMMENT ON COLUMN main.child.ts IS
+COMMENT ON COLUMN main.child.ts is
     'Change timestamp';
 
-CREATE UNIQUE INDEX main.child__idx ON
+CREATE 
+		unique INDEX main.child__idx ON
     main.child (
         pregnancy_id
     ASC );
 
-ALTER TABLE main.child ADD CONSTRAINT child_pk PRIMARY KEY ( child_id );
+alter table main.child 
+	add constraint child_pk \r\n\t\tprimary key ( child_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_convulsion_fk FOREIGN KEY ( "convulsion0 id" )
+alter table main.child
+    
+	add constraint child_convulsion_fk FOREIGN KEY ( "convulsion0 id" )
         REFERENCES main.convulsion ( convulsion_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_convulsion_fkv1 FOREIGN KEY ( "convulsion7 id" )
+alter table main.child
+    
+	add constraint child_convulsion_fkv1 FOREIGN KEY ( "convulsion7 id" )
         REFERENCES main.convulsion ( convulsion_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_eco_fk FOREIGN KEY ( eco_id )
+alter table main.child
+    
+	add constraint child_eco_fk FOREIGN KEY ( eco_id )
         REFERENCES main.eco ( eco_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_gender_fk FOREIGN KEY ( gender_id )
+alter table main.child
+    
+	add constraint child_gender_fk FOREIGN KEY ( gender_id )
         REFERENCES main.gender ( gender_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_hospital_fk FOREIGN KEY ( hospital_id )
+alter table main.child
+    
+	add constraint child_hospital_fk FOREIGN KEY ( hospital_id )
         REFERENCES main.hospital ( hospital_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_locality_fk FOREIGN KEY ( locality_id )
+alter table main.child
+    
+	add constraint child_locality_fk FOREIGN KEY ( locality_id )
         REFERENCES main.locality ( locality_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_pcr_fk FOREIGN KEY ( "pcr blood id" )
+alter table main.child
+    
+	add constraint child_pcr_fk FOREIGN KEY ( "pcr blood id" )
         REFERENCES main.pcr ( pcr_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_pcr_fkv1 FOREIGN KEY ( "pcr saliva id" )
+alter table main.child
+    
+	add constraint child_pcr_fkv1 FOREIGN KEY ( "pcr saliva id" )
         REFERENCES main.pcr ( pcr_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_pregnancy_fk FOREIGN KEY ( pregnancy_id )
+alter table main.child
+    
+	add constraint child_pregnancy_fk FOREIGN KEY ( pregnancy_id )
         REFERENCES main.pregnancy ( pregnancy_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_reflex_fk FOREIGN KEY ( reflex_id )
+alter table main.child
+    
+	add constraint child_reflex_fk FOREIGN KEY ( reflex_id )
         REFERENCES main.reflex ( reflex_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_rt_kfg_fk FOREIGN KEY ( rt_kfg_id )
+alter table main.child
+    
+	add constraint child_rt_kfg_fk FOREIGN KEY ( rt_kfg_id )
         REFERENCES main.rt_kfg ( rt_kfg_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_sepsis_ethiology_fk FOREIGN KEY ( sepsis_ethiology_id )
+alter table main.child
+    
+	add constraint child_sepsis_ethiology_fk FOREIGN KEY ( sepsis_ethiology_id )
         REFERENCES main.sepsis_ethiology ( sepsis_ethiology_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_sepsis_fk FOREIGN KEY ( sepsis_id )
+alter table main.child
+    
+	add constraint child_sepsis_fk FOREIGN KEY ( sepsis_id )
         REFERENCES main.sepsis ( sepsis_id );
 
-ALTER TABLE main.child
-    ADD CONSTRAINT child_white_body_fk FOREIGN KEY ( white_body_id )
+alter table main.child
+    
+	add constraint child_white_body_fk FOREIGN KEY ( white_body_id )
         REFERENCES main.white_body ( white_body_id );
 
 -- Permissions
@@ -157,28 +173,31 @@ revoke all on main.child from public;
 
 --changeset NP:2 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.mkf
-CREATE TABLE main.mkf (
-    child_id         INTEGER NOT NULL,
-    mkf_id           SMALLINT NOT NULL,
-    observation_time SMALLINT NOT NULL,
-    mkf_value        CHAR NOT NULL,
+create table if not exists main.mkf (
+    child_id         INTEGER not null,
+    mkf_id           smallint not null,
+    observation_time smallint not null,
+    mkf_value        CHAR not null,
     mkf_description  varchar
 );
 
-ALTER TABLE main.mkf
+alter table main.mkf
     ADD CHECK ( observation_time IN ( 1, 12, 24, 3, 6 ) );
 
-ALTER TABLE main.mkf
-    ADD CONSTRAINT mkf_pk PRIMARY KEY ( child_id,
+alter table main.mkf
+    
+	add constraint mkf_pk \r\n\t\tprimary key ( child_id,
                                         mkf_id,
                                         observation_time );
 
-ALTER TABLE main.mkf
-    ADD CONSTRAINT mkf_child_fk FOREIGN KEY ( child_id )
+alter table main.mkf
+    
+	add constraint mkf_child_fk FOREIGN KEY ( child_id )
         REFERENCES main.child ( child_id );
 
-ALTER TABLE main.mkf
-    ADD CONSTRAINT mkf_mkf_code_fk FOREIGN KEY ( mkf_id )
+alter table main.mkf
+    
+	add constraint mkf_mkf_code_fk FOREIGN KEY ( mkf_id )
         REFERENCES main.mkf_code ( mkf_id );
 
 -- Permissions
@@ -189,20 +208,22 @@ revoke all on main.mkf from public;
 
 --changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.phone
-CREATE TABLE main.phone (
-    child_id        INTEGER NOT NULL,
-    phone           varchar NOT NULL,
+create table if not exists main.phone (
+    child_id        INTEGER not null,
+    phone           varchar not null,
     phone_messanger varchar,
     phone_comment   varchar
 );
 
-COMMENT ON COLUMN main.phone.phone_messanger IS
+COMMENT ON COLUMN main.phone.phone_messanger is
     'information about messangeres for communication';
 
-ALTER TABLE main.phone ADD CONSTRAINT phone_pk PRIMARY KEY ( child_id );
+alter table main.phone 
+	add constraint phone_pk \r\n\t\tprimary key ( child_id );
 
-ALTER TABLE main.phone
-    ADD CONSTRAINT phone_child_fk FOREIGN KEY ( child_id )
+alter table main.phone
+    
+	add constraint phone_child_fk FOREIGN KEY ( child_id )
         REFERENCES main.child ( child_id );
 
 -- Permissions
@@ -213,14 +234,15 @@ revoke all on main.phone from public;
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.diagnosis
-CREATE TABLE main.diagnosis (
-    child_id  INTEGER NOT NULL,
-    diagnosis text NOT NULL,
-    data      TIMESTAMP WITH TIME ZONE DEFAULT current_timestamp NOT NULL
+create table if not exists main.diagnosis (
+    child_id  INTEGER not null,
+    diagnosis text not null,
+    data      TIMESTAMP WITH TIME ZONE DEFAULT current_timestamp not null
 );
 
-ALTER TABLE main.diagnosis
-    ADD CONSTRAINT diagnosis_child_fk FOREIGN KEY ( child_id )
+alter table main.diagnosis
+    
+	add constraint diagnosis_child_fk FOREIGN KEY ( child_id )
         REFERENCES main.child ( child_id );
 
 -- Permissions

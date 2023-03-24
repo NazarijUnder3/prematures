@@ -8,57 +8,62 @@
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.followup
-CREATE TABLE main.followup (
+create table if not exists main.followup (
     followup_comment   varchar,
-    followup_time      SMALLINT NOT NULL,
-    child_id           INTEGER NOT NULL,
+    followup_time      smallint not null,
+    child_id           INTEGER not null,
     strabismus         boolean,
     dss                boolean,
     asd                boolean,
     ee                 boolean,
     fad                boolean,
-    wd_id              SMALLINT NOT NULL,
+    wd_id              smallint not null,
     sd                 boolean,
-    ps_id              SMALLINT NOT NULL,
-    coordination_id    SMALLINT NOT NULL,
+    ps_id              smallint not null,
+    coordination_id    smallint not null,
     disorder_structure varchar
 );
 
-ALTER TABLE main.followup
+alter table main.followup
     ADD CHECK ( followup_time IN ( 0, 1, 1.5, 2 ) );
 
-COMMENT ON COLUMN main.followup.dss IS
+COMMENT ON COLUMN main.followup.dss is
     'Delayed speech skills';
 
-COMMENT ON COLUMN main.followup.asd IS
+COMMENT ON COLUMN main.followup.asd is
     'Autism spectrum disorder';
 
-COMMENT ON COLUMN main.followup.ee IS
+COMMENT ON COLUMN main.followup.ee is
     'Excessive excitability';
 
-COMMENT ON COLUMN main.followup.fad IS
+COMMENT ON COLUMN main.followup.fad is
     'Falling asleep disturbance';
 
-COMMENT ON COLUMN main.followup.sd IS
+COMMENT ON COLUMN main.followup.sd is
     'Sleep disturbance';
 
-ALTER TABLE main.followup ADD CONSTRAINT followup_pk PRIMARY KEY ( child_id,
+alter table main.followup 
+	add constraint followup_pk \r\n\t\tprimary key ( child_id,
                                                                    followup_time );
 
-ALTER TABLE main.followup
-    ADD CONSTRAINT followup_child_fk FOREIGN KEY ( child_id )
+alter table main.followup
+    
+	add constraint followup_child_fk FOREIGN KEY ( child_id )
         REFERENCES main.child ( child_id );
 
-ALTER TABLE main.followup
-    ADD CONSTRAINT followup_coordination_fk FOREIGN KEY ( coordination_id )
+alter table main.followup
+    
+	add constraint followup_coordination_fk FOREIGN KEY ( coordination_id )
         REFERENCES main.coordination ( coordination_id );
 
-ALTER TABLE main.followup
-    ADD CONSTRAINT followup_ps_fk FOREIGN KEY ( ps_id )
+alter table main.followup
+    
+	add constraint followup_ps_fk FOREIGN KEY ( ps_id )
         REFERENCES main.ps ( ps_id );
 
-ALTER TABLE main.followup
-    ADD CONSTRAINT followup_wd_fk FOREIGN KEY ( wd_id )
+alter table main.followup
+    
+	add constraint followup_wd_fk FOREIGN KEY ( wd_id )
         REFERENCES main.wd ( wd_id );
 
 -- Permissions

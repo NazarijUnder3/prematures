@@ -8,14 +8,17 @@
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.vision
-CREATE TABLE main.vision (
-    vision_id   SMALLINT NOT NULL,
-    vision_name varchar NOT NULL
+create table if not exists main.vision (
+    vision_id   smallint not null,
+    vision_name varchar not null
 );
 
-ALTER TABLE main.vision ADD CONSTRAINT vision_pk PRIMARY KEY ( vision_id );
+alter table main.vision 
+	add constraint vision_pk \r\n\t\tprimary key ( vision_id );
 
-ALTER TABLE main.vision ADD CONSTRAINT vision_vision_name_un UNIQUE ( vision_name );
+alter table main.vision 
+	add constraint vision_vision_name_un 
+		unique ( vision_name );
 
 -- Permissions
 revoke all on main.vision from public;
@@ -25,17 +28,20 @@ revoke all on main.vision from public;
 
 --changeset NP:2 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.git
-CREATE TABLE main.git (
-    git_id   SMALLINT NOT NULL,
-    git_name varchar NOT NULL
+create table if not exists main.git (
+    git_id   smallint not null,
+    git_name varchar not null
 );
 
-COMMENT ON TABLE main.git IS
+comment on table main.git is
     'Gastrointestinal tract';
 
-ALTER TABLE main.git ADD CONSTRAINT git_pk PRIMARY KEY ( git_id );
+alter table main.git 
+	add constraint git_pk \r\n\t\tprimary key ( git_id );
 
-ALTER TABLE main.git ADD CONSTRAINT git_git_name_un UNIQUE ( git_name );
+alter table main.git 
+	add constraint git_git_name_un 
+		unique ( git_name );
 
 -- Permissions
 revoke all on main.git from public;
@@ -45,14 +51,17 @@ revoke all on main.git from public;
 
 --changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.rf
-CREATE TABLE main.rf (
-    rf_id   SMALLINT NOT NULL,
-    rf_name varchar NOT NULL
+create table if not exists main.rf (
+    rf_id   smallint not null,
+    rf_name varchar not null
 );
 
-ALTER TABLE main.rf ADD CONSTRAINT rf_pk PRIMARY KEY ( rf_id );
+alter table main.rf 
+	add constraint rf_pk \r\n\t\tprimary key ( rf_id );
 
-ALTER TABLE main.rf ADD CONSTRAINT rf_rf_name_un UNIQUE ( rf_name );
+alter table main.rf 
+	add constraint rf_rf_name_un 
+		unique ( rf_name );
 
 -- Permissions
 revoke all on main.rf from public;
@@ -62,14 +71,17 @@ revoke all on main.rf from public;
 
 --changeset NP:4 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.bs
-CREATE TABLE main.bs (
-    bs_id   SMALLINT NOT NULL,
-    bs_name varchar NOT NULL
+create table if not exists main.bs (
+    bs_id   smallint not null,
+    bs_name varchar not null
 );
 
-ALTER TABLE main.bs ADD CONSTRAINT bs_pk PRIMARY KEY ( bs_id );
+alter table main.bs 
+	add constraint bs_pk \r\n\t\tprimary key ( bs_id );
 
-ALTER TABLE main.bs ADD CONSTRAINT bs_bs_name_un UNIQUE ( bs_name );
+alter table main.bs 
+	add constraint bs_bs_name_un 
+		unique ( bs_name );
 
 -- Permissions
 revoke all on main.bs from public;
@@ -79,17 +91,20 @@ revoke all on main.bs from public;
 
 --changeset NP:5 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.mrt
-CREATE TABLE main.mrt (
-    mrt_id   SMALLINT NOT NULL,
-    mrt_name varchar NOT NULL
+create table if not exists main.mrt (
+    mrt_id   smallint not null,
+    mrt_name varchar not null
 );
 
-COMMENT ON TABLE main.mrt IS
+comment on table main.mrt is
     'MRT scan';
 
-ALTER TABLE main.mrt ADD CONSTRAINT mrt_pk PRIMARY KEY ( mrt_id );
+alter table main.mrt 
+	add constraint mrt_pk \r\n\t\tprimary key ( mrt_id );
 
-ALTER TABLE main.mrt ADD CONSTRAINT mrt_mrt_name_un UNIQUE ( mrt_name );
+alter table main.mrt 
+	add constraint mrt_mrt_name_un 
+		unique ( mrt_name );
 
 -- Permissions
 revoke all on main.mrt from public;
@@ -99,17 +114,20 @@ revoke all on main.mrt from public;
 
 --changeset NP:6 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.ct
-CREATE TABLE main.ct (
-    ct_id   SMALLINT NOT NULL,
-    ct_name varchar NOT NULL
+create table if not exists main.ct (
+    ct_id   smallint not null,
+    ct_name varchar not null
 );
 
-COMMENT ON TABLE main.ct IS
+comment on table main.ct is
     'CT scan';
 
-ALTER TABLE main.ct ADD CONSTRAINT ct_pk PRIMARY KEY ( ct_id );
+alter table main.ct 
+	add constraint ct_pk \r\n\t\tprimary key ( ct_id );
 
-ALTER TABLE main.ct ADD CONSTRAINT ct_ct_name_un UNIQUE ( ct_name );
+alter table main.ct 
+	add constraint ct_ct_name_un 
+		unique ( ct_name );
 
 -- Permissions
 revoke all on main.ct from public;
@@ -119,17 +137,20 @@ revoke all on main.ct from public;
 
 --changeset NP:7 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.skin
-CREATE TABLE main.skin (
-    skin_id   SMALLINT NOT NULL,
-    skin_name varchar NOT NULL
+create table if not exists main.skin (
+    skin_id   smallint not null,
+    skin_name varchar not null
 );
 
-COMMENT ON TABLE main.skin IS
+comment on table main.skin is
     'Skin, stigmas';
 
-ALTER TABLE main.skin ADD CONSTRAINT skin_pk PRIMARY KEY ( skin_id );
+alter table main.skin 
+	add constraint skin_pk \r\n\t\tprimary key ( skin_id );
 
-ALTER TABLE main.skin ADD CONSTRAINT skin_skin_name_un UNIQUE ( skin_name );
+alter table main.skin 
+	add constraint skin_skin_name_un 
+		unique ( skin_name );
 
 -- Permissions
 revoke all on main.skin from public;
@@ -139,14 +160,17 @@ revoke all on main.skin from public;
 
 --changeset NP:8 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.hearing
-CREATE TABLE main.hearing (
-    hearing_id   SMALLINT NOT NULL,
-    hearing_name varchar NOT NULL
+create table if not exists main.hearing (
+    hearing_id   smallint not null,
+    hearing_name varchar not null
 );
 
-ALTER TABLE main.hearing ADD CONSTRAINT hearing_pk PRIMARY KEY ( hearing_id );
+alter table main.hearing 
+	add constraint hearing_pk \r\n\t\tprimary key ( hearing_id );
 
-ALTER TABLE main.hearing ADD CONSTRAINT hearing_hearing_name_un UNIQUE ( hearing_name );
+alter table main.hearing 
+	add constraint hearing_hearing_name_un 
+		unique ( hearing_name );
 
 -- Permissions
 revoke all on main.hearing from public;
@@ -156,17 +180,20 @@ revoke all on main.hearing from public;
 
 --changeset NP:9 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.physical
-CREATE TABLE main.physical (
-    physical_id   SMALLINT NOT NULL,
-    physical_name varchar NOT NULL
+create table if not exists main.physical (
+    physical_id   smallint not null,
+    physical_name varchar not null
 );
 
-COMMENT ON TABLE main.physical IS
+comment on table main.physical is
     'Motor disability';
 
-ALTER TABLE main.physical ADD CONSTRAINT physical_pk PRIMARY KEY ( physical_id );
+alter table main.physical 
+	add constraint physical_pk \r\n\t\tprimary key ( physical_id );
 
-ALTER TABLE main.physical ADD CONSTRAINT physical_physical_name_un UNIQUE ( physical_name );
+alter table main.physical 
+	add constraint physical_physical_name_un 
+		unique ( physical_name );
 
 -- Permissions
 revoke all on main.physical from public;
@@ -176,17 +203,20 @@ revoke all on main.physical from public;
 
 --changeset NP:10 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.strabismus
-CREATE TABLE main.strabismus (
-    strabismus_id   SMALLINT NOT NULL,
-    strabismus_name varchar NOT NULL
+create table if not exists main.strabismus (
+    strabismus_id   smallint not null,
+    strabismus_name varchar not null
 );
 
-COMMENT ON TABLE main.strabismus IS
+comment on table main.strabismus is
     'Strabismus';
 
-ALTER TABLE main.strabismus ADD CONSTRAINT strabismus_pk PRIMARY KEY ( strabismus_id );
+alter table main.strabismus 
+	add constraint strabismus_pk \r\n\t\tprimary key ( strabismus_id );
 
-ALTER TABLE main.strabismus ADD CONSTRAINT strabismus_strabismus_name_un UNIQUE ( strabismus_name );
+alter table main.strabismus 
+	add constraint strabismus_strabismus_name_un 
+		unique ( strabismus_name );
 
 -- Permissions
 revoke all on main.strabismus from public;
@@ -196,14 +226,17 @@ revoke all on main.strabismus from public;
 
 --changeset NP:11 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.pf
-CREATE TABLE main.pf (
-    pf_id   SMALLINT NOT NULL,
-    pf_name varchar NOT NULL
+create table if not exists main.pf (
+    pf_id   smallint not null,
+    pf_name varchar not null
 );
 
-ALTER TABLE main.pf ADD CONSTRAINT pf_pk PRIMARY KEY ( pf_id );
+alter table main.pf 
+	add constraint pf_pk \r\n\t\tprimary key ( pf_id );
 
-ALTER TABLE main.pf ADD CONSTRAINT pf_pf_name_un UNIQUE ( pf_name );
+alter table main.pf 
+	add constraint pf_pf_name_un 
+		unique ( pf_name );
 
 -- Permissions
 revoke all on main.pf from public;
@@ -213,17 +246,20 @@ revoke all on main.pf from public;
 
 --changeset NP:12 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.disorder_kind
-CREATE TABLE main.disorder_kind (
-    disorder_kind_id   SMALLINT NOT NULL,
-    disorder_kind_name varchar NOT NULL
+create table if not exists main.disorder_kind (
+    disorder_kind_id   smallint not null,
+    disorder_kind_name varchar not null
 );
 
-COMMENT ON TABLE main.disorder_kind IS
+comment on table main.disorder_kind is
     'Nature of violations';
 
-ALTER TABLE main.disorder_kind ADD CONSTRAINT disorder_kind_pk PRIMARY KEY ( disorder_kind_id );
+alter table main.disorder_kind 
+	add constraint disorder_kind_pk \r\n\t\tprimary key ( disorder_kind_id );
 
-ALTER TABLE main.disorder_kind ADD CONSTRAINT disorder_kind_name_un UNIQUE ( disorder_kind_name );
+alter table main.disorder_kind 
+	add constraint disorder_kind_name_un 
+		unique ( disorder_kind_name );
 
 -- Permissions
 revoke all on main.disorder_kind from public;
@@ -233,14 +269,17 @@ revoke all on main.disorder_kind from public;
 
 --changeset NP:13 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.sse
-CREATE TABLE main.sse (
-    sse_id   SMALLINT NOT NULL,
-    sse_name varchar NOT NULL
+create table if not exists main.sse (
+    sse_id   smallint not null,
+    sse_name varchar not null
 );
 
-ALTER TABLE main.sse ADD CONSTRAINT sse_pk PRIMARY KEY ( sse_id );
+alter table main.sse 
+	add constraint sse_pk \r\n\t\tprimary key ( sse_id );
 
-ALTER TABLE main.sse ADD CONSTRAINT sse_sse_name_un UNIQUE ( sse_name );
+alter table main.sse 
+	add constraint sse_sse_name_un 
+		unique ( sse_name );
 
 -- Permissions
 revoke all on main.sse from public;
@@ -250,14 +289,17 @@ revoke all on main.sse from public;
 
 --changeset NP:14 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.gc
-CREATE TABLE main.gc (
-    gc_id   SMALLINT NOT NULL,
-    gc_name varchar NOT NULL
+create table if not exists main.gc (
+    gc_id   smallint not null,
+    gc_name varchar not null
 );
 
-ALTER TABLE main.gc ADD CONSTRAINT gc_pk PRIMARY KEY ( gc_id );
+alter table main.gc 
+	add constraint gc_pk \r\n\t\tprimary key ( gc_id );
 
-ALTER TABLE main.gc ADD CONSTRAINT gc_gc_name_un UNIQUE ( gc_name );
+alter table main.gc 
+	add constraint gc_gc_name_un 
+		unique ( gc_name );
 
 -- Permissions
 revoke all on main.gc from public;
@@ -267,14 +309,17 @@ revoke all on main.gc from public;
 
 --changeset NP:15 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.mps
-CREATE TABLE main.mps (
-    mps_id   SMALLINT NOT NULL,
-    mps_name varchar NOT NULL
+create table if not exists main.mps (
+    mps_id   smallint not null,
+    mps_name varchar not null
 );
 
-ALTER TABLE main.mps ADD CONSTRAINT mps_pk PRIMARY KEY ( mps_id );
+alter table main.mps 
+	add constraint mps_pk \r\n\t\tprimary key ( mps_id );
 
-ALTER TABLE main.mps ADD CONSTRAINT mps_mps_name_un UNIQUE ( mps_name );
+alter table main.mps 
+	add constraint mps_mps_name_un 
+		unique ( mps_name );
 
 -- Permissions
 revoke all on main.mps from public;
@@ -284,14 +329,17 @@ revoke all on main.mps from public;
 
 --changeset NP:16 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.ims
-CREATE TABLE main.ims (
-    ims_id   SMALLINT NOT NULL,
-    ims_name varchar NOT NULL
+create table if not exists main.ims (
+    ims_id   smallint not null,
+    ims_name varchar not null
 );
 
-ALTER TABLE main.ims ADD CONSTRAINT ims_pk PRIMARY KEY ( ims_id );
+alter table main.ims 
+	add constraint ims_pk \r\n\t\tprimary key ( ims_id );
 
-ALTER TABLE main.ims ADD CONSTRAINT ims_ims_name_un UNIQUE ( ims_name );
+alter table main.ims 
+	add constraint ims_ims_name_un 
+		unique ( ims_name );
 
 -- Permissions
 revoke all on main.ims from public;
@@ -301,14 +349,17 @@ revoke all on main.ims from public;
 
 --changeset NP:17 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.es
-CREATE TABLE main.es (
-    es_id   SMALLINT NOT NULL,
-    es_name varchar NOT NULL
+create table if not exists main.es (
+    es_id   smallint not null,
+    es_name varchar not null
 );
 
-ALTER TABLE main.es ADD CONSTRAINT es_pk PRIMARY KEY ( es_id );
+alter table main.es 
+	add constraint es_pk \r\n\t\tprimary key ( es_id );
 
-ALTER TABLE main.es ADD CONSTRAINT es_es_name_un UNIQUE ( es_name );
+alter table main.es 
+	add constraint es_es_name_un 
+		unique ( es_name );
 
 -- Permissions
 revoke all on main.es from public;
@@ -318,17 +369,20 @@ revoke all on main.es from public;
 
 --changeset NP:18 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.disorder_type
-CREATE TABLE main.disorder_type (
-    disorder_type_id   SMALLINT NOT NULL,
-    disorder_type_name varchar NOT NULL
+create table if not exists main.disorder_type (
+    disorder_type_id   smallint not null,
+    disorder_type_name varchar not null
 );
 
-COMMENT ON TABLE main.disorder_type IS
+comment on table main.disorder_type is
     'List of disorders';
 
-ALTER TABLE main.disorder_type ADD CONSTRAINT disorder_type_pk PRIMARY KEY ( disorder_type_id );
+alter table main.disorder_type 
+	add constraint disorder_type_pk \r\n\t\tprimary key ( disorder_type_id );
 
-ALTER TABLE main.disorder_type ADD CONSTRAINT disorder_type_name_un UNIQUE ( disorder_type_name );
+alter table main.disorder_type 
+	add constraint disorder_type_name_un 
+		unique ( disorder_type_name );
 
 -- Permissions
 revoke all on main.disorder_type from public;
@@ -338,14 +392,17 @@ revoke all on main.disorder_type from public;
 
 --changeset NP:19 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.slf
-CREATE TABLE main.slf (
-    slf_id   SMALLINT NOT NULL,
-    slf_name varchar NOT NULL
+create table if not exists main.slf (
+    slf_id   smallint not null,
+    slf_name varchar not null
 );
 
-ALTER TABLE main.slf ADD CONSTRAINT slf_pk PRIMARY KEY ( slf_id );
+alter table main.slf 
+	add constraint slf_pk \r\n\t\tprimary key ( slf_id );
 
-ALTER TABLE main.slf ADD CONSTRAINT slf_slf_name_un UNIQUE ( slf_name );
+alter table main.slf 
+	add constraint slf_slf_name_un 
+		unique ( slf_name );
 
 -- Permissions
 revoke all on main.slf from public;
@@ -355,14 +412,17 @@ revoke all on main.slf from public;
 
 --changeset NP:20 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.cvs
-CREATE TABLE main.cvs (
-    cvs_id   SMALLINT NOT NULL,
-    cvs_name varchar NOT NULL
+create table if not exists main.cvs (
+    cvs_id   smallint not null,
+    cvs_name varchar not null
 );
 
-ALTER TABLE main.cvs ADD CONSTRAINT cvs_pk PRIMARY KEY ( cvs_id );
+alter table main.cvs 
+	add constraint cvs_pk \r\n\t\tprimary key ( cvs_id );
 
-ALTER TABLE main.cvs ADD CONSTRAINT cvs_cvs_name_un UNIQUE ( cvs_name );
+alter table main.cvs 
+	add constraint cvs_cvs_name_un 
+		unique ( cvs_name );
 
 -- Permissions
 revoke all on main.cvs from public;

@@ -8,17 +8,20 @@
 
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.leukomalacia
-CREATE TABLE main.leukomalacia (
-    leukomalacia_id   SMALLINT NOT NULL,
-    leukomalacia_name varchar NOT NULL
+create table if not exists main.leukomalacia (
+    leukomalacia_id   smallint not null,
+    leukomalacia_name varchar not null
 );
 
-COMMENT ON TABLE main.leukomalacia IS
+comment on table main.leukomalacia is
     'Periventricular leukomalacia';
 
-ALTER TABLE main.leukomalacia ADD CONSTRAINT leukomalacia_pk PRIMARY KEY ( leukomalacia_id );
+alter table main.leukomalacia 
+	add constraint leukomalacia_pk \r\n\t\tprimary key ( leukomalacia_id );
 
-ALTER TABLE main.leukomalacia ADD CONSTRAINT leukomalacia_name_un UNIQUE ( leukomalacia_name );
+alter table main.leukomalacia 
+	add constraint leukomalacia_name_un 
+		unique ( leukomalacia_name );
 
 -- Permissions
 revoke all on main.leukomalacia from public;
@@ -28,17 +31,20 @@ revoke all on main.leukomalacia from public;
 
 --changeset NP:2 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.hemorrhage
-CREATE TABLE main.hemorrhage (
-    hemorrhage_id   SMALLINT NOT NULL,
-    hemorrhage_name varchar NOT NULL
+create table if not exists main.hemorrhage (
+    hemorrhage_id   smallint not null,
+    hemorrhage_name varchar not null
 );
 
-COMMENT ON TABLE main.hemorrhage IS
+comment on table main.hemorrhage is
     'Paraventicular hemorrhage';
 
-ALTER TABLE main.hemorrhage ADD CONSTRAINT hemorrhage_pk PRIMARY KEY ( hemorrhage_id );
+alter table main.hemorrhage 
+	add constraint hemorrhage_pk \r\n\t\tprimary key ( hemorrhage_id );
 
-ALTER TABLE main.hemorrhage ADD CONSTRAINT hemorrhage_hemorrhage_name_un UNIQUE ( hemorrhage_name );
+alter table main.hemorrhage 
+	add constraint hemorrhage_hemorrhage_name_un 
+		unique ( hemorrhage_name );
 
 -- Permissions
 revoke all on main.hemorrhage from public;
@@ -48,17 +54,20 @@ revoke all on main.hemorrhage from public;
 
 --changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.habilitation
-CREATE TABLE main.habilitation (
-    habilitation_id   SMALLINT NOT NULL,
-    habilitation_name varchar NOT NULL
+create table if not exists main.habilitation (
+    habilitation_id   smallint not null,
+    habilitation_name varchar not null
 );
 
-COMMENT ON TABLE main.habilitation IS
+comment on table main.habilitation is
     'Habilitation';
 
-ALTER TABLE main.habilitation ADD CONSTRAINT habilitation_pk PRIMARY KEY ( habilitation_id );
+alter table main.habilitation 
+	add constraint habilitation_pk \r\n\t\tprimary key ( habilitation_id );
 
-ALTER TABLE main.habilitation ADD CONSTRAINT habilitation_name_un UNIQUE ( habilitation_name );
+alter table main.habilitation 
+	add constraint habilitation_name_un 
+		unique ( habilitation_name );
 
 -- Permissions
 revoke all on main.habilitation from public;
@@ -68,17 +77,20 @@ revoke all on main.habilitation from public;
 
 --changeset NP:4 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.breathing_syndrom
-CREATE TABLE main.breathing_syndrom (
-    breathing_syndrom_id   SMALLINT NOT NULL,
-    breathing_syndrom_name varchar NOT NULL
+create table if not exists main.breathing_syndrom (
+    breathing_syndrom_id   smallint not null,
+    breathing_syndrom_name varchar not null
 );
 
-COMMENT ON TABLE main.breathing_syndrom IS
+comment on table main.breathing_syndrom is
     'Breathing syndrom';
 
-ALTER TABLE main.breathing_syndrom ADD CONSTRAINT breathing_syndrom_pk PRIMARY KEY ( breathing_syndrom_id );
+alter table main.breathing_syndrom 
+	add constraint breathing_syndrom_pk \r\n\t\tprimary key ( breathing_syndrom_id );
 
-ALTER TABLE main.breathing_syndrom ADD CONSTRAINT breathing_syndrom_name_un UNIQUE ( breathing_syndrom_name );
+alter table main.breathing_syndrom 
+	add constraint breathing_syndrom_name_un 
+		unique ( breathing_syndrom_name );
 
 -- Permissions
 revoke all on main.breathing_syndrom from public;
@@ -88,17 +100,20 @@ revoke all on main.breathing_syndrom from public;
 
 --changeset NP:5 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.breathing_failure
-CREATE TABLE main.breathing_failure (
-    breathing_failure_id   SMALLINT NOT NULL,
-    breathing_failure_name varchar NOT NULL
+create table if not exists main.breathing_failure (
+    breathing_failure_id   smallint not null,
+    breathing_failure_name varchar not null
 );
 
-COMMENT ON TABLE main.breathing_failure IS
+comment on table main.breathing_failure is
     'Respiratory disorders';
 
-ALTER TABLE main.breathing_failure ADD CONSTRAINT breathing_failure_pk PRIMARY KEY ( breathing_failure_id );
+alter table main.breathing_failure 
+	add constraint breathing_failure_pk \r\n\t\tprimary key ( breathing_failure_id );
 
-ALTER TABLE main.breathing_failure ADD CONSTRAINT breathing_failure_name_un UNIQUE ( breathing_failure_name );
+alter table main.breathing_failure 
+	add constraint breathing_failure_name_un 
+		unique ( breathing_failure_name );
 
 -- Permissions
 revoke all on main.breathing_failure from public;
@@ -108,17 +123,20 @@ revoke all on main.breathing_failure from public;
 
 --changeset NP:6 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.intracranial
-CREATE TABLE main.intracranial (
-    intracranial_id   SMALLINT NOT NULL,
-    intracranial_name varchar NOT NULL
+create table if not exists main.intracranial (
+    intracranial_id   smallint not null,
+    intracranial_name varchar not null
 );
 
-COMMENT ON TABLE main.intracranial IS
+comment on table main.intracranial is
     'Intracranial hemorrhage';
 
-ALTER TABLE main.intracranial ADD CONSTRAINT intracranial_pk PRIMARY KEY ( intracranial_id );
+alter table main.intracranial 
+	add constraint intracranial_pk \r\n\t\tprimary key ( intracranial_id );
 
-ALTER TABLE main.intracranial ADD CONSTRAINT intracranial_name_un UNIQUE ( intracranial_name );
+alter table main.intracranial 
+	add constraint intracranial_name_un 
+		unique ( intracranial_name );
 
 -- Permissions
 revoke all on main.intracranial from public;
@@ -128,17 +146,20 @@ revoke all on main.intracranial from public;
 
 --changeset NP:7 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.npt
-CREATE TABLE main.npt (
-    npt_id   SMALLINT NOT NULL,
-    npt_name varchar NOT NULL
+create table if not exists main.npt (
+    npt_id   smallint not null,
+    npt_name varchar not null
 );
 
-COMMENT ON TABLE main.npt IS
+comment on table main.npt is
     'Neuro protective therapy begining';
 
-ALTER TABLE main.npt ADD CONSTRAINT npt_pk PRIMARY KEY ( npt_id );
+alter table main.npt 
+	add constraint npt_pk \r\n\t\tprimary key ( npt_id );
 
-ALTER TABLE main.npt ADD CONSTRAINT npt_npt_name_un UNIQUE ( npt_name );
+alter table main.npt 
+	add constraint npt_npt_name_un 
+		unique ( npt_name );
 
 -- Permissions
 revoke all on main.npt from public;
@@ -148,17 +169,20 @@ revoke all on main.npt from public;
 
 --changeset NP:8 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.status_30
-CREATE TABLE main.status_30 (
-    status_30_id   SMALLINT NOT NULL,
-    status_30_name varchar NOT NULL
+create table if not exists main.status_30 (
+    status_30_id   smallint not null,
+    status_30_name varchar not null
 );
 
-COMMENT ON TABLE main.status_30 IS
+comment on table main.status_30 is
     'Status after 30 days';
 
-ALTER TABLE main.status_30 ADD CONSTRAINT status_30_pk PRIMARY KEY ( status_30_id );
+alter table main.status_30 
+	add constraint status_30_pk \r\n\t\tprimary key ( status_30_id );
 
-ALTER TABLE main.status_30 ADD CONSTRAINT status_30_status_30_name_un UNIQUE ( status_30_name );
+alter table main.status_30 
+	add constraint status_30_status_30_name_un 
+		unique ( status_30_name );
 
 -- Permissions
 revoke all on main.status_30 from public;
@@ -168,17 +192,20 @@ revoke all on main.status_30 from public;
 
 --changeset NP:9 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.immersion
-CREATE TABLE main.immersion (
-    immersion_id   SMALLINT NOT NULL,
-    immersion_name varchar NOT NULL
+create table if not exists main.immersion (
+    immersion_id   smallint not null,
+    immersion_name varchar not null
 );
 
-COMMENT ON TABLE main.immersion IS
+comment on table main.immersion is
     'Dry immersion';
 
-ALTER TABLE main.immersion ADD CONSTRAINT immersion_pk PRIMARY KEY ( immersion_id );
+alter table main.immersion 
+	add constraint immersion_pk \r\n\t\tprimary key ( immersion_id );
 
-ALTER TABLE main.immersion ADD CONSTRAINT immersion_immersion_name_un UNIQUE ( immersion_name );
+alter table main.immersion 
+	add constraint immersion_immersion_name_un 
+		unique ( immersion_name );
 
 -- Permissions
 revoke all on main.immersion from public;
