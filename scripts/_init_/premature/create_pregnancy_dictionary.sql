@@ -27,7 +27,7 @@ revoke all on main.bmi from public;
 --rollback drop table if exists main.bmi;
 
 
---changeset NP:1 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
+--changeset NP:2 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
 --comment: fill table main.bmi
 insert 
 	into main.bmi
@@ -43,7 +43,7 @@ insert
 ;
 		
 
---changeset NP:2 labels:create_table dbms:postgresql context:dev,qa,uat,prod
+--changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.dad
 create table main.dad (
     dad_age_id smallint not null
@@ -61,23 +61,20 @@ revoke all on main.dad from public;
 --rollback drop table if exists main.dad;
 
 
---changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
---comment: create table main.mother
-create table main.mother (
-    mother_id         smallint not null
-    , mother_first_name varchar
-    , mother_last_name  varchar
-);
-
-alter table main.mother add constraint mother_pk primary key ( mother_id );
-
--- Permissions
-revoke all on main.mother from public;
-
---rollback drop table if exists main.mother;
+--changeset NP:4 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
+--comment: fill table main.dad
+insert 
+	into main.dad
+	values
+		(1, '( ,40)')
+		, (2, '[40, )')
+	on conflict 
+		do nothing
+;
 
 
---changeset NP:4 labels:create_table dbms:postgresql context:dev,qa,uat,prod
+
+--changeset NP:5 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.delivery
 create table if not exist main.delivery (
     delivery_id   smallint not null,
@@ -101,23 +98,34 @@ revoke all on main.delivery from public;
 --rollback drop table if exists main.delivery;
 
 
---changeset NP:5 labels:create_table dbms:postgresql context:dev,qa,uat,prod
+--changeset NP:6 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
+--comment: fill table main.delivery
+insert 
+	into main.delivery
+	values
+		(1, 'ЕРП')
+		, (2, 'КС планово')
+		, (3, 'КС экстренно')
+	on conflict 
+		do nothing
+;
+
+
+
+--changeset NP:7 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.amniotic_fluid
-create table if not exist main.amniotic_fluid (
-    amniotic_fluid_id   smallint not null,
-    amniotic_fluid_name varchar not null
+create table main.amniotic_fluid (
+    amniotic_fluid_id   smallint not null
+    , amniotic_fluid_name varchar not null
 );
 
 comment on table main.amniotic_fluid is
     'Amniotic fluid';
 
-alter table main.amniotic_fluid 
-	add constraint amniotic_fluid_pk 
-		primary key ( amniotic_fluid_id );
+alter table main.amniotic_fluid add constraint amniotic_fluid_pk primary key ( amniotic_fluid_id);
 
-alter table main.amniotic_fluid 
-	add constraint amniotic_fluid_name_un 
-		unique ( amniotic_fluid_name );
+alter table main.amniotic_fluid add constraint amniotic_fluid_amniotic_fluid_name_un unique
+( amniotic_fluid_name );
 
 -- Permissions
 revoke all on main.amniotic_fluid from public;
@@ -125,7 +133,20 @@ revoke all on main.amniotic_fluid from public;
 --rollback drop table if exists main.amniotic_fluid;
 
 
---changeset NP:6 labels:create_table dbms:postgresql context:dev,qa,uat,prod
+--changeset NP:8 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
+--comment: fill table main.amniotic_fluid
+insert 
+	into main.amniotic_fluid
+	values
+		(1, 'БО')
+		, (2, 'Зелёные')
+	on conflict 
+		do nothing
+;
+
+
+
+--changeset NP:9 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.multipregnancy_condition
 create table if not exist main.multipregnancy_condition (
     multipregnancy_condition_id smallint not null
@@ -144,28 +165,29 @@ revoke all on main.multipregnancy_condition from public;
 --rollback drop table if exists main.multipregnancy_condition;
 
 
---changeset NP:7 labels:create_table dbms:postgresql context:dev,qa,uat,prod
+
+--changeset NP:10 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table main.multipregnancy_result
-create table if not exist main.multipregnancy_result (
-    multipregnancy_result_id   smallint not null,
-    multipregnancy_result_name varchar not null
+create table main.multipregnancy_result (
+    multipregnancy_result_id   smallint not null
+    , multipregnancy_result_name varchar not null
 );
 
 comment on table main.multipregnancy_result is
     'The outcome of multiple pregnancy';
 
-alter table main.multipregnancy_result 
-	add constraint multipregnancy_result_pk 
-		primary key ( multipregnancy_result_id );
+alter table main.multipregnancy_result add constraint multipregnancy_result_pk primary
+key ( multipregnancy_result_id );
 
-alter table main.multipregnancy_result 
-	add constraint multipregnancy_result_name_un 
-		unique ( multipregnancy_result_name );
+alter table main.multipregnancy_result add constraint multipregnancy_result_multipregnancy_result_name_un
+unique ( multipregnancy_result_name );
 
 -- Permissions
 revoke all on main.multipregnancy_result from public;
 
 --rollback drop table if exists main.multipregnancy_result;
+
+
 
 
 --changeset NP:8 labels:create_table dbms:postgresql context:dev,qa,uat,prod
