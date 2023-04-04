@@ -10,7 +10,7 @@
 <referredTableID>FE51B2EF-0685-D9ED-79D7-71325C746876</referredTableID>
 <keyObject>1207CF8A-4895-70B0-2205-3B7B6A7A2A01</keyObject>
 <referredKeyID>1207CF8A-4895-70B0-2205-3B7B6A7A2A01</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>es_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

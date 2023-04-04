@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C481F1E-E3A6-174C-45A6-4A053DDA322C" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="diagnosis">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Child's diagnoses]]></commentInRDBMS>
 <generatorID>8BECABB7-677F-E72D-D5CE-A6B20C6A63BA</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>

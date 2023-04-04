@@ -1,5 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="0B5903F5-7365-B368-8176-D5E8F3ADA1F0" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="827D7A5E-6773-8DB6-079F-CA7D0AF80BC3" name="Concept" visible="true"/>
    <object objectType="sub_view" objectID="08F7A71B-83CC-AA4A-D16C-1CC87A21FA78" name="disoders" visible="false"/>
+   <object objectType="sub_view" objectID="5F355422-7F94-6E99-CE43-10F223162E1C" name="disorder" visible="false"/>
+   <object objectType="sub_view" objectID="89B665D3-D352-4217-C186-B7CBD08FA374" name="Logical - SubView_1v2" visible="false"/>
+   <object objectType="sub_view" objectID="4C426DA1-51EB-7765-89C5-B846D7561FC2" name="Logical - SubView_1v3" visible="false"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -5,6 +5,7 @@
 <createdTime>2023-03-15 18:12:54 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <importedID>141E0516-2FBB-CA69-AB7D-9412EC485A4B</importedID>
+<typeID>3</typeID>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">

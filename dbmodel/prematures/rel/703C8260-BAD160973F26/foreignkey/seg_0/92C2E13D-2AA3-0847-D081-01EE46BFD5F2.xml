@@ -10,7 +10,7 @@
 <referredTableID>7788950A-BD7B-4DED-5904-B48DBE78950C</referredTableID>
 <keyObject>DDFD270D-9AFD-848E-77EE-D37DCE510932</keyObject>
 <referredKeyID>DDFD270D-9AFD-848E-77EE-D37DCE510932</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>bs_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

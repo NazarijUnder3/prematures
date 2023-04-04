@@ -10,7 +10,7 @@
 <referredTableID>DE0B2DB5-9220-60D9-5E99-6DA29EC64300</referredTableID>
 <keyObject>8E55C7F6-A749-DCB4-1BD9-3D7897FA590F</keyObject>
 <referredKeyID>8E55C7F6-A749-DCB4-1BD9-3D7897FA590F</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>hearing_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

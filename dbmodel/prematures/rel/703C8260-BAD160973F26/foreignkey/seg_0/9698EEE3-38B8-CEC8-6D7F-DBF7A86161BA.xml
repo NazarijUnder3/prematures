@@ -10,7 +10,7 @@
 <referredTableID>AF29FB06-1905-2A98-CD95-CF6BBCD3FFCC</referredTableID>
 <keyObject>7AB18CD1-FEEA-7010-69A0-173101B6ADA8</keyObject>
 <referredKeyID>7AB18CD1-FEEA-7010-69A0-173101B6ADA8</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>hospital_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

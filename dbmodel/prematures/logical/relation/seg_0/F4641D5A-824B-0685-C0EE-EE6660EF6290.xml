@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child comment" directorySegmentName="seg_0" id="F4641D5A-824B-0685-C0EE-EE6660EF6290">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:08:16 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<sourcePk>055E3A4B-C369-92AA-4868-3D45959BF52B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92906203-D57C-3E45-62CD-326E7483534A</targetEntity>
+<transferable>true</transferable>
+</Relation>

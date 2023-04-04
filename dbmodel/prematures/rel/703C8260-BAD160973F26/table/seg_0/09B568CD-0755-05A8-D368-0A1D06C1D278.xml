@@ -49,7 +49,7 @@
 <colUsage columnID="708BE2D6-F668-A8C1-7015-54E13478A2C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="017DE3A1-7605-FFDB-A337-FE5D67C69CF6" name="multipregnancy_result_name_un">
+<ind_PK_UK id="017DE3A1-7605-FFDB-A337-FE5D67C69CF6" name="multipregnancy_result_multipregnancy_result_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>49A03F49-64AA-FAE2-EC79-CBB08A07B77A</generatorID>

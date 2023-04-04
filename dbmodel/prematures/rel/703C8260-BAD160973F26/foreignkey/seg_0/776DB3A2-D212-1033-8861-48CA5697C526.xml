@@ -10,7 +10,7 @@
 <referredTableID>95F88597-D948-623F-6881-F50F6AD90797</referredTableID>
 <keyObject>98C735D8-D113-DDEE-9D8E-D24B0369EDE4</keyObject>
 <referredKeyID>98C735D8-D113-DDEE-9D8E-D24B0369EDE4</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>cvs_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

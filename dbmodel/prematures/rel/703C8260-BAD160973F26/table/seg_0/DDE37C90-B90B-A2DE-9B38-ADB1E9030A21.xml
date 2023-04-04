@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDE37C90-B90B-A2DE-9B38-ADB1E9030A21" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="mkf">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[International classification of functioning, disability and health]]></commentInRDBMS>
 <generatorID>165A8C7B-B9B4-812E-E9A8-D4F62E2F8486</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>

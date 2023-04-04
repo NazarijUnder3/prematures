@@ -2,6 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F14C3F0E-C03D-762C-DB74-C516530183E8" name="mother">
 <createdBy>User</createdBy>
 <createdTime>2023-02-24 15:00:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Information about the child's mother]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>

@@ -10,7 +10,7 @@
 <referredTableID>96CA3CB1-1A09-C290-E312-8F732E4CD711</referredTableID>
 <keyObject>01032301-954D-3ADA-2535-E95C0416ADCA</keyObject>
 <referredKeyID>01032301-954D-3ADA-2535-E95C0416ADCA</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>vision_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

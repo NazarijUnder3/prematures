@@ -2,10 +2,11 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2896848C-6F79-CA91-0222-F18DAAF0C5BB" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="child">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[information about babies]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Information about babies]]></commentInRDBMS>
 <generatorID>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
@@ -27,6 +28,21 @@
 <autoIncrementOrder>false</autoIncrementOrder>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
+<Column name="pregnancy_id" id="4CFC8A08-F348-7EC5-35FD-47F55F4B9C89">
+<createdBy>User</createdBy>
+<createdTime>2023-03-31 19:59:09 UTC</createdTime>
+<generatorID>F727972C-0414-8566-A017-1A11C2913AB3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F85B82AC-4E51-894B-AD09-E7C3B1A3E309" referredColumn="0C1E1636-7235-687E-0A57-19112EC83448"/>
+</associations>
+</Column>
 <Column name="child_name" id="7FF1ACC7-7396-DD3A-FC2D-75D4FC5AB7F0">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -37,6 +53,7 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>9A9C9331-CB58-2ADC-9662-6E5BCCDCB4DD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="child_surname" id="B9C13695-06A5-B9F9-B987-D6F988B9C6AD">
@@ -49,6 +66,20 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>C3859CB6-8296-7F43-B2CA-DB00E0CED5F3</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="5170F7CB-F6BC-FC68-FB5C-B9B899679595">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 12:55:14 UTC</createdTime>
+<generatorID>B5487B75-D19C-A217-004A-498DB468524F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="gestation" id="E1208743-AC98-768A-3490-E13DC0E5BEC7">
@@ -160,6 +191,7 @@
 <generatorID>580840DE-C3E5-D01C-B190-3F4AA9EB086D</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -218,23 +250,7 @@
 <colAssociation fkAssociation="EBDB274A-5FB1-9197-2D8D-4513015B11CE" referredColumn="1AD9E092-5E1E-7145-B95A-DF070AE3F10D"/>
 </associations>
 </Column>
-<Column name="pregnancy_id" id="7002A668-D94C-06A8-BF96-DD3B1770814D">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>39D905BD-2567-21F7-1F16-D3454A3368DE</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="11B3BACF-49E8-B100-8A3A-AA2BE609504E" referredColumn="0C1E1636-7235-687E-0A57-19112EC83448"/>
-</associations>
-</Column>
-<Column name="convulsion0 id" id="2CAC7768-06D6-E0A9-42CB-3234061947B1">
+<Column name="convulsion0_id" id="2CAC7768-06D6-E0A9-42CB-3234061947B1">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[Convulsion\apnea at birth]]></commentInRDBMS>
@@ -251,7 +267,7 @@
 <colAssociation fkAssociation="6D946738-109B-8816-90B2-492D17E834D5" referredColumn="9D5BF41E-35A3-BAA8-D7DA-3F7D98A8EF60"/>
 </associations>
 </Column>
-<Column name="convulsion7 id" id="F9233013-09D8-C48F-1FD5-BFF0CC3B840F">
+<Column name="convulsion7_id" id="F9233013-09D8-C48F-1FD5-BFF0CC3B840F">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[Convulsion\apnea during 1 week]]></commentInRDBMS>
@@ -300,7 +316,7 @@
 <colAssociation fkAssociation="824F1BFB-7886-ECCD-998E-2DDFB2D58A9D" referredColumn="CE7E433B-3DFB-6128-604F-C6ADD97EAC04"/>
 </associations>
 </Column>
-<Column name="pcr blood id" id="D12C05A2-D8A8-DAE2-28BC-2ED643DBDEED">
+<Column name="pcr_blood_id" id="D12C05A2-D8A8-DAE2-28BC-2ED643DBDEED">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>EA25B13B-BA1D-EAB4-7778-806577A7A37E</generatorID>
@@ -316,7 +332,7 @@
 <colAssociation fkAssociation="5FE49D73-5ECF-DE17-F77E-6CDB6C087DF8" referredColumn="E527D7E9-CB86-8711-42F8-B19D6B9C26D4"/>
 </associations>
 </Column>
-<Column name="pcr saliva id" id="5C51BF04-7F1E-9BCB-0997-E31546DC1723">
+<Column name="pcr_saliva_id" id="5C51BF04-7F1E-9BCB-0997-E31546DC1723">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>49B8E74C-7296-63CF-3244-42F0D66CB0E1</generatorID>
@@ -547,17 +563,6 @@
 <colUsage columnID="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2145F113-EB84-6C30-7CB2-4C4249BB17C7" name="child__idx">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>4BADEAC1-BCB5-E302-1DAC-92266CFCCBEC</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="7002A668-D94C-06A8-BF96-DD3B1770814D"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="9C604A12-653C-DDC7-4AFF-D40E3D8F1966" name="child_convulsion_fk">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -635,17 +640,6 @@
 <colUsage columnID="5C51BF04-7F1E-9BCB-0997-E31546DC1723"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="68ED6633-A264-B4C7-6120-2FD0A2DFEDA1" name="child_pregnancy_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>4BADEAC1-BCB5-E302-1DAC-92266CFCCBEC</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7002A668-D94C-06A8-BF96-DD3B1770814D"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="9737FDC3-85ED-A6FF-66E8-05A13868F45B" name="child_reflex_fk">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -710,6 +704,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F9233013-09D8-C48F-1FD5-BFF0CC3B840F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C30C59EB-067E-7600-B33B-1F34F0FB275E" name="child_pregnancy_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-31 19:59:09 UTC</createdTime>
+<generatorID>4BADEAC1-BCB5-E302-1DAC-92266CFCCBEC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFC8A08-F348-7EC5-35FD-47F55F4B9C89"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

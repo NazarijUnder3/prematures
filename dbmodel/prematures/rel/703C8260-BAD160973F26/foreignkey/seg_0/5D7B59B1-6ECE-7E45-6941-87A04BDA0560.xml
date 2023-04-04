@@ -10,7 +10,7 @@
 <referredTableID>078E35D4-EBF8-C1A2-DFC6-2FD77A87A49D</referredTableID>
 <keyObject>27F582B6-1CB4-DA97-655A-0938285F9BB4</keyObject>
 <referredKeyID>27F582B6-1CB4-DA97-655A-0938285F9BB4</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ims_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

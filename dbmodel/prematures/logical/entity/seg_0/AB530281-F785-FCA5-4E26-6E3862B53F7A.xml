@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3514BE30-9A17-C4CE-7057-6CF464437AA3" name="hemorrhage">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB530281-F785-FCA5-4E26-6E3862B53F7A" name="alt hospital">
 <createdBy>User</createdBy>
-<createdTime>2023-02-28 11:16:27 UTC</createdTime>
-<commentInRDBMS><![CDATA[Paraventicular hemorrhage]]></commentInRDBMS>
+<createdTime>2023-04-04 18:54:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Alternative list of hospitals]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -17,21 +17,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="hemorrhage id" id="213C1A3C-68DA-1255-965A-F8D44812E840">
+<Attribute name="hospital id" id="B42F2C87-D35E-D236-ED68-200D971EC396">
 <createdBy>User</createdBy>
-<createdTime>2023-02-28 11:16:27 UTC</createdTime>
+<createdTime>2023-04-04 18:55:49 UTC</createdTime>
+<generatorID>5219A2E6-BFF4-64F3-7C2E-6D43CB565DC5</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<referedAttribute>41ED9CFB-2FEE-24C1-C666-D7ABC7BEEC56</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="hemorrhage name" id="64AABD54-2598-1CA6-3580-2AD683E249C0">
+<Attribute name="hospital name" id="1B8B27F3-6F53-240B-74F8-DED2CA9F1F0B">
 <createdBy>User</createdBy>
-<createdTime>2023-02-28 11:16:27 UTC</createdTime>
+<createdTime>2023-04-04 18:54:50 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -43,30 +45,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="857935BE-CE2F-C34E-C322-394FB0DE8128" name="hospital PK">
+<identifier id="58AE6694-E310-40D6-F8B4-944E650E7AD0" name="Key_1">
 <createdBy>User</createdBy>
-<createdTime>2023-02-28 11:16:27 UTC</createdTime>
+<createdTime>2023-04-04 19:10:03 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
-<pk>true</pk>
+<newElementsIDs>1B8B27F3-6F53-240B-74F8-DED2CA9F1F0B</newElementsIDs>
 <usedAttributes>
-<attributeRef>213C1A3C-68DA-1255-965A-F8D44812E840</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="D758E013-B7B8-D842-BE9E-2124E8808B0E" name="Key_2">
-<createdBy>User</createdBy>
-<createdTime>2023-03-09 17:38:16 UTC</createdTime>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
-</engineerTo>
-<newElementsIDs>64AABD54-2598-1CA6-3580-2AD683E249C0</newElementsIDs>
-<usedAttributes>
-<attributeRef>64AABD54-2598-1CA6-3580-2AD683E249C0</attributeRef>
+<attributeRef>1B8B27F3-6F53-240B-74F8-DED2CA9F1F0B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
