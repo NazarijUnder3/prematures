@@ -7,6 +7,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<typeID>3</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -21,8 +22,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>122FBFB8-292C-3AC5-3D50-3AD1DCA6BDDC</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -34,8 +36,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>53A378FA-808D-57D1-0293-3233A37BB1A4</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,8 +50,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>2A6BBB40-D7E4-74E9-C7E8-EFB3DF4B6C23</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -59,8 +63,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>3D6CBC4B-D700-0EAD-EEB4-F5448F07DC94</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -71,8 +76,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>A9826E2B-333A-44CE-CCCF-5B6FEF6FDC57</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -83,8 +89,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>5BA339FA-6A28-2B08-341B-5837CFC6CAEE</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -97,8 +104,9 @@
 <createdTime>2023-03-20 18:31:33 UTC</createdTime>
 <generatorID>EF5995B8-AAD6-F580-2C02-A72E676F12E0</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

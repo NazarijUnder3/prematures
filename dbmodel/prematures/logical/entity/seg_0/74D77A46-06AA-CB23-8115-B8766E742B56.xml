@@ -28,6 +28,18 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="multipregnancy_name" id="90CCEDA6-69F5-6086-F356-4127855B1746">
+<createdBy>User</createdBy>
+<createdTime>2023-03-27 09:29:58 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CCFEB13A-BF76-01C6-9A18-7212ECBDB18B" name="multipregnancy PK">
@@ -41,6 +53,19 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>32FA0640-5140-2D1C-D62E-D0D7EB221096</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9A1D551F-7454-C953-179C-2CBFA2E7A9D1" name="Key_2">
+<createdBy>User</createdBy>
+<createdTime>2023-03-27 09:32:11 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
+</engineerTo>
+<newElementsIDs>90CCEDA6-69F5-6086-F356-4127855B1746</newElementsIDs>
+<usedAttributes>
+<attributeRef>90CCEDA6-69F5-6086-F356-4127855B1746</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -28,6 +28,7 @@
 <generatorID>FDE6C19C-1DEB-E3D3-2CB4-558E307775D1</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
@@ -49,7 +50,7 @@
 <colUsage columnID="4C53224C-0B63-5596-793C-96CD81EAB59E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="941FD11A-26F6-D948-4E4C-452B968BCD66" name="coordination_name_un">
+<ind_PK_UK id="941FD11A-26F6-D948-4E4C-452B968BCD66" name="coordination_coordination_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>6DBBFE5A-A59A-8BC6-BF31-BA3F33C20B32</generatorID>

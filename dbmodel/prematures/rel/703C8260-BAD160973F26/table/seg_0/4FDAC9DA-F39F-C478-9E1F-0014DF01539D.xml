@@ -48,7 +48,7 @@
 <colUsage columnID="EA716DB9-8051-ABF4-3AB4-D995354A8D3A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4DE4540A-D304-A155-9671-B9986F60FA6C" name="mkf_code_category_name_un">
+<ind_PK_UK id="4DE4540A-D304-A155-9671-B9986F60FA6C" name="mkf_code_category_mkf_category_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>B6E988BC-99F8-4F28-02E3-D7BEB7A7DF60</generatorID>

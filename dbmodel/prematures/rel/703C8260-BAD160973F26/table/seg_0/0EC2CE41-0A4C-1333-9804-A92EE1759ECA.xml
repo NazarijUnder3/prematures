@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EC2CE41-0A4C-1333-9804-A92EE1759ECA" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="alt_hospital">
+<createdBy>User</createdBy>
+<createdTime>2023-04-04 19:04:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Alternative list of hospitals]]></commentInRDBMS>
+<generatorID>AB530281-F785-FCA5-4E26-6E3862B53F7A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hospital_id" id="BF840F87-1550-2170-B943-E50EB9C223FE">
+<createdBy>User</createdBy>
+<createdTime>2023-04-04 19:04:02 UTC</createdTime>
+<generatorID>B42F2C87-D35E-D236-ED68-200D971EC396</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B764FE9-309F-9C6E-3FC5-4F7F4B4C91FB" referredColumn="AD291441-83B2-46B2-5169-1212B79E458E"/>
+</associations>
+</Column>
+<Column name="hospital_name" id="80D6B3E4-9D01-4A49-ABAD-E5A94145262F">
+<createdBy>User</createdBy>
+<createdTime>2023-04-04 19:04:02 UTC</createdTime>
+<generatorID>1B8B27F3-6F53-240B-74F8-DED2CA9F1F0B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D23D00C-80E6-2B29-9FF3-B159CC49C397" name="alt_hospital_hospital_name_un">
+<createdBy>User</createdBy>
+<createdTime>2023-04-04 19:10:11 UTC</createdTime>
+<generatorID>58AE6694-E310-40D6-F8B4-944E650E7AD0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80D6B3E4-9D01-4A49-ABAD-E5A94145262F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B99DD54-7702-F3B9-32BA-D922AB2C2D52" name="alt_hospital_hospital_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-04 19:04:02 UTC</createdTime>
+<generatorID>5219A2E6-BFF4-64F3-7C2E-6D43CB565DC5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF840F87-1550-2170-B943-E50EB9C223FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

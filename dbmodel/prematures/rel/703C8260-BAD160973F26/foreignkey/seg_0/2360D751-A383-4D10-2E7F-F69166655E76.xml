@@ -10,7 +10,7 @@
 <referredTableID>2FD5C662-A6F1-7E1D-BD43-E53ECFF5F72A</referredTableID>
 <keyObject>A6AA2F9E-2E61-CCD6-9A05-180E56A9731E</keyObject>
 <referredKeyID>A6AA2F9E-2E61-CCD6-9A05-180E56A9731E</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>locality_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

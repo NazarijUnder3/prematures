@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE7337B3-D06B-3082-E381-E2C3F4510DCF" name="disorder">
 <createdBy>User</createdBy>
 <createdTime>2023-03-04 09:49:36 UTC</createdTime>
-<commentInRDBMS><![CDATA[disabilities as of 2 years]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Disabilities as of 2 years]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -30,12 +30,13 @@
 <domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="disability oficial" id="59130E0B-5921-40CC-66D3-A44592790000">
+<Attribute name="disability official" id="59130E0B-5921-40CC-66D3-A44592790000">
 <createdBy>User</createdBy>
 <createdTime>2023-03-04 10:32:53 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
@@ -46,8 +47,9 @@
 <createdBy>User</createdBy>
 <createdTime>2023-03-04 10:34:02 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
@@ -188,6 +190,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>6CC0709A-4900-B677-AAD2-B4684951D3B7</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -202,6 +205,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>1B57DFA0-F49A-7F79-6127-2A2D7428EB07</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -216,6 +220,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>A7190279-FD69-FB22-3A08-80F93B5BBA87</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -230,6 +235,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>6D204750-1595-2965-0322-0F6D56DEF3F2</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -244,6 +250,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>A0A7A398-0A7A-8F85-A5E4-ACFBB3ED997A</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -258,6 +265,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>3D52AA8C-468A-0505-0043-EDF5338B9842</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -272,6 +280,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>A743B28F-5B39-DE5A-8C4B-452A777B4C7F</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -286,6 +295,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>FC408871-FCA6-3101-9C9D-484F25BFEE21</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -300,6 +310,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>F0662AD7-0319-7F98-DAD1-F5DF75553B8A</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -314,6 +325,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>59B08922-D422-64BA-17EC-7EB3EBC665C5</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -328,6 +340,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>83DD17E8-66DD-411C-A4D8-3318FA99D807</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -339,8 +352,9 @@
 <createdTime>2023-03-09 18:02:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[UserID making the change]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
@@ -352,8 +366,9 @@
 <createdTime>2023-03-09 18:03:06 UTC</createdTime>
 <commentInRDBMS><![CDATA[Change timestamp]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>

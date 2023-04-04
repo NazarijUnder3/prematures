@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94155174-5657-5942-0414-CC884DC2616D" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="note">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:11:30 UTC</createdTime>
+<generatorID>92906203-D57C-3E45-62CD-326E7483534A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="note_date" id="45D6FE75-FC13-F95B-11AD-D8AE7CB886C7">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:11:30 UTC</createdTime>
+<generatorID>DF84765E-3F36-5AFA-EFDB-05FB148239DB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
+<domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="child_id" id="4E43BF32-99B3-D1EC-C7C6-4540831C28F0">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:11:30 UTC</createdTime>
+<generatorID>1BBDD02F-B50C-AA56-3E81-33A65EAD6A35</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
+<domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D43C558-658B-582E-7649-C5D52F18012C" referredColumn="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
+</associations>
+</Column>
+<Column name="note" id="D81D5473-A20A-D7CD-FDFB-4AC55CD863BA">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:11:30 UTC</createdTime>
+<generatorID>4150905F-6BCA-73A7-081A-2FBCB4BC7C51</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5120DCC7-2D4D-BD9F-EB51-A89F77985849" name="note_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:11:30 UTC</createdTime>
+<generatorID>BFC5B696-CB05-B8EC-02F5-4275A1B50DD0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45D6FE75-FC13-F95B-11AD-D8AE7CB886C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD367DE5-5B34-DF14-5C62-1FFC73FF24AC" name="note_child_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 13:11:30 UTC</createdTime>
+<generatorID>F4641D5A-824B-0685-C0EE-EE6660EF6290</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E43BF32-99B3-D1EC-C7C6-4540831C28F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

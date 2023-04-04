@@ -25,22 +25,6 @@
 <colAssociation fkAssociation="7F6A64B7-DE6F-C7B6-E1D2-9BB098E22CBE" referredColumn="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
 </associations>
 </Column>
-<Column name="breathing_failure_id" id="532B665F-5E4C-23A4-DDB9-1E1DE32BC322">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>E2016EE1-BBB2-8831-7B6C-B449E9426D41</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="26F8D26C-8F5E-D7C7-AE9B-F8351BF233F0" referredColumn="B77254D6-EFF1-3B63-20E4-175510EEBA37"/>
-</associations>
-</Column>
 <Column name="breathing_syndrom_id" id="9F4B52AC-9775-C73B-C7A7-E8A7148DCE96">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -137,22 +121,6 @@
 <colAssociation fkAssociation="EDB8DB0C-F648-7231-C1CB-65E96DCD66BA" referredColumn="C6CB5B75-4CC3-2F42-C7F6-809FC430A1BA"/>
 </associations>
 </Column>
-<Column name="hemorrhage_id" id="27E6F0E2-4307-CD41-105C-E10A74E90D0D">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>5481E3E9-39D6-A0AE-A837-7030B1A9CE24</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4492FE89-78DB-BE4D-1BD8-DBA26CAB9585" referredColumn="0A538F19-4CA1-CE98-09B9-A59820EBAEB8"/>
-</associations>
-</Column>
 <Column name="habilitation_id" id="9873FD2D-A0A6-F5C1-3096-C48B32537831">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -169,23 +137,41 @@
 <colAssociation fkAssociation="735B874E-C00A-6C59-7801-4BED64B55999" referredColumn="F5B15DCB-DEC6-80CD-5511-C719BF6E98B3"/>
 </associations>
 </Column>
+<Column name="hemorrhage" id="8D0F1459-08E4-BEB7-F6D6-E1C16B0743B8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 12:01:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paraventricular hemorrhage degree]]></commentInRDBMS>
+<generatorID>5CA2AB05-931E-6DBF-6C23-3909B132D699</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="breathing_failure" id="F706A33A-2027-0A28-43E5-556CD401A1BA">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 12:12:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Respiratory failure degree]]></commentInRDBMS>
+<generatorID>33E41C59-B2C4-7058-4473-1D92DB0003F3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
 <Column name="sei" id="8699F436-E5A5-D00F-A59A-D4B61919C2AE">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[Syndrome of endogenous intoxication]]></commentInRDBMS>
 <generatorID>BAE134DF-51C9-36EE-8F31-F3266A644A91</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
-<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ne" id="0EB50135-557A-922F-EC2D-351E73C7CE8C">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>1CAB2C50-CCB9-6C54-702B-40C8A6DB01D5</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <use>0</use>
@@ -283,17 +269,6 @@
 <colUsage columnID="9873FD2D-A0A6-F5C1-3096-C48B32537831"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="001AB5CF-382B-7768-0DF4-B32BE4FB9343" name="disability_breathing_failure_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>A901437B-97FD-D2AA-63D3-D9AC46911862</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="532B665F-5E4C-23A4-DDB9-1E1DE32BC322"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="BD8A2BA8-D601-B387-3183-48FFEAC5D371" name="disability_breathing_syndrom_fk">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -336,17 +311,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CCEBFCE8-8B7D-9A80-6F89-CC95ABA94402"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F0F0A919-8B86-7271-9062-067D8168AFC9" name="disability_hemorrhage_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>3FC84FEC-1891-221B-682A-B890E9A046C8</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="27E6F0E2-4307-CD41-105C-E10A74E90D0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7C87807E-2C03-B239-7B47-E4A82F9A3714" name="disability_status_30_fk">

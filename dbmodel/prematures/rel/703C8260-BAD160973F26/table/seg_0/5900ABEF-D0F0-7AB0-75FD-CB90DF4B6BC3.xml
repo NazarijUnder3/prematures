@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5900ABEF-D0F0-7AB0-75FD-CB90DF4B6BC3" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="disorder">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[disabilities as of 2 years]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Disabilities as of 2 years]]></commentInRDBMS>
 <generatorID>DE7337B3-D06B-3082-E381-E2C3F4510DCF</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
@@ -25,7 +25,7 @@
 <colAssociation fkAssociation="3A486565-77B1-04DD-6BDF-93A419DBAA49" referredColumn="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
 </associations>
 </Column>
-<Column name="disability_oficial" id="1DD9B810-A32A-1D69-6F07-2E1BBD588384">
+<Column name="disability_official" id="1DD9B810-A32A-1D69-6F07-2E1BBD588384">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>59130E0B-5921-40CC-66D3-A44592790000</generatorID>
@@ -199,6 +199,7 @@
 <generatorID>0DF23EA8-5D4F-21E3-16EB-6E36C7D5487E</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -215,6 +216,7 @@
 <generatorID>F9C86C20-6A1A-6957-5EA2-3BDF4F303FCE</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -231,6 +233,7 @@
 <generatorID>0C87B640-B7BB-FB0E-499A-15EE51B89A5C</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -247,6 +250,7 @@
 <generatorID>9C96E476-DE06-6E2A-28CC-00E9A70C31F6</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -263,6 +267,7 @@
 <generatorID>B3D57318-B2E5-BF84-C60C-C80D37F27020</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -279,6 +284,7 @@
 <generatorID>605D586B-5C28-3805-7B23-621FE12BFF45</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -295,6 +301,7 @@
 <generatorID>F66EE416-7C1C-E7EF-E704-D8498E855E9F</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -311,6 +318,7 @@
 <generatorID>906ED0F0-0275-18F8-E967-526A7EC649BC</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -327,6 +335,7 @@
 <generatorID>D78CF74D-2DFE-4E2E-2F7C-CF311C823ECF</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -343,6 +352,7 @@
 <generatorID>C9797827-9FAC-4E2E-A734-CBC93375505D</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
@@ -359,6 +369,7 @@
 <generatorID>7590E9D7-9505-8075-520B-7EEE47B29F06</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>

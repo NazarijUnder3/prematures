@@ -49,7 +49,7 @@
 <colUsage columnID="CCB6E7D5-9004-A696-AD71-CCA4CB7CB0F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A9BE2085-5DC6-42E2-25AF-0537B670BC7F" name="leukomalacia_name_un">
+<ind_PK_UK id="A9BE2085-5DC6-42E2-25AF-0537B670BC7F" name="leukomalacia_leukomalacia_name_un">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
 <generatorID>33567664-D3A9-A888-F8EC-2EAEB9569F91</generatorID>

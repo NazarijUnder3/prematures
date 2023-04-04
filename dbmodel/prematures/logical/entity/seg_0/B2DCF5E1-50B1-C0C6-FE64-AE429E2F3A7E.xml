@@ -30,20 +30,6 @@
 <domain>0F272319-7DE3-92C9-6F53-921E07E15563</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="breathing failure id" id="E2016EE1-BBB2-8831-7B6C-B449E9426D41">
-<createdBy>User</createdBy>
-<createdTime>2023-03-07 17:45:20 UTC</createdTime>
-<generatorID>A901437B-97FD-D2AA-63D3-D9AC46911862</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
-</engineerTo>
-<referedAttribute>BDF867B0-2F18-2C98-102E-05BF3C670BB9</referedAttribute>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="breathing syndrom id" id="691674A2-F61D-EC7C-1CF4-CF88C57F2C4F">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 17:46:24 UTC</createdTime>
@@ -128,20 +114,6 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="hemorrhage id" id="5481E3E9-39D6-A0AE-A837-7030B1A9CE24">
-<createdBy>User</createdBy>
-<createdTime>2023-03-07 18:05:08 UTC</createdTime>
-<generatorID>3FC84FEC-1891-221B-682A-B890E9A046C8</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
-</engineerTo>
-<referedAttribute>213C1A3C-68DA-1255-965A-F8D44812E840</referedAttribute>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="habilitation id" id="67806867-41F2-DE10-DB56-556534381D65">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 18:05:23 UTC</createdTime>
@@ -156,25 +128,40 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sei" id="BAE134DF-51C9-36EE-8F31-F3266A644A91">
+<Attribute name="hemorrhage" id="5CA2AB05-931E-6DBF-6C23-3909B132D699">
 <createdBy>User</createdBy>
-<createdTime>2023-03-07 19:27:31 UTC</createdTime>
-<commentInRDBMS><![CDATA[Syndrome of endogenous intoxication]]></commentInRDBMS>
+<createdTime>2023-03-30 11:59:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paraventricular hemorrhage degree]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
 <use>0</use>
-<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
-<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ne" id="1CAB2C50-CCB9-6C54-702B-40C8A6DB01D5">
+<Attribute name="breathing failure" id="33E41C59-B2C4-7058-4473-1D92DB0003F3">
 <createdBy>User</createdBy>
-<createdTime>2023-03-07 19:28:55 UTC</createdTime>
+<createdTime>2023-03-30 12:11:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Respiratory failure degree]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sei" id="BAE134DF-51C9-36EE-8F31-F3266A644A91">
+<createdBy>User</createdBy>
+<createdTime>2023-03-07 19:27:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Syndrome of endogenous intoxication]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
@@ -185,8 +172,9 @@
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 19:30:42 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
@@ -197,8 +185,9 @@
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 19:33:21 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -211,8 +200,9 @@
 <createdTime>2023-03-09 18:04:57 UTC</createdTime>
 <commentInRDBMS><![CDATA[UserID making the change]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>95FBE4DA-A016-532F-A862-4E066F09002E</logicalDatatype>
@@ -224,8 +214,9 @@
 <createdTime>2023-03-09 18:05:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Change timestamp]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>

@@ -22,6 +22,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="multipregnancy_condition_name" id="0B3DE41F-11B5-1A8B-688F-E70B80C6B0F1">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 11:52:08 UTC</createdTime>
+<generatorID>433C3DFA-B06E-EB48-777A-B64802577E1A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4765AEBE-EEF0-6BC0-D214-3D8A1D026711" name="multipregnancy_condition_pk">
@@ -35,6 +46,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3A55BBB3-0C7A-0E25-24CE-D70CFF07E7EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70D8FCA3-7B74-0D2C-1587-F7FC3F824D6C" name="multipregnancy_condition_multipregnancy_condition_name_un">
+<createdBy>User</createdBy>
+<createdTime>2023-03-30 11:52:08 UTC</createdTime>
+<generatorID>0E8C4C06-30C6-1FEB-8A4E-7D7384BB48CB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B3DE41F-11B5-1A8B-688F-E70B80C6B0F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

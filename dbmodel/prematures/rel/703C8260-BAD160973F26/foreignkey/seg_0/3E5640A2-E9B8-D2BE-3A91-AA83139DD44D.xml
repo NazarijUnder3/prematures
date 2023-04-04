@@ -10,7 +10,7 @@
 <referredTableID>17F9C456-85D7-A0A0-2E8B-8D9C872AAA91</referredTableID>
 <keyObject>56B4C8D1-CE44-28A7-B220-F009C788ECF0</keyObject>
 <referredKeyID>56B4C8D1-CE44-28A7-B220-F009C788ECF0</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ct_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

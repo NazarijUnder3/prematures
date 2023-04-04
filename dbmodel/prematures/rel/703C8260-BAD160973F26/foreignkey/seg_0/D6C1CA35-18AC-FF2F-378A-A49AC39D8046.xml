@@ -10,7 +10,7 @@
 <referredTableID>DB55AF40-58F4-067E-E037-2327F1BD1BBA</referredTableID>
 <keyObject>ACA8D566-B965-2789-91A5-51E731DF29D2</keyObject>
 <referredKeyID>ACA8D566-B965-2789-91A5-51E731DF29D2</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>mps_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B764FE9-309F-9C6E-3FC5-4F7F4B4C91FB" containerWithKeyObject="0EC2CE41-0A4C-1333-9804-A92EE1759ECA" localFKIndex="6B99DD54-7702-F3B9-32BA-D922AB2C2D52" name="alt_hospital_hospital_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-04 19:04:02 UTC</createdTime>
+<generatorID>5219A2E6-BFF4-64F3-7C2E-6D43CB565DC5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>main.hospital</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF29FB06-1905-2A98-CD95-CF6BBCD3FFCC</referredTableID>
+<keyObject>7AB18CD1-FEEA-7010-69A0-173101B6ADA8</keyObject>
+<referredKeyID>7AB18CD1-FEEA-7010-69A0-173101B6ADA8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>hospital_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

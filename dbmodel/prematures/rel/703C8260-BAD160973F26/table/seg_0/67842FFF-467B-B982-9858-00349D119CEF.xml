@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67842FFF-467B-B982-9858-00349D119CEF" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="mother">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Information about the child's mother]]></commentInRDBMS>
 <generatorID>F14C3F0E-C03D-762C-DB74-C516530183E8</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
@@ -30,6 +31,7 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="mother_last_name" id="C70F8C6E-AE5D-70EB-07F9-1232BCCBDC07">
@@ -42,6 +44,7 @@
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>C3859CB6-8296-7F43-B2CA-DB00E0CED5F3</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsSensitiveInformation>true</containsSensitiveInformation>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

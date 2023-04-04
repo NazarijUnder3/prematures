@@ -10,7 +10,7 @@
 <referredTableID>84D348EA-5016-1DDA-86E3-4F301C091FD4</referredTableID>
 <keyObject>4781985C-FC5D-22E9-1FA4-27E8679E89C8</keyObject>
 <referredKeyID>4781985C-FC5D-22E9-1FA4-27E8679E89C8</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>mrt_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

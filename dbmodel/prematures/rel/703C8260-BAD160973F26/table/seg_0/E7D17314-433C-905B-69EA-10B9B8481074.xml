@@ -2,37 +2,14 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7D17314-433C-905B-69EA-10B9B8481074" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="followup">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Additionaд (follow up) information about strabismus, sleep disorders, etc.]]></commentInRDBMS>
 <generatorID>656AE141-3F1B-2247-00E4-9FF8BF4105DB</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="followup_comment" id="22245A8F-D757-2A24-888A-0A40486F5A64">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>7ACC9B06-E1F7-F197-A87D-8D05C041AF06</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
-<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="followup_time" id="38E9EC73-B096-4FCC-6A66-75D7C635EA54">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>ABEF0FF2-3112-DD2F-FBF0-E9076CC5761D</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>D5530A7F-0DA3-B3EE-0EE4-069002A30A26</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="child_id" id="5969E6B7-37EF-69E3-B156-0B72442B591F">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -48,6 +25,18 @@
 <associations>
 <colAssociation fkAssociation="CCF3B50B-6CF6-0703-88DA-C3C51D8DFA71" referredColumn="A23A9C04-7619-0BFD-4DE3-495BAC774379"/>
 </associations>
+</Column>
+<Column name="followup_time" id="38E9EC73-B096-4FCC-6A66-75D7C635EA54">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>ABEF0FF2-3112-DD2F-FBF0-E9076CC5761D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>D5530A7F-0DA3-B3EE-0EE4-069002A30A26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="strabismus" id="69ACF7E4-3CDA-FD9A-0F23-D5CFDA572CD6">
 <createdBy>User</createdBy>
@@ -118,6 +107,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="sd" id="AAC2761A-2D52-FFDD-3BEF-95E5FAD07C51">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sleep disturbance]]></commentInRDBMS>
+<generatorID>04370205-F23C-952C-D2DE-ACCEBA52B9C7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
+<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="wd_id" id="FF88A263-594D-61AA-59DA-C14AAF9CF0C3">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -133,20 +136,6 @@
 <associations>
 <colAssociation fkAssociation="740CE7B1-520B-5E34-2472-7BCCAF023804" referredColumn="B7E263EE-275D-96A0-E33E-C03DB6825E8A"/>
 </associations>
-</Column>
-<Column name="sd" id="AAC2761A-2D52-FFDD-3BEF-95E5FAD07C51">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[Sleep disturbance]]></commentInRDBMS>
-<generatorID>04370205-F23C-952C-D2DE-ACCEBA52B9C7</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>F47CF774-0D10-B11E-5B5E-A65FC5E34024</logicalDatatype>
-<domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ps_id" id="C3A70A12-1A57-78FA-9792-081870C602B3">
 <createdBy>User</createdBy>
@@ -190,6 +179,19 @@
 <use>0</use>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="followup_comment" id="22245A8F-D757-2A24-888A-0A40486F5A64">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>7ACC9B06-E1F7-F197-A87D-8D05C041AF06</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>47F962FC-F9E2-C071-D19F-011A0B723A3A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
