@@ -11,44 +11,52 @@ databaseChangeLog:
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_schema.sql
+    file: _init_/premature/create_schema_main.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_pregnancy_dictionary.sql
+    file: _init_/premature/create_pregnancy_dictionary.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_pregnancy.sql
+    file: _init_/premature/create_pregnancy.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_child_dictionary.sql
+    file: _init_/premature/create_pregnancy_tables.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_child.sql
+    file: _init_/premature/create_child_dictionary.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_followup_dictionary.sql
+    file: _init_/premature/create_child.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_followup.sql
+    file: _init_/premature/create_child_tables.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_disorder_dictionary.sql
+    file: _init_/premature/create_followup_dictionary.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_disorder.sql
+    file: _init_/premature/create_followup.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_disability_dictionary.sql
+    file: _init_/premature/create_disorder_dictionary.sql
 - include:
     author: NP
     runOnChange: false
-    file: _init_/main/create_disability.sql
+    file: _init_/premature/create_disorder.sql
+- include:
+    author: NP
+    runOnChange: false
+    file: _init_/premature/create_disability_dictionary.sql
+- include:
+    author: NP
+    runOnChange: false
+    file: _init_/premature/create_disability.sql

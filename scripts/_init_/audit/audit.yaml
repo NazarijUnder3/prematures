@@ -11,7 +11,7 @@ databaseChangeLog:
 - include:
     author: NP
     runOnChange: false
-    file: _init_/audit/create_schema.sql
+    file: _init_/audit/create_schema_audit.sql
 - include:
     author: NP
     runOnChange: false

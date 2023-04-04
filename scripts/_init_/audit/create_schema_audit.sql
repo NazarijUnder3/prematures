@@ -31,4 +31,4 @@ set search_path=audit, public;
 --comment: create extension hstore
 create extension if not exists hstore with schema public;
 
---rollback drop extension hstore;
+--rollback drop extension hstore cascade;
