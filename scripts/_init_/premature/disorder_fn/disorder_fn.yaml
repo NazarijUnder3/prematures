@@ -1,0 +1,290 @@
+databaseChangeLog:
+- changeSet:
+    id: create_vocabulary_func
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: create_vocabulary_func
+    comment: create_vocabulary_func
+- changeSet:
+    id: 1
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_bs_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_bs_id
+- changeSet:
+    id: 2
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_ct_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_ct_id
+- changeSet:
+    id: 3
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_cvs_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_cvs_id
+- changeSet:
+    id: 4
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_disorder_kind_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_disorder_kind_id
+- changeSet:
+    id: 5
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_disorder_type_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_disorder_type_id
+- changeSet:
+    id: 6
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_es_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_es_id
+- changeSet:
+    id: 7
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_gc_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_gc_id
+- changeSet:
+    id: 8
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_git_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_git_id
+- changeSet:
+    id: 9
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_hearing_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_hearing_id
+- changeSet:
+    id: 10
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_ims_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_ims_id
+- changeSet:
+    id: 11
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_mps_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_mps_id
+- changeSet:
+    id: 12
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_mrt_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_mrt_id
+- changeSet:
+    id: 13
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_pf_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_pf_id
+- changeSet:
+    id: 14
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_physical_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_physical_id
+- changeSet:
+    id: 15
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_rf_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_rf_id
+- changeSet:
+    id: 16
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_skin_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_skin_id
+- changeSet:
+    id: 17
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_slf_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_slf_id
+- changeSet:
+    id: 18
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_sse_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_sse_id
+- changeSet:
+    id: 19
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_strabismus_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_strabismus_id
+- changeSet:
+    id: 20
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create disorder vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\disorder_fn\fn_get_vision_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_vision_id

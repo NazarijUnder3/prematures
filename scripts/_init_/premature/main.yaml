@@ -60,3 +60,14 @@ databaseChangeLog:
     author: NP
     runOnChange: false
     file: _init_/premature/create_disability.sql
+#-------------------------
+- include: 
+    file: _init_/premature/child_fn/child_fn.yaml
+- include: 
+    file: _init_/premature/disability_fn/disability_fn.yaml
+- include: 
+    file: _init_/premature/disorder_fn/disorder_fn.yaml
+- include: 
+    file: _init_/premature/followup_fn/followup_fn.yaml
+- include: 
+    file: _init_/premature/pregnancy_fn/pregnancy_fn.yaml

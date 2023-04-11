@@ -1,0 +1,192 @@
+databaseChangeLog:
+- changeSet:
+    id: create_vocabulary_func
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: create_vocabulary_func
+    comment: create_vocabulary_func
+- changeSet:
+    id: 1
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_convulsion_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_convulsion_id
+- changeSet:
+    id: 2
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_eco_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_eco_id
+- changeSet:
+    id: 3
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_gender_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_gender_id
+- changeSet:
+    id: 4
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_hospital_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_hospital_id
+- changeSet:
+    id: 5
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_locality_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_locality_id
+- changeSet:
+    id: 6
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_mkf_code_category_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_mkf_code_category_id
+- changeSet:
+    id: 7
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_mkf_code_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_mkf_code_id
+- changeSet:
+    id: 8
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_pcr_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_pcr_id
+- changeSet:
+    id: 9
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_reflex_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_reflex_id
+- changeSet:
+    id: 10
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_rt_kfg_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_rt_kfg_id
+- changeSet:
+    id: 11
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_sepsis_ethiology_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_sepsis_ethiology_id
+- changeSet:
+    id: 12
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_sepsis_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_sepsis_id
+- changeSet:
+    id: 13
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create child vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\child_fn\fn_get_white_body_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_white_body_id

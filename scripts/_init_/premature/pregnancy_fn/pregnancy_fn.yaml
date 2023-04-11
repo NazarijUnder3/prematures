@@ -1,0 +1,178 @@
+databaseChangeLog:
+- changeSet:
+    id: create_vocabulary_func
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: create_vocabulary_func
+    comment: create_vocabulary_func
+- changeSet:
+    id: 1
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_amniotic_fluid_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_amniotic_fluid_id
+- changeSet:
+    id: 2
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_bmi_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_bmi_id
+- changeSet:
+    id: 3
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_compitation_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_compitation_id
+- changeSet:
+    id: 4
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_dad_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_dad_id
+- changeSet:
+    id: 5
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_delivery_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_delivery_id
+- changeSet:
+    id: 6
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_fluid_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_fluid_id
+- changeSet:
+    id: 7
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_multipregnancy_condition_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_multipregnancy_condition_id
+- changeSet:
+    id: 8
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_multipregnancy_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_multipregnancy_id
+- changeSet:
+    id: 9
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_multipregnancy_result_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_multipregnancy_result_id
+- changeSet:
+    id: 10
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_pathology_type_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_pathology_type_id
+- changeSet:
+    id: 11
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_presentation_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_presentation_id
+- changeSet:
+    id: 12
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\premature\pregnancy_fn\fn_get_status_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_status_id

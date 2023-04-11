@@ -825,3 +825,1946 @@ Caused by: org.postgresql.util.PSQLException: ОШИБКА: столбец "target_status" не
 	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
 	... 72 more
 
+[2023-04-04 23:32:12] SEVERE [liquibase.integration] Validation Failed:
+     1 changesets check sum
+          _init_/premature/create_disorder_dictionary.sql::4::NP was: 8:764f2d280bda4bd6d5eb43728dfe92d9 but is now: 8:ac979eac5020b35fa7a42a6048544592
+liquibase.exception.CommandExecutionException: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets check sum
+          _init_/premature/create_disorder_dictionary.sql::4::NP was: 8:764f2d280bda4bd6d5eb43728dfe92d9 but is now: 8:ac979eac5020b35fa7a42a6048544592
+
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets check sum
+          _init_/premature/create_disorder_dictionary.sql::4::NP was: 8:764f2d280bda4bd6d5eb43728dfe92d9 but is now: 8:ac979eac5020b35fa7a42a6048544592
+
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:345)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+
+[2023-04-05 11:31:00] SEVERE [liquibase.integration] <createProcedure path=_init_/prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+  - Caused by: The file _init_/prematures/child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file _init_/prematures/child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:34:25] SEVERE [liquibase.integration] <createProcedure path=prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+  - Caused by: The file prematures/child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=prematures/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file prematures/child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:35:10] SEVERE [liquibase.integration] <createProcedure path=child_fn/fn_get_convulsion_id.sql> -Unable to read file
+  - Caused by: The file child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:35:22] SEVERE [liquibase.integration] <createProcedure path=fn_get_convulsion_id.sql> -Unable to read file
+  - Caused by: The file fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:36:01] SEVERE [liquibase.integration] <createProcedure path=G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+  - Caused by: The file G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file G:/GIT/prematures/scripts/_init_/premature/child_fn/fn_get_convulsion_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:36:29] SEVERE [liquibase.integration] <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+  - Caused by: The file _init_/prematures/child_fn/fn_get_eco_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file _init_/prematures/child_fn/fn_get_eco_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:36:50] SEVERE [liquibase.integration] <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+  - Caused by: The file _init_/prematures/child_fn/fn_get_eco_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=_init_/prematures/child_fn/fn_get_eco_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file _init_/prematures/child_fn/fn_get_eco_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 11:37:46] SEVERE [liquibase.integration] <createProcedure path=_init_\prematures\child_fn\fn_get_eco_id.sql> -Unable to read file
+  - Caused by: The file _init_\prematures\child_fn\fn_get_eco_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_\prematures\child_fn\fn_get_eco_id.sql> -Unable to read file
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_\prematures\child_fn\fn_get_eco_id.sql> -Unable to read file
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:337)
+	at liquibase.Liquibase$15.run(Liquibase.java:2012)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.listUnrunChangeSets(Liquibase.java:2002)
+	at liquibase.Liquibase.reportStatus(Liquibase.java:2079)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1795)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.UnexpectedLiquibaseException: java.io.IOException: <createProcedure path=_init_\prematures\child_fn\fn_get_eco_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:251)
+	at liquibase.changelog.ChangeSet.generateCheckSum(ChangeSet.java:318)
+	at liquibase.changelog.ChangeSet.toString(ChangeSet.java:1053)
+	at liquibase.changelog.ChangeLogIterator.createKey(ChangeLogIterator.java:182)
+	at liquibase.changelog.ChangeLogIterator.alreadySaw(ChangeLogIterator.java:190)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:95)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 42 more
+Caused by: java.io.IOException: <createProcedure path=_init_\prematures\child_fn\fn_get_eco_id.sql> -Unable to read file
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:228)
+	at liquibase.change.core.CreateProcedureChange.generateCheckSum(CreateProcedureChange.java:249)
+	... 60 more
+Caused by: java.io.FileNotFoundException: The file _init_\prematures\child_fn\fn_get_eco_id.sql was not found in the configured search path:
+    - G:\GIT\prematures\scripts
+    - G:\Liquibase\internal\lib\liquibase-core.jar
+    - G:\Liquibase\lib
+    - G:\Liquibase\internal\lib\commons-collections4.jar
+    - G:\Liquibase\internal\lib\commons-lang3.jar
+    - G:\Liquibase\internal\lib\commons-text.jar
+    - G:\Liquibase\internal\lib\connector-api.jar
+    - G:\Liquibase\internal\lib\h2.jar
+    - G:\Liquibase\internal\lib\hsqldb.jar
+    - G:\Liquibase\internal\lib\jaxb-api.jar
+    - G:\Liquibase\internal\lib\jaxb-core.jar
+    - G:\Liquibase\internal\lib\jaxb-runtime.jar
+    - G:\Liquibase\internal\lib\jaybird.jar
+    - G:\Liquibase\internal\lib\jcc.jar
+    - G:\Liquibase\internal\lib\liquibase-commercial.jar
+    - G:\Liquibase\internal\lib\mariadb-java-client.jar
+    - G:\Liquibase\internal\lib\mssql-jdbc.jar
+    - G:\Liquibase\internal\lib\ojdbc8.jar
+    - G:\Liquibase\internal\lib\opencsv.jar
+    - G:\Liquibase\internal\lib\picocli.jar
+    - G:\Liquibase\internal\lib\postgresql.jar
+    - G:\Liquibase\internal\lib\snakeyaml.jar
+    - G:\Liquibase\internal\lib\snowflake-jdbc.jar
+    - G:\Liquibase\internal\lib\sqlite-jdbc.jar
+    - G:\Liquibase\internal\lib
+More locations can be added with the 'searchPath' parameter.
+	at liquibase.resource.ResourceAccessor.getExisting(ResourceAccessor.java:162)
+	at liquibase.change.core.CreateProcedureChange.openSqlStream(CreateProcedureChange.java:224)
+	... 61 more
+
+[2023-04-05 12:04:36] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:07:40] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:08:49] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:10:11] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:16:17] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:19:08] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql [Failed SQL: (0) drop function if exists main.fn_get_status_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_status_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:20:02] SEVERE [liquibase.integration] ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:127)
+	at liquibase.Liquibase$9.lambda$run$0(Liquibase.java:1229)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Liquibase$9.run(Liquibase.java:1228)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+Caused by: liquibase.exception.RollbackFailedException: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:856)
+	at liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:114)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:113)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:94)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Scope.child(Scope.java:243)
+	at liquibase.Scope.child(Scope.java:247)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 46 more
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql [Failed SQL: (0) drop function if exists main.fn_get_presentation_id.sql]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:446)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:78)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:161)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)
+	at liquibase.database.AbstractJdbcDatabase.executeRollbackStatements(AbstractJdbcDatabase.java:1294)
+	at liquibase.changelog.ChangeSet.rollback(ChangeSet.java:831)
+	... 66 more
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ссылки между базами не реализованы: main.fn_get_presentation_id.sql
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:290)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:442)
+	... 71 more
+
+[2023-04-05 12:23:45] SEVERE [liquibase.integration] Could not find tag 'create_audit' in the database
+liquibase.exception.CommandExecutionException: liquibase.exception.RollbackFailedException: Could not find tag 'create_audit' in the database
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.RollbackFailedException: Could not find tag 'create_audit' in the database
+	at liquibase.changelog.filter.AfterTagChangeSetFilter.<init>(AfterTagChangeSetFilter.java:34)
+	at liquibase.Liquibase$9.run(Liquibase.java:1191)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+
+[2023-04-06 22:00:50] WARNING [liquibase.configuration] Potentially ignored key(s) in file exists at path liquibase.properties
+ - 'changeLogFile'
+[2023-04-06 22:23:53] SEVERE [liquibase.integration] Validation Failed:
+     1 changesets check sum
+          _init_/premature/create_child_dictionary.sql::6::NP was: 8:efdda5b6ea5aa91d63875cad7b4cc382 but is now: 8:dce74be5902fb40d87acee8fc60dd531
+     1 changesets had duplicate identifiers
+          alternative_names/alternative_names.sql::3::NP
+liquibase.exception.CommandExecutionException: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets check sum
+          _init_/premature/create_child_dictionary.sql::6::NP was: 8:efdda5b6ea5aa91d63875cad7b4cc382 but is now: 8:dce74be5902fb40d87acee8fc60dd531
+     1 changesets had duplicate identifiers
+          alternative_names/alternative_names.sql::3::NP
+
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets check sum
+          _init_/premature/create_child_dictionary.sql::6::NP was: 8:efdda5b6ea5aa91d63875cad7b4cc382 but is now: 8:dce74be5902fb40d87acee8fc60dd531
+     1 changesets had duplicate identifiers
+          alternative_names/alternative_names.sql::3::NP
+
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:345)
+	at liquibase.Liquibase$9.run(Liquibase.java:1178)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+
+[2023-04-06 22:24:20] WARNING [liquibase.configuration] Potentially ignored key(s) in file exists at path liquibase.properties
+ - 'changeLogFile'
+[2023-04-06 22:24:26] SEVERE [liquibase.integration] Validation Failed:
+     1 changesets had duplicate identifiers
+          alternative_names/alternative_names.sql::3::NP
+liquibase.exception.CommandExecutionException: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets had duplicate identifiers
+          alternative_names/alternative_names.sql::3::NP
+
+	at liquibase.command.CommandScope.execute(CommandScope.java:186)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)
+	at liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$1(LiquibaseCommandLine.java:352)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:317)
+	at liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)
+Caused by: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets had duplicate identifiers
+          alternative_names/alternative_names.sql::3::NP
+
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:345)
+	at liquibase.Liquibase$9.run(Liquibase.java:1178)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.Liquibase.runInScope(Liquibase.java:2431)
+	at liquibase.Liquibase.rollback(Liquibase.java:1160)
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1899)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:396)
+	at liquibase.Scope.lambda$child$0(Scope.java:180)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:179)
+	at liquibase.Scope.child(Scope.java:158)
+	at liquibase.integration.commandline.Main$1.run(Main.java:395)
+	at liquibase.integration.commandline.Main$1.run(Main.java:217)
+	at liquibase.Scope.child(Scope.java:189)
+	at liquibase.Scope.child(Scope.java:165)
+	at liquibase.integration.commandline.Main.run(Main.java:217)
+	at liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)
+	at liquibase.command.CommandScope.execute(CommandScope.java:172)
+	... 20 more
+

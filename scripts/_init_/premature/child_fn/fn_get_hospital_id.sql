@@ -13,7 +13,7 @@ declare
 begin
 	select hospital_id, hospital_name
     	from main.hospital
-    UNION
+    union
     select hospital_id, hospital_name
 		from main.alt_hospital
     ;
