@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="EB4A343D-31B3-8F98-6DE0-8900BE3D75CE" name="alt_bmi">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:08:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Alternative Body Mass Index]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bmi status" id="B0A85D48-5258-14D7-420E-2E4E2FCC119A">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:08:12 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bmi id" id="180C10AC-EE23-51B4-401F-CBE8E9B83F84">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:09:31 UTC</createdTime>
+<generatorID>A97C4743-139B-70E3-931C-5B9E09B7B8C8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>02D62686-69FA-91B5-994D-957E956C7BA4</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE270428-E24B-D020-49FF-11DEAF6725AA" name="Key_1">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:12:09 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<newElementsIDs>B0A85D48-5258-14D7-420E-2E4E2FCC119A</newElementsIDs>
+<usedAttributes>
+<attributeRef>B0A85D48-5258-14D7-420E-2E4E2FCC119A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -548,6 +548,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="multipregnancy_condition_id" id="7D3CD516-3681-6C5F-B5FA-EBF99B65519C">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 19:10:06 UTC</createdTime>
+<generatorID>CADE9B4E-B05A-E2E9-6EF3-04C37054EC14</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8923C859-8E08-31FC-70FE-F24AE8A2CB31" referredColumn="3A55BBB3-0C7A-0E25-24CE-D70CFF07E7EA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B9A75FAB-0C6F-1F16-2662-63A86F254C83" name="child_pk">
@@ -715,6 +730,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4CFC8A08-F348-7EC5-35FD-47F55F4B9C89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74E82217-FE42-2C9C-2923-82E37984CA5D" name="child_multipregnancy_condition_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 19:10:06 UTC</createdTime>
+<generatorID>ED017161-4D9F-4C3B-68A0-A2DD84963A62</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D3CD516-3681-6C5F-B5FA-EBF99B65519C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

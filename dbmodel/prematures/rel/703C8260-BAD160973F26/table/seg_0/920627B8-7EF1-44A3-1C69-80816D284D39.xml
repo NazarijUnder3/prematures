@@ -71,22 +71,6 @@
 <colAssociation fkAssociation="6BBD878C-9F5B-C402-BBA4-D50BB8AA49D2" referredColumn="C6B13E44-7A0D-38C0-225D-9CFC9395570A"/>
 </associations>
 </Column>
-<Column name="multipregnancy_condition_id" id="E830AB6D-668B-058D-B25C-88BA45EF8D9E">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>C9595B81-6AAB-AD5D-244E-E1EF9DDBC0A8</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FCD58619-BDCB-351B-AC55-7F031652044B" referredColumn="3A55BBB3-0C7A-0E25-24CE-D70CFF07E7EA"/>
-</associations>
-</Column>
 <Column name="multipregnancy_result_id" id="9A0CD6DC-1748-095B-CCFA-9478DAF6904A">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -409,17 +393,6 @@
 <colUsage columnID="B62EAB50-FFB0-2432-9A65-1B0148CCA71B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BC207823-EAA8-0CE7-4477-85F920513F21" name="pregnancy_multipregnancy_condition_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>CE754B3A-9C98-EE10-41E9-A830C27AB7F2</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E830AB6D-668B-058D-B25C-88BA45EF8D9E"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="3E2A9BAA-4C02-B10F-D7F4-7EBE41496C6E" name="pregnancy_multipregnancy_result_fk">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -453,7 +426,7 @@
 <colUsage columnID="6A17A8DC-8D4E-66DD-2189-54F11F0A9705"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E0FFD947-7963-D12B-5F3E-4ADCFA8D429F" name="pregnancy_dad_fk">
+<ind_PK_UK id="E0FFD947-7963-D12B-5F3E-4ADCFA8D429F" name="pregnancy_dad_age_fk">
 <createdBy>User</createdBy>
 <createdTime>2023-03-24 19:38:48 UTC</createdTime>
 <generatorID>13D59300-326F-4F29-774F-7310942CBA60</generatorID>

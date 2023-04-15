@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7D7632B-121A-AFC4-4B37-5705F1607EA0" name="alt_bmi">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:10:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Alternative Body Mass Index]]></commentInRDBMS>
+<generatorID>EB4A343D-31B3-8F98-6DE0-8900BE3D75CE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bmi_id" id="14270EF1-A6DD-C1F7-F1BD-7183E508584B">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:10:20 UTC</createdTime>
+<generatorID>180C10AC-EE23-51B4-401F-CBE8E9B83F84</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33A0D141-DBA1-08CD-FA8B-49625F923C10" referredColumn="CF0A3ADB-B55A-89D8-AC56-CE5DB8D9084B"/>
+</associations>
+</Column>
+<Column name="bmi_status" id="929A467A-9E4B-0747-1EEE-D3CCE7A2FB5F">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:10:20 UTC</createdTime>
+<generatorID>B0A85D48-5258-14D7-420E-2E4E2FCC119A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C454F1DD-F137-7951-BFB5-BD5992EB0E89" name="alt_bmi_bmi_status_un">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:12:23 UTC</createdTime>
+<generatorID>AE270428-E24B-D020-49FF-11DEAF6725AA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929A467A-9E4B-0747-1EEE-D3CCE7A2FB5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68CB3595-9EDF-AC50-0CC4-74437044B345" name="alt_bmi_bmi_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-15 18:10:20 UTC</createdTime>
+<generatorID>A97C4743-139B-70E3-931C-5B9E09B7B8C8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14270EF1-A6DD-C1F7-F1BD-7183E508584B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
