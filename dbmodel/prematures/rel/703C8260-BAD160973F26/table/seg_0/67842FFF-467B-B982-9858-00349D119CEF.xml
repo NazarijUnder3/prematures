@@ -19,7 +19,13 @@
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
 <Column name="mother_first_name" id="B5B9A6FC-3CDE-5455-2D8C-A2E1C64D5936">
 <createdBy>User</createdBy>
