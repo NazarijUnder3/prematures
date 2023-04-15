@@ -1,0 +1,24 @@
+databaseChangeLog:
+- changeSet:
+    id: create_import_func
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: create_import_func
+    comment: create_import_func
+- changeSet:
+    id: 1
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create followup vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: _init_\import\fn_dynamic_copy.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_dynamic_copy

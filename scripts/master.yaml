@@ -5,3 +5,5 @@ databaseChangeLog:
     file: _init_/premature/main.yaml
 - include: 
     file: alternative_names/alternative_names.sql
+- include: 
+    file: _init_/import/import.yaml
