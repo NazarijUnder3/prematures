@@ -60,10 +60,10 @@ databaseChangeLog:
     changes:
     - createProcedure:
         schemaName: main
-        path: _init_\premature\pregnancy_fn\fn_get_dad_id.sql
+        path: _init_\premature\pregnancy_fn\fn_get_dad_age_id.sql
     rollback: 
     - sql: 
-        sql: drop function if exists main.fn_get_dad_id
+        sql: drop function if exists main.fn_get_dad_age_id
 - changeSet:
     id: 5
     author: NP
