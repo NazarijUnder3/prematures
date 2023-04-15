@@ -1,2 +1,4 @@
 
 scripts/liquibase.log
+scripts/liquibase.log
+*.log
