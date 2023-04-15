@@ -7,3 +7,15 @@ databaseChangeLog:
     file: alternative_names/alternative_names.sql
 - include: 
     file: _init_/import/import.yaml
+############################################## ver.1.1
+- changeSet:
+    id: create_main
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: ver_1_1
+    comment: ver.1.1
+- include: 
+    file: ver_1_1/adjust_model/alter_tables.sql
