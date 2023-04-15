@@ -78,9 +78,9 @@ alter table main.pregnancy
         	references main.compitation ( compitation_id );
 
 alter table main.pregnancy
-    add constraint pregnancy_dad_fk 
+    add constraint pregnancy_dad_age_fk 
 		foreign key ( dad_age_id )
-        	references main.dad ( dad_age_id );
+        	references main.dad_age ( dad_age_id );
 
 alter table main.pregnancy
     add constraint pregnancy_delivery_fk 

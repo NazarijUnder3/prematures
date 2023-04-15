@@ -47,28 +47,28 @@ insert
 
 
 --changeset NP:3 labels:create_table dbms:postgresql context:dev,qa,uat,prod
---comment: create table if not exists main.dad
-create table if not exists main.dad (
+--comment: create table if not exists main.dad_age
+create table if not exists main.dad_age (
     dad_age_id smallint not null
     , dad_age    varchar not null
 );
 
-comment on table main.dad is
+comment on table main.dad_age is
     'Dad age group: less\greater or equal then 40';
 
-alter table main.dad add constraint dad_pk
+alter table main.dad_age add constraint dad_pk
 		primary key ( dad_age_id );
 
 -- Permissions
-revoke all on main.dad from public;
+revoke all on main.dad_age from public;
 
---rollback drop table if exists main.dad;
+--rollback drop table if exists main.dad_age;
 
 
 --changeset NP:4 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
---comment: fill table main.dad
+--comment: fill table main.dad_age
 insert 
-	into main.dad
+	into main.dad_age
 	values
 		(1, 'до 40')
 		, (2, '40+')
