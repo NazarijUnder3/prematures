@@ -12,9 +12,15 @@ declare
  
 begin
     select bmi_id
-        into v_bmi_id
-        from main.bmi
-        where bmi_status = p_bmi_status
+		into v_bmi_id
+		from (
+				select bmi_id, bmi_status
+					from main.bmi
+				union
+				select bmi_id, bmi_status
+					from main.alt_bmi
+			  ) bmi
+		where bmi_status = p_bmi_status
     ;
  
     return v_bmi_id;

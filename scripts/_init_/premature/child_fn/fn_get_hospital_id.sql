@@ -11,11 +11,16 @@ declare
     v_hospital_id main.hospital.hospital_id%type;
  
 begin
-	select hospital_id, hospital_name
-    	from main.hospital
-    union
-    select hospital_id, hospital_name
-		from main.alt_hospital
+	select hospital_id
+		into v_hospital_id
+		from (
+				select hospital_id, hospital_name
+					from main.hospital
+				union
+				select hospital_id, hospital_name
+					from main.alt_hospital
+			  ) hospital
+		where hospital_name = p_hospital_name
     ;
  
     return v_hospital_id;

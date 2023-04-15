@@ -11,11 +11,16 @@ declare
     v_eco_id main.eco.eco_id%type;
  
 begin
-    select eco_id, eco_name
-    	from main.eco
-    union
-    select eco_id, eco_name
-		from main.alt_eco
+	select eco_id 
+		into v_eco_id
+		from (
+				select eco_id, eco_name
+					from main.eco
+				union
+				select eco_id, eco_name
+					from main.alt_eco
+			  ) eco
+		where eco_name = p_eco_name
     ;
  
     return v_eco_id;
