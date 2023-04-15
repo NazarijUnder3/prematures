@@ -9,7 +9,8 @@
 --changeset NP:1 labels:create_table dbms:postgresql context:dev,qa,uat,prod
 --comment: create table if not exists main.pregnancy
 create table if not exists main.pregnancy (
-    pregnancy_id                integer not null
+    pregnancy_id                integer 
+				generated always as identity ( start with 1 )not null
     , mother_id                   smallint not null
     , mother_age                  smallint not null
     , dad_age_id                  smallint not null
