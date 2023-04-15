@@ -93,3 +93,38 @@ insert
 ;
 
 --rollback select 1;
+
+--changeset NP:5 labels:create_table dbms:postgresql context:dev,qa,uat,prod
+--comment: create table if not exists main.alt_bmi
+create table main.alt_bmi (
+    bmi_id     smallint not null
+    , bmi_status varchar not null
+);
+
+comment on table main.alt_bmi is
+    'Alternative Body Mass Index';
+
+alter table main.alt_bmi add constraint alt_bmi_bmi_status_un unique ( bmi_status );
+
+alter table main.alt_bmi
+    add constraint alt_bmi_bmi_fk foreign key ( bmi_id )
+        references main.bmi ( bmi_id );
+
+-- Permissions
+revoke all on main.alt_bmi from public;
+
+--rollback drop table if exists main.alt_bmi;
+
+
+--changeset NP:6 labels:fill_table dbms:postgresql context:dev,qa,uat,prod
+--comment: fill table main.alt_bmi
+insert 
+	into main.alt_bmi
+	values
+		(2, 'норма')
+		, (3, 'ИМТ')
+	on conflict 
+		do nothing
+;
+
+--rollback select 1;
