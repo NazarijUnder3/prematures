@@ -145,7 +145,7 @@ insert
 	into main.amniotic_fluid
 	values
 		(1, 'БО')
-		, (2, 'Зелёные')
+		, (2, 'зеленые')
 	on conflict 
 		do nothing
 ;

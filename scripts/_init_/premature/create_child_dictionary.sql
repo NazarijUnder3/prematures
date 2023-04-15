@@ -182,7 +182,7 @@ insert
 	into main.reflex
 	values
 		(1, 'высокие')
-		, (2, 'повышенные')
+		, (2, 'повышеные')
 		, (3, 'соответствуют')
 		, (4, 'угнетение ЦНС')
 	on conflict 
@@ -508,7 +508,7 @@ insert
 		(1, 'нет')
 		, (2, 'ВУИ')
 		, (3, 'ВУИ, сепсис')
-		, (4, 'ВУИ, сепсис, НЭК')
+		, (4, 'ВУИ, сепсис,НЭК')
 	on conflict 
 		do nothing
 ;
@@ -590,8 +590,8 @@ revoke all on main.gender from public;
 insert 
 	into main.gender
 	values
-		(1, 'М')
-		, (2, 'Ж')
+		(1, 'м')
+		, (2, 'ж')
 	on conflict 
 		do nothing
 ;
