@@ -426,6 +426,36 @@
 <colAssociation fkAssociation="23FADCB4-1E37-D25E-7EF8-54B34F09486E" referredColumn="49AB25E3-1AE4-EB03-446B-00E386650286"/>
 </associations>
 </Column>
+<Column name="amniotic_fluid_id" id="A5F83B67-55AF-457D-166E-CF0EC3DD2196">
+<createdBy>User</createdBy>
+<createdTime>2023-04-17 11:12:30 UTC</createdTime>
+<generatorID>CE4E3F89-5AB1-ABCC-883E-CC218A493FBA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20E81DAE-F018-4E2D-C04B-2BF97DA323C9" referredColumn="B42DA479-A569-FAA2-BFF9-A3BE43949B3A"/>
+</associations>
+</Column>
+<Column name="fluid_id" id="5218D2FF-72F7-67E6-732E-787ED1968D9F">
+<createdBy>User</createdBy>
+<createdTime>2023-04-17 11:12:30 UTC</createdTime>
+<generatorID>555F4571-7FEF-A2C4-42A3-0C55FF44E344</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2054A3E1-0021-4279-4367-DF05DC96CCAB" referredColumn="AF32FBBF-793B-FAFC-7C90-DAEB0D8658F1"/>
+</associations>
+</Column>
 <Column name="reanimation" id="4B4AC144-2C83-D56F-79B4-2FD666E761F8">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -767,6 +797,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F146053C-EE53-9DE2-9FF5-2BF210D30C4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F791809-F207-8536-20E6-D95996664912" name="child_amniotic_fluid_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-17 11:12:30 UTC</createdTime>
+<generatorID>3B80D84E-43F2-BFD7-BA50-A3B79EAA2FF8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F83B67-55AF-457D-166E-CF0EC3DD2196"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="002B1524-7962-E011-C637-4F340092772C" name="child_fluid_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-17 11:12:30 UTC</createdTime>
+<generatorID>8846A56F-03F0-74BA-1E23-A37EB3ABA1BB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5218D2FF-72F7-67E6-732E-787ED1968D9F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pregnancy amniotic fluid" directorySegmentName="seg_0" id="008BCC59-79C0-313D-43D2-3EA72469562E">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child amniotic fluid" directorySegmentName="seg_1" id="3B80D84E-43F2-BFD7-BA50-A3B79EAA2FF8">
 <createdBy>User</createdBy>
-<createdTime>2023-03-07 18:11:32 UTC</createdTime>
+<createdTime>2023-04-17 11:10:45 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -13,6 +13,6 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B901ADDD-1818-ECB7-3905-7FE3D15B4890</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0595C77B-6DF7-8E9B-8E33-A41E2B8C9524</targetEntity>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
 <transferable>true</transferable>
 </Relation>

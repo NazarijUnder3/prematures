@@ -119,38 +119,6 @@
 <colAssociation fkAssociation="6E0A48E4-136E-B942-45F6-680BB022151C" referredColumn="83C45729-AA6C-8AF8-A549-B8D3F8526818"/>
 </associations>
 </Column>
-<Column name="amniotic_fluid_id" id="F94C3779-007D-832A-EA2E-BD9570163F5D">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>D0DB0352-7315-E69C-8DEF-3596379B5683</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2D03C534-93D0-C9F9-C0DC-25071A1AFB22" referredColumn="B42DA479-A569-FAA2-BFF9-A3BE43949B3A"/>
-</associations>
-</Column>
-<Column name="fluid_id" id="6E9C2B2D-A979-5523-BEFD-164F3239AE85">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>992D5FAD-5944-8C11-7A68-E70160047916</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="48E6A138-79EE-6A4C-49CC-C7F16954743E" referredColumn="AF32FBBF-793B-FAFC-7C90-DAEB0D8658F1"/>
-</associations>
-</Column>
 <Column name="status_id" id="6A17A8DC-8D4E-66DD-2189-54F11F0A9705">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -311,17 +279,6 @@
 <colUsage columnID="2D08C7D7-FEDF-CC13-FFD4-4695B1ED98A7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E738AF2E-9913-B4C0-91BC-5CFD5D4B3838" name="pregnancy_amniotic_fluid_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>008BCC59-79C0-313D-43D2-3EA72469562E</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F94C3779-007D-832A-EA2E-BD9570163F5D"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="5A3E5DE1-6CCD-F8AA-F7E5-84F7C767CE59" name="pregnancy_bmi_fk">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -353,17 +310,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="36E7EA31-966F-F420-2D37-DED2742FD3A3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D47B97B7-84EA-9D65-C89F-BA2CEB8C7CAA" name="pregnancy_fluid_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>E87F62D2-4972-4F4A-0402-E1BD5D1DE4BD</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6E9C2B2D-A979-5523-BEFD-164F3239AE85"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="804FECCD-7E67-60A8-BB17-9C441A39D9CD" name="pregnancy_multipregnancy_fk">
