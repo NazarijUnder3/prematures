@@ -183,6 +183,22 @@
 <colAssociation fkAssociation="4627E5B4-C396-738B-5C1E-65F3F93BFE0B" referredColumn="CF0A3ADB-B55A-89D8-AC56-CE5DB8D9084B"/>
 </associations>
 </Column>
+<Column name="delivery_id" id="36E7EA31-966F-F420-2D37-DED2742FD3A3">
+<createdBy>User</createdBy>
+<createdTime>2023-03-14 19:49:43 UTC</createdTime>
+<generatorID>F9196A9A-E66B-17A3-7099-F7718A604E6B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F39D8AA-47C5-F401-416D-EB3F4CF31B1D" referredColumn="B231188A-CCF3-30BA-45C7-A3F1308EA00D"/>
+</associations>
+</Column>
 <Column name="antenatal" id="629C3466-2E3E-496D-8ECC-E0AFF05E0A66">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -206,22 +222,6 @@
 <domain>177A7242-70DC-BBF3-DEBE-ACA1B2638F3D</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="presentation_id" id="BA9355B6-46F2-0C69-1D40-39EF0F76C404">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>99232365-B046-1A3F-DC3B-1198619AA467</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="67E184A8-0EB8-BB18-EEDA-5E8465239791" referredColumn="B4DFD5B3-6BCA-B283-3314-307B9BBEFA57"/>
-</associations>
 </Column>
 <Column name="pregnancy_count" id="9365ACC8-F14C-C3A0-F59F-88B9B89A8EC5">
 <createdBy>User</createdBy>
@@ -257,22 +257,6 @@
 <endValue>20</endValue>
 </rangeDef>
 </listOfRanges>
-</Column>
-<Column name="delivery_id" id="36E7EA31-966F-F420-2D37-DED2742FD3A3">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>F9196A9A-E66B-17A3-7099-F7718A604E6B</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2F39D8AA-47C5-F401-416D-EB3F4CF31B1D" referredColumn="B231188A-CCF3-30BA-45C7-A3F1308EA00D"/>
-</associations>
 </Column>
 <Column name="user_id" id="CED066C9-22E0-8173-2E7A-0660CD3358FD">
 <createdBy>User</createdBy>
@@ -402,17 +386,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9A0CD6DC-1748-095B-CCFA-9478DAF6904A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="51059931-0316-3B2B-0DBD-F543853EBD2D" name="pregnancy_presentation_fk">
-<createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>B65C8D63-CFDB-0CDC-D463-CEC8E26C326C</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BA9355B6-46F2-0C69-1D40-39EF0F76C404"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="16EC6624-93CA-1AC5-4DD2-2910D72A647C" name="pregnancy_status_fk">
