@@ -167,6 +167,23 @@
 <colAssociation fkAssociation="2F39D8AA-47C5-F401-416D-EB3F4CF31B1D" referredColumn="B231188A-CCF3-30BA-45C7-A3F1308EA00D"/>
 </associations>
 </Column>
+<Column name="gestation" id="203D5BE4-664E-D72B-EFD8-C97094A14F73">
+<createdBy>User</createdBy>
+<createdTime>2023-04-17 11:18:57 UTC</createdTime>
+<generatorID>C5BFD3C4-31E3-E6DA-CE92-DF12C23815CC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>410512F5-291C-C97C-F7C8-4572304201C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>20</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
 <Column name="antenatal" id="629C3466-2E3E-496D-8ECC-E0AFF05E0A66">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>

@@ -65,24 +65,6 @@
 <domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="gestation" id="74B039D5-AEBC-C824-9F39-CCE42C64C9A9">
-<createdBy>User</createdBy>
-<createdTime>2023-03-07 19:02:29 UTC</createdTime>
-<ownerDesignName>prematures</ownerDesignName>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>410512F5-291C-C97C-F7C8-4572304201C9</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>20</beginValue>
-<endValue>50</endValue>
-</rangeDef>
-</listOfRanges>
-</Attribute>
 <Attribute name="height" id="9BF66FB5-D4A6-F82E-0ACB-67126F7812B2">
 <createdBy>User</createdBy>
 <createdTime>2023-03-07 19:08:25 UTC</createdTime>

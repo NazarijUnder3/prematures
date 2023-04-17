@@ -43,6 +43,33 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="mother age" id="81CB101F-0501-206A-EB11-D2814692A0E8">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:29:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[At the birth]]></commentInRDBMS>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>322B8409-B2C4-894F-FDAE-5D2D8B2F748A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dad age id" id="A3094260-131B-E398-DC00-5FA06CC81263">
+<createdBy>User</createdBy>
+<createdTime>2023-03-24 19:36:39 UTC</createdTime>
+<generatorID>13D59300-326F-4F29-774F-7310942CBA60</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>E39849EA-6884-D1C0-7CB4-73E9B3A6D81C</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="multipregnancy result id" id="08AA6567-E35D-0C00-D45A-6A302A96732F">
 <createdBy>User</createdBy>
 <createdTime>2023-03-06 18:50:00 UTC</createdTime>
@@ -112,6 +139,24 @@
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gestation" id="C5BFD3C4-31E3-E6DA-CE92-DF12C23815CC">
+<createdBy>User</createdBy>
+<createdTime>2023-04-17 11:16:37 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>410512F5-291C-C97C-F7C8-4572304201C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>20</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="antenatal" id="76492D51-4553-AD39-3E90-E08F44380540">
 <createdBy>User</createdBy>
@@ -212,33 +257,6 @@
 <logicalDatatype>2AFD4C23-D8EA-6D82-8C83-A6D97F5541F0</logicalDatatype>
 <domain>36A836FE-10FE-500B-0254-6AB3D66A7F3C</domain>
 <defaultValue>CURRENT_TIMESTAMP</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="mother age" id="81CB101F-0501-206A-EB11-D2814692A0E8">
-<createdBy>User</createdBy>
-<createdTime>2023-03-24 19:29:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[At the birth]]></commentInRDBMS>
-<ownerDesignName>prematures</ownerDesignName>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>322B8409-B2C4-894F-FDAE-5D2D8B2F748A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dad age id" id="A3094260-131B-E398-DC00-5FA06CC81263">
-<createdBy>User</createdBy>
-<createdTime>2023-03-24 19:36:39 UTC</createdTime>
-<generatorID>13D59300-326F-4F29-774F-7310942CBA60</generatorID>
-<ownerDesignName>prematures</ownerDesignName>
-<engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
-</engineerTo>
-<referedAttribute>E39849EA-6884-D1C0-7CB4-73E9B3A6D81C</referedAttribute>
-<use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
