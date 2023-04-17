@@ -19,3 +19,5 @@ databaseChangeLog:
     comment: ver.1.1
 - include: 
     file: ver_1_1/adjust_model/alter_tables.sql
+- include: 
+    file: ver_1_1/adjust_model/alter_tables_2.sql
