@@ -21,3 +21,5 @@ databaseChangeLog:
     file: ver_1_1/adjust_model/alter_tables.sql
 - include: 
     file: ver_1_1/adjust_model/alter_tables_2.sql
+- include: 
+    file: ver_1_2/alter_tables.sql
