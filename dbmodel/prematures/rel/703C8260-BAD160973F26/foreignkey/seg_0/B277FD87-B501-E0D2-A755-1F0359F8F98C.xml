@@ -1,10 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E0A48E4-136E-B942-45F6-680BB022151C" containerWithKeyObject="920627B8-7EF1-44A3-1C69-80816D284D39" localFKIndex="EE17B546-09A5-5E8A-E5D0-E81F8CF919E9" name="pregnancy_compitation_fk">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B277FD87-B501-E0D2-A755-1F0359F8F98C" containerWithKeyObject="2896848C-6F79-CA91-0222-F18DAAF0C5BB" localFKIndex="533CA11E-69EC-B48B-560C-FA72AB3028F0" name="child_compitation_fk">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>AB7BE3B9-3DF3-B187-8749-B7EE2F97155A</generatorID>
+<createdTime>2023-04-18 18:55:27 UTC</createdTime>
+<generatorID>E1BA5E95-A1EE-AA18-B7E9-0965414E1E56</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <referredTableLongName>main.compitation</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>64466854-7EBC-57E3-CA57-DA4FDE3CF17A</referredTableID>

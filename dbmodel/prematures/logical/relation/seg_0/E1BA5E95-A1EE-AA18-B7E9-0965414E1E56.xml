@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pregnancy compitation" directorySegmentName="seg_0" id="AB7BE3B9-3DF3-B187-8749-B7EE2F97155A">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child compitation" directorySegmentName="seg_0" id="E1BA5E95-A1EE-AA18-B7E9-0965414E1E56">
 <createdBy>User</createdBy>
-<createdTime>2023-03-07 18:11:17 UTC</createdTime>
+<createdTime>2023-04-18 18:50:16 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
@@ -13,6 +13,6 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>72C7BFFE-3E69-1069-03C5-44703143E9D7</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0595C77B-6DF7-8E9B-8E33-A41E2B8C9524</targetEntity>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
 <transferable>true</transferable>
 </Relation>

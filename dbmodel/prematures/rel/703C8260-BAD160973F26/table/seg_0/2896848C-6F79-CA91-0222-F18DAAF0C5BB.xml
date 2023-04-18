@@ -438,6 +438,21 @@
 <colAssociation fkAssociation="2054A3E1-0021-4279-4367-DF05DC96CCAB" referredColumn="AF32FBBF-793B-FAFC-7C90-DAEB0D8658F1"/>
 </associations>
 </Column>
+<Column name="compitation_id" id="0C7F7653-7AE9-AA2A-CE8D-B1F6F2115643">
+<createdBy>User</createdBy>
+<createdTime>2023-04-18 18:55:27 UTC</createdTime>
+<generatorID>A04E57B6-3C20-6925-9516-018D16D9D4DE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B277FD87-B501-E0D2-A755-1F0359F8F98C" referredColumn="83C45729-AA6C-8AF8-A549-B8D3F8526818"/>
+</associations>
+</Column>
 <Column name="reanimation" id="4B4AC144-2C83-D56F-79B4-2FD666E761F8">
 <createdBy>User</createdBy>
 <createdTime>2023-03-14 19:49:43 UTC</createdTime>
@@ -801,6 +816,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5218D2FF-72F7-67E6-732E-787ED1968D9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="533CA11E-69EC-B48B-560C-FA72AB3028F0" name="child_compitation_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-18 18:55:27 UTC</createdTime>
+<generatorID>E1BA5E95-A1EE-AA18-B7E9-0965414E1E56</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C7F7653-7AE9-AA2A-CE8D-B1F6F2115643"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
