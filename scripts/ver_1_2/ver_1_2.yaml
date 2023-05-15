@@ -1,0 +1,58 @@
+databaseChangeLog:
+- changeSet:
+    id: ver_1_2
+    author: NP
+    labels: tag
+    context: dev,qa,uat,prod
+    changes:
+    - tagDatabase:
+        tag: ver_1_2
+    comment: ver_1_2
+- include: 
+    file: ver_1_2/alter_tables.sql
+- include: 
+    file: ver_1_2/insert_data.sql
+- include: 
+    file: ver_1_2/create_views.sql
+- changeSet:
+    id: 1
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create pregnancy vocabulary functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: ver_1_2\fn_get_apgar1_id.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_get_apgar1_id
+- changeSet:
+    id: 2
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create insert mkf functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: ver_1_2\fn_insert_mkf.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_insert_mkf
+- changeSet:
+    id: 3
+    author: NP
+    runOnChange: true
+    labels: create_function
+    context: dev,qa,uat,prod
+    comment: create insert mkf functions
+    changes:
+    - createProcedure:
+        schemaName: main
+        path: ver_1_2\fn_insert_mkf_all.sql
+    rollback: 
+    - sql: 
+        sql: drop function if exists main.fn_insert_mkf_all

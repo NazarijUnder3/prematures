@@ -93,7 +93,7 @@ alter table if exists main.pregnancy
 	drop constraint if exists pregnancy_fluid_fk
 ;
 
---rollback alter table if exists main.pregnancy add constraint pregnancy_fluid_fk foreign key (fluid_id) references main.fluid (amniotic_id);
+--rollback alter table if exists main.pregnancy add constraint pregnancy_fluid_fk foreign key (fluid_id) references main.fluid (fluid_id);
 
 
 

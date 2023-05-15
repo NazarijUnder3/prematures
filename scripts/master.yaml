@@ -21,5 +21,6 @@ databaseChangeLog:
     file: ver_1_1/adjust_model/alter_tables.sql
 - include: 
     file: ver_1_1/adjust_model/alter_tables_2.sql
+############################################## ver.1.2
 - include: 
-    file: ver_1_2/alter_tables.sql
+    file: ver_1_2/ver_1_2.yaml
