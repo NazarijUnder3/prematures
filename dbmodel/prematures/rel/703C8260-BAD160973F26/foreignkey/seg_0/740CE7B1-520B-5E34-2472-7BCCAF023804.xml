@@ -10,7 +10,7 @@
 <referredTableID>F44205B5-4EA6-02E5-77A9-B0231ED59A2F</referredTableID>
 <keyObject>11189D9A-1EAE-B87A-5A05-7C2443EEE764</keyObject>
 <referredKeyID>11189D9A-1EAE-B87A-5A05-7C2443EEE764</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>wd_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C63E54A-8888-2D9A-E986-911F80C7BF55" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="apgar1">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apgar1]]></commentInRDBMS>
+<generatorID>427391E2-01BC-E8DE-7004-E3B83971B054</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="apgar1_id" id="0D4F097C-75BA-4CA0-7987-4F8AD55D9CBF">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<generatorID>C182CC85-C550-B7E4-7930-325C0B7B5FAD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apgar1_name" id="8C752A07-81BF-8A03-6CD4-079215680203">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<generatorID>2022422F-FB6C-6CDF-F185-34B2B84934A3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<use>0</use>
+<logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
+<domain>21905DF4-6686-65D0-15A5-9459F13C40E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0B88C00-BF45-F30A-1C16-863C0654DB9C" name="apgar1_pk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<generatorID>690BA573-6764-4598-6BAE-1AA174F0ABE1</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D4F097C-75BA-4CA0-7987-4F8AD55D9CBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33D7F13B-A5C2-523F-2D51-D6577F9F6F79" name="apgar1_apgar1_name_un">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<generatorID>6C9CF428-1A1B-0745-12A1-EB32C1AFA166</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C752A07-81BF-8A03-6CD4-079215680203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

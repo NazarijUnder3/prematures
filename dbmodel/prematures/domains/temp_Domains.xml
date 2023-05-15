@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="temp_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_0" id="DFCDEA6E-62E4-EC09-7652-6EF568D73D1F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:16:05 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>temp_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

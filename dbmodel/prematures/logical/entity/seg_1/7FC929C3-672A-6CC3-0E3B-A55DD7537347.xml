@@ -1,0 +1,2915 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="7FC929C3-672A-6CC3-0E3B-A55DD7537347" name="stage data">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<typeID>5</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="56A787E8-939B-EBC1-4DD2-D53190FC59B8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>50A2346D-6E5D-61B0-E512-6E3898708E9C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ФИО" id="532BB1C1-23C9-481E-AFF6-20C2AA85A8D3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>477DCD93-E6C0-8963-7F00-C09BB717DDB9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Роддом" id="7F945FCD-8B1B-3A48-3D9E-2307284AE455">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>249F5F3A-9C53-8791-8FED-03660BF97A39</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИБ" id="0A6396A3-37EE-3AD3-6E48-76043EE281BF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>86ED9CFD-E4F1-86BB-A961-DDD3F784F9E9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="F91AB6CF-8189-6CAC-BC21-B4EE5B418B75">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>769E80FD-5B8E-B0C2-DDFC-27CFE8A6B65F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Контакт" id="923F0A0A-3129-66A8-222D-E243F14F5784">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>2FCFCC1F-D0C6-40CF-F236-BF9E2EBE3577</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Пол" id="776484E8-0E85-FB0F-6E82-BEF06454BA9B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>3C741744-A79F-C51C-875D-D1473C3DACB0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЭКО0" id="6B596B2E-41B0-D66E-415B-3AC5BE6017E8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>6D5D83C2-C746-E885-83E7-1BE3FFC4E4B1</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЭКО" id="CA8553B9-323B-BD3E-DEB6-06DBE0019D23">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>0DBE0DCA-844B-B89F-6073-CAEE25423007</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СБФ.Возраст0" id="AC6B0C45-B025-E81B-804A-C2B5FF62F7D1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>DCBC2FF5-E0BA-38FC-92AE-63C3DAEE2CA2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СБФ.Возраст" id="22A7DDAF-0684-23CB-6BA1-79A433DF582B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>491730F5-BB31-6958-FD64-CC7F88BBF4D6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СБФ.Возраст отца" id="467917BC-1BE7-A75D-C22F-2968AB261E79">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>7258797C-33F4-5C95-8E36-FE6DED4DD021</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СБФ.Одинокая" id="6C64E195-6974-E0D4-7A1A-F193F4E2A77A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>3535C41B-49C3-485A-C913-68B6435731CD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СБФ.ИМТ" id="C4DA1EE4-8372-310D-2333-03D60C852DC8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F8178B58-4A25-2CAC-6269-2AB2F7073F66</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность счет0" id="BFBC4F3E-A72C-853F-9C6A-1A4BA04298E4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>1FF0F719-6EA9-68F3-6D24-4EFBADDB2DE3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность счет1" id="84A1F4DD-1656-A8A9-F257-7BB4FDE11F6A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5EEC0D63-2402-0DD3-1D29-36C2E8AD445F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Многоплодие" id="DA0F0722-A5F2-A999-8513-44B7391345BC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5544FEFD-D965-4469-D4B4-5DB29C5D2C0F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Исход многоплодност" id="0E09D06F-6721-1A65-D81A-B9590170BAFF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>2B6F4FC9-E8F1-3940-84D7-93DF266914C9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Плод по счету" id="B2758A34-6A0E-B2E2-E8EB-DB94CC697B62">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>85735CA8-C713-922E-8343-D58C377549B9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Патология" id="7C09D311-A798-15B3-F3F9-4EF70595D6EE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>818A24E4-8EBC-2FDE-2ACC-C1CA88D09DA3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Антенатальные нарушения" id="24529CB7-7025-CB96-50D8-6AFE3D906118">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9ECAD1B8-1581-984B-663C-6565AF5D1969</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Бесплодие матери" id="5129152A-67BC-57E2-A908-AE2BCDF40486">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9EB96C48-4288-67F5-9283-C496F32AB9A0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Анемия" id="C7E7AAB6-80E5-B1F9-1E53-A061D75428C4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>154DC400-FDBF-DC7B-A91B-E63BD4C356B4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.МВС" id="FE1CBA3B-E5AE-4191-307C-FEEF81B57C10">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F9C6C003-971B-C5A2-2465-ABFE9AEB3CF3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Энд.система0" id="7B06D084-B926-CB20-761B-BAE5A2B5E87D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>58D8CFDD-75AF-A85D-03F7-079910D3B4F9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Энд.система" id="480293BE-68C1-5AAA-233D-A14CE3069140">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8B3B35C1-BBCA-5BF6-739C-610DD882D489</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ССС0" id="CB617A63-FCF2-15F4-F40A-58B156C152A5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>712BFCBE-688E-B1E6-7370-AE5A95F7D267</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ССС" id="6C1DE540-BCBE-8FAC-EE7B-D24457F9BF74">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D64F0F2A-0956-2C83-BB3A-D14327023736</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИМТ" id="A5E306BE-8847-EDD3-244D-254431A7FDBA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>7C6BC112-B7C1-2304-60CF-A33F92FCBB7D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ЖКТ" id="B928E509-6A2F-49D9-6692-9E2FF2790974">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BEEE8F52-9DCE-E6F5-3BA1-BDE0843644AE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Курение" id="8BDD0189-6883-F092-A881-8F1EA2045EBE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>24BF6F4D-5804-E12D-5688-75617073AA13</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.НС0" id="13E9AC3B-736A-C9B5-7F09-F7B539593620">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>440DB2FE-21B9-983D-3540-C98779654E95</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.НС" id="13ECDD96-F1FE-717B-4C23-402497C61D0E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>1382903B-5202-6688-7D3A-A77296D523A2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Гинекология0" id="1499FA0B-495C-0C57-3D93-490C0226A52B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B9067313-0CBD-E5FC-415D-9B123D190C90</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Гинекология" id="648F8613-6355-CA62-058E-83B06E5BFCAD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>62387C18-423A-D26E-6DC2-66ED125EDBB1</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Угроза0" id="7A6A7131-C971-A379-34D3-2275DE64B4B4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>7F749CB0-9131-EBB3-C3F4-575DA6E1F379</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Угроза" id="A047D8C3-9760-324A-27A3-81C2F525AC88">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>598BD0AC-49A8-02C9-4383-9495D5724B5B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ХФПН/ХВГП" id="BB6E81CD-6FE1-6329-2E39-E1805BA6F782">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>4E4478A7-03FD-AEAE-3CB8-CE0E076913C0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ИЦН" id="A07ED3FC-7B21-FE59-F090-5D75F6130E9A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F14ED9FE-3F5B-916F-2BAF-8B8126E55455</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Кольпит" id="F4139774-C82E-9EF3-9C82-23F00AA25D52">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C46B300C-998C-E1BE-976E-0C3A018676BC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ОРВИ0" id="6FE2AAD7-F636-E27A-4D71-2C27D7C6D3EE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F7A74A3A-5582-5A07-AD53-21648B94CDF7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.ОРВИ" id="8D507468-D860-DE5E-A0A0-DFB664C55CB0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CA4581CC-7117-F473-8B59-651A52E36EC2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Предлежание" id="2640DEE0-CF66-632C-7F32-2D720DC5994F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E2512A4F-EDBB-94E0-3DFA-67B6561B143A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Роды" id="FD761DD2-D626-0994-AF05-60D05065DFA1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F0338C9B-95C3-039D-1CC7-D9915D2AE8BB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Родоразрешение" id="E8C50B24-2194-1461-52E3-93DA7B31169D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>03280047-AC21-B725-D1CC-CF6943E0CCD6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Осложнения" id="49CAC575-1939-F315-A54D-C00AD08AFCC7">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>68006ED4-5046-0660-8EFA-7094F9D73109</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Беременность.Воды" id="0046E239-E09A-3F86-7CE4-FA5B034E97BC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>0DF21BC5-9C8C-32B9-54E7-ACDF5C886C58</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="О/плодные воды" id="3C516C28-F22D-2C5A-C76D-8B86112F86DD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D8270A3F-AB2B-9B3D-DA39-B4033CDC17E0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Гестация0" id="A86BC299-EC8F-0862-332F-39342DA4FB8F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>06B9BCA0-A622-8FEC-9DFB-C5DDCC6F9008</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Гестация" id="DEC68548-DB5F-0E11-D35E-CC768308DC1D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C76DA86C-C180-B4E1-62C2-0AFE3F65F628</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Масса" id="431A82FE-96D1-CB21-366C-2BB12E334A31">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>85CF03EA-A747-6C56-C607-C5998396C8B8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Рост" id="F05D4382-F28D-74CB-6C51-2B0DD726C606">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BF7297AC-FE01-43D4-64AB-B2B9ABD54747</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Апгар0" id="651E8777-3C10-636F-BC2F-00CDE0680551">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9E40D853-F4B0-0DBF-05FF-799793034BD4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Апгар1" id="A5C9310F-E3B8-F4F9-8013-FA232E673BB4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>075078A4-2997-96CE-4C78-57C6D7A77B40</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Диагноз" id="9D13D56B-010C-A885-12BD-E6BC70BC992D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>077B58B3-EC74-49E8-7297-15C5781F5EEA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Асфиксия" id="CF70F0B4-7605-ED96-BCC1-162B8BB11FFA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BE182E2D-F236-6C55-717F-486E35E386CB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Судороги0" id="96BF80D9-1169-A762-9B9E-EE8E8A64259F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BF7F45FF-B45F-4C97-309B-E2550585C550</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="РТ/КФГ" id="0FA602F8-7FC3-D14E-B113-5C0A03D0353F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BB0446F2-CFF4-3430-65B5-C58ECBB2E94E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Реанимационные мероприятия" id="9CB86A94-5C55-4105-2169-ECF20A8725C7">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>1473B2DD-2B79-162D-8BC3-5AD4B0E20B02</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИВЛ" id="DAF81E9F-3871-08FE-CA3E-22630FE93158">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8E2FDF28-901A-9D29-B755-EA9D25D44400</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Длительность ИВЛ" id="E4EE1DE8-4C50-FF2F-4246-D407CD037C3E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A30D91BF-BD5B-5482-2002-7D929289E138</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Длительность CPAP" id="1363183B-55B7-4115-8802-128A583DA51D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FCF89EFE-1399-46AE-0A9E-867C277F8195</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pH" id="CDA4F0DF-6870-122C-F0C3-1C1F9CF27CF7">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>62AAE4D5-BE32-820E-6F77-9FE1FDE4DF71</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Куросурф" id="825CAA53-8C1C-1F58-2184-BAB653BA84E9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>EBEB3AB5-4154-9EEE-91BF-3CBE1E318943</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="АСН7" id="B219DE5C-7C1E-BCDD-7395-520322D194DD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>3306D87B-34B4-D04F-C6F2-97A4D73F4F2A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ВУИ/сепсис" id="1CC314D6-CF4E-3E48-9673-1EFD457F9B5C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>443D6458-2D4B-0BE4-E898-DC06DE71F32C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ВУИ/сепсис.Этиология" id="87F884FF-93C2-A8CA-DA35-EE274B22AEF4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5A437DA0-FBED-FEB9-5B74-DEC4ECA907B8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ПЦР кровь" id="4864CFEC-FBFD-32D1-B060-BAEC727A3346">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F1BFDB44-48CA-44DB-84AE-CB3AB1E5B9DD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ПЦР слюна/моча" id="D67DC979-117F-966A-B1C2-B951318CF6CA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>405C9B71-8A55-DF74-FA69-DD125503C8C2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СЭИ" id="192C1F30-4381-5FB2-C4B5-2603135ADACB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>3CF921C7-6F50-E847-E204-1372A195F97A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="НЭ" id="09563234-6E87-A789-B65D-ED5483E6E431">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>6ACA6FAD-8F19-9F00-B64E-3222983AFEEB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ДС" id="DEF38537-3527-340E-FA04-B390A7A45EA2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>EB0A9754-E274-E872-3410-291574A2246F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ДН степень" id="720DE65D-A4E6-E981-991D-381C11889517">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>391F1B0C-311E-C6E7-E473-7E6141046C35</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ВЧК0" id="92935C01-CF50-5C77-4524-F913581A0FFD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D162D4FF-A829-E33C-82CA-7AEF1BE0683F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ВЧК" id="82E1CCE7-049D-1B2C-115B-5A9A90C976C0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>29495517-12C0-1C19-DF35-B70CBD98845B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ПВК степень" id="C4A6C195-57C8-4274-D255-FC09DA46A3B0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>835D3D7D-B099-61BE-971A-E7A6BCF6A74D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ПВЛ" id="8FD8E642-27C9-4057-1BC9-DF3EEEA641EE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>1C490E29-8D17-0C08-C1AD-294D8E185C10</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЭФПН" id="F3102176-525E-B498-A15F-F8E16B72DEFD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>221F2A7C-5C1B-F0C7-AF59-5D520CA548C1</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="30 дней" id="E8E377E4-785C-172F-6ADD-70A55E136FAD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B5211FA9-F750-9895-605F-47861A1218D3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Абилитация" id="79E81B9A-DB74-BFB0-DE55-718A02028C33">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CF1E92E4-18E6-0F1D-808B-768F0B5CEFBA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Сухая иммерсия" id="5D2DC16E-33E6-7AA9-13AF-6DF9238D996E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8588322D-67DE-06B4-5116-88A85416DFFB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="возраст начала терапии" id="36C65CB9-01A7-E9E1-C124-5A77B3E43046">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>12F5ED80-0D5E-0DC2-BCF7-D62F2FCFA29A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="НПТ1" id="357CC97F-403F-2DFB-44CA-7F3D196B348C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>22FB3D8C-B381-D22F-6CAE-751D6F4FD3CB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Примечание" id="DB4902D0-439B-916B-5147-BC04B706A2AD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FBD1D90A-AA52-CB07-5BE9-D7721768E071</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Косоглазие.1" id="1B916A3D-DA13-576C-CA3E-D36B2AB042F4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B596C39F-0C96-52F9-3092-3C404617F540</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Задержка речевых навыков.1" id="C1B97EF7-F777-ECF6-BCBA-69C65652567C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>4CD84794-2E8E-5CE7-2183-B415A42EC4F3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Задержка речевых навыков.2" id="B83915DA-0987-77ED-4430-AC392970AD15">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CAA42DF8-D41D-87A7-B79E-3D105E8BB14F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="РАС.2" id="01E2AA93-B7A4-0456-EFA5-DBBDC9B2399A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>77B01417-8EFD-3247-1F14-953930AE4EC5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Избыточная возбудимость.3" id="DC638948-5299-CD71-362E-1B5BCCD7A858">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>84997855-68E3-65BE-28DA-6201B1EBC86E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушение засыпания.0" id="139D6A27-15A1-5878-42C3-9CE5C6E097F1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5873729E-24C6-6206-86B6-A14ACE0C6CE2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушение бодрствования.0" id="109FBB8A-A840-08DD-E96A-592C0DA23539">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>4D64B159-F0CA-596D-0509-48686FB91DCF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушение сна.0" id="7F5F1C66-A81A-98EA-2C19-3727091B4756">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>7CF54B2D-BAA1-46BA-E51D-3DC95D3D05CE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушения.ПС.0" id="044667FA-A55D-A46F-9766-6FF632CB1544">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D75CA2F4-EE42-9868-1617-A35D7C4260B4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушения.Координация.0" id="54CD8C6C-7545-3545-FC62-62F2685A44AE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FBF5887E-E839-601B-46CB-5DFBE8D55F42</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Структура нарушений.0" id="A7839343-F6AB-0CD4-A8E7-7E917F109138">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9205903B-9B8C-8091-59AE-02735E0B9439</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушения.1" id="5AE964E4-949D-7F60-B68B-05A07EE89E5D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8F44B703-2833-617B-9431-0510C8018CC0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Структура нарушений.1.5" id="993426F8-E2F4-68FF-B6E3-B3FE5B1BD963">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>71FC6612-34EF-9B17-5701-867D4C629A9A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушения.1.5" id="391BD15C-6ADC-0817-0F5E-24B0218E100F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>6DDF8E9A-FE98-2582-CAA6-7ACF4305750C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Структура нарушений.2" id="082727F7-F38F-3FDF-1FC3-75B5BB148643">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>AC78C627-5DA6-CFAA-144A-360E0E56025E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Нарушения.2" id="C1A1B934-22EF-FB2B-4A20-B61B2673C717">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>174F4CB5-EA05-6474-9A23-ACE6BF48CB0D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Инвалидность ОФ" id="EBF45E10-1912-99B4-0F67-A77ADEB85F52">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8057CB26-2745-1FA5-B86E-565E99AA9E99</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Признаки инвалидности" id="93C738ED-1FD1-CD32-8BDB-371A238BB543">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B7D1CE1E-6160-0234-AECF-FD467B5D8C75</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Двигательная" id="2578701D-0F2A-5625-C54D-3001613C1F66">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C51D1C67-6B8A-0207-7A63-0C17DF4B3044</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СЛФ" id="3B987722-E412-5BEE-B593-C6F3FF748C13">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>AA0461C8-F9C0-8A58-8B3F-47EEA77E038D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ГЦ" id="12B608B9-A92B-3689-4F56-08AA353A6244">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>61879FA5-48C7-D02D-0B90-93529C9DF111</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="СС/Э" id="BA2278CA-3D5B-823B-FF8A-BD6C11A57E40">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D10733CB-1E5D-BFB6-371A-7BCB37E18A10</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="РФ" id="E5B2D64D-4D49-23A6-BFDD-C4C6681B6174">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F0AA370D-4026-4F4B-2F63-A921FD61B304</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ПФ" id="FC477B78-48F0-4C1D-724C-DBC871AA952C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E740BDEA-8623-35EC-9F58-BE19E39889FC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Косоглазие2" id="39F00577-1E18-4F57-A884-3A3CC8691BB1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>191B483D-E5E8-E1BC-CA3E-34B982C45F11</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЭФ.Характер нарушений.2" id="1E377565-EFB4-0564-60A7-DB1AC7089BD1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C8A0D776-DFC7-10BE-BBEE-7A2EEBA9D86B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Рефлексы" id="093F7325-B71C-65CD-51D0-FB65F1647FF6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>61C27B1F-0DE8-A158-50F0-975BC4A6A6F1</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IR" id="DFD05BED-6B37-598E-896A-964670B77D5E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>0F628DFD-A3EA-8443-E4ED-8E4C4F1076FD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="БВ" id="170EDE0C-3F71-A75E-2ECD-B9C6FC7276EC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A1E6B2AD-E28D-F7C2-6AB7-5813C89B279B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ССС2" id="D8912E07-AC3E-4294-7290-BCD11E1A39EE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>7584277E-1878-6DBF-9CBB-E9305D2D45CB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Энд.система" id="F21CCB83-7C30-606A-9189-972B40A8AE89">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D20D4FFD-F076-9A05-125E-2B6D4327C3FF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИС" id="C652E935-BDDF-F9F0-5EF3-31CA19372F84">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>0C37BC56-118C-595F-F583-7A1B04952334</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Слух" id="FE6CF1C2-E3BF-2E06-6B46-C6B6D6B68C5B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A883D7A5-200C-CFA6-A9FD-97E63422693E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="МПС" id="7E39D895-BE2B-314E-ACC9-D145BB425FB8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>91D3D8FC-9BD5-EAA8-E4C5-2CD8B117041D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ортопед" id="D16B6129-4572-B4F4-8CBF-BC5BCE2F7114">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F5ABBFE9-B853-98EB-F6CF-4A07A56A1C50</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="&quot;Кожа" id="3FD5A8F4-C52A-473E-3125-CCB3B1D2AC9F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>6370D923-620E-198A-7DA6-79CB4AC0EF6A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="стигмы&quot;" id="0C21EE43-5A97-8821-9A8C-B384DBB5724A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>0CBA5C84-E88E-C5B6-3BF7-B673A367B461</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="КТ" id="30D2198B-436F-BFFE-8621-F6F6D4833052">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>49D36D61-27E1-7558-3AC2-A1B8507736A9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="МРТ" id="5673828D-24E3-5620-5AED-3164B256219C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FF1C4AAB-FB10-D2F1-0BB7-4D0C9D8650C3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЖКТ" id="07429B11-0EF2-9A2F-384E-0ABA9CA438EA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>177093D5-3C6A-0E05-E13B-6D670153ECA5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ОФТ" id="3BFC47B2-9C06-6536-4F93-3926FE350103">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F22788E8-B2C6-D4D9-C084-2CE6F9F43000</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b750.1" id="D148B818-5A53-E8D6-2F98-A0B7BFD1463E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9F1B38B4-705E-ABEA-7B74-3169F4A114B6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b750.3" id="F1454CA8-80C7-52BA-9212-E92D55B40C5B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>468668B7-9FA0-3885-40F9-42E1D6C2B031</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b750.6" id="F3963690-2FB2-C3B1-96AB-7C1EC4C87EFC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>14F6D7C7-4165-369C-2D82-8873B24930F5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b750.12" id="36B1643A-12D6-EC4B-6C58-12D5ABEB8330">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F81795AB-5D9B-345C-823E-D2B03316533A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b750.24" id="337083C0-8B98-B6D6-7F6A-21D35D97EC9D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F7F07385-87A4-B013-AD7B-90FD66F036AB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b730.1" id="4A57E24D-C210-6452-C61E-73998B5AE43F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>4EBE99DB-8D0A-39A1-1529-9B4A438B504E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b730.3" id="96A629F6-942C-319F-15B8-C9F252175A2B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>845D5E94-50B4-1813-6658-C6AFC5A030F3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b730.6" id="2F68DE1B-D5A2-9856-9961-8E965AC9322D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F3BC10F9-A46B-1F83-8030-B149DF84F140</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b730.12" id="6C1F1893-A583-B817-7970-175604BC8181">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>DF0248ED-E79F-1384-EE32-1EA7301BF7E0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b730.24" id="B9FB7901-248E-0637-407B-CF44684EEA74">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>03126FED-D857-C1F6-F90A-1C79A4B15BD2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b735.1" id="090D9BD3-394E-C541-F227-7AED666C53DA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B6DDFD64-7796-24E1-3396-7732815F296E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b735.3" id="A5FE8691-F01A-5913-79C7-7D09931ED972">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5DD4D852-AC3D-559A-71FA-4FBA69BA72D6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b735.6" id="97C0D3C9-C038-87F2-CC96-1D6F1F1B9799">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>46397D50-D99A-FF88-9054-1D8C9796D6D2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b735.12" id="2815B455-9317-9B32-3EDD-0C05AB2E85B6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8DB4CFA8-166E-C45D-D7D7-6DC9BFA04F5B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b735.24" id="CEB36DC9-B75E-2797-D7BD-2BADBA835D29">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>DCF69F5A-865C-F52F-F4F3-EF54A3D4E5B8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b755.1" id="2ED7D3C3-E8C8-8C06-6786-7E4ED4297A01">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>DBCAC77C-57ED-3A67-9652-8E89F2EEC5D5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b755.3" id="B0B03669-01AC-C259-768B-5D86AC318831">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>76CBE5D5-5B64-6AD2-1E31-81D538DB2602</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b755.6" id="1ACF32FA-5C43-411A-017D-0AE9C1FE8C41">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>43BFFF28-4552-5C76-E956-DAAC6576779A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b755.12" id="2211924A-4898-E884-4176-29A944B56E21">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>2A0C0423-1A5D-4B16-38CF-2EF3AC72CBFF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b755.24" id="30F95BC4-DBF5-E959-0195-3E11EFE02406">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>2B63B8F6-8855-DCB4-40C9-3998859DFF91</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b760.1" id="660992BD-6F6A-3EC6-4E89-721E8C42109E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>203EC5A9-A09D-709D-83A1-9CBDB296D070</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b760.3" id="CCE883C6-549F-81D9-EA3C-6D0C1909DF2E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FCB81936-5CFC-73F1-2BE9-2411735F12C0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b760.6" id="D067B1AA-55C4-18E8-DF0E-F3985EE90B7F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>973FC6AE-273C-807F-9986-281C04554FC8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b760.12" id="6E38EF90-DFF3-F2B9-A4F9-312020EA3278">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FE072457-8A3F-C25A-0649-22DB67A4303A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b760.24" id="B6725D2C-35F8-D2E0-DBDC-7DFBB30D2D7F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>33E06106-9D92-FF37-6E7D-DF48602A3D32</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="НС по МКФ" id="C751CFE9-B8EA-5146-AFAE-FC39305FA42C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>18DEE8E6-50FA-B324-B048-2B510617703B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b134.1" id="7D81FAC6-2B85-A3DD-E73C-266D6B4B5E50">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>121517C6-92A2-0AC1-8237-FD78CFFABEB9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b134.3" id="70428794-0075-6BA5-3BD3-896BB39D101B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>41199153-D924-0462-BD2A-F86428972856</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b134.6" id="81CF5724-696F-71A0-03B8-84C3002723C2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>6E97C875-9860-72CD-D8E3-D25F431E08D3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b134.12" id="9D154EB9-8063-5E9F-008F-2CA22B2C1C19">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E8B7300B-0DE7-3B40-EC9E-2A7B87B10BE9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b134.24" id="CBA1B960-2FE7-A6E3-4218-1A7720BA05C1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>29961990-6429-1529-87C8-D6AC48EFCF5A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b152.1" id="6C47A9DB-044E-6BC3-2E23-8A927DBA8E73">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>02DB269E-02B3-E579-CF63-6CCC4B4D8E35</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b152.3" id="BAB6ED68-AC24-3F09-7EF1-09D918CAAE12">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>71619965-8CCA-CA03-797C-9EEC60114943</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b152.6" id="E4588DFC-F114-3DDF-FDBA-8C9ED05395F0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>80AF59EC-492B-F4A8-F4CB-68F4622D8937</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b152.12" id="8484C94F-BA17-768C-738F-77CAEFEE965F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C1D25C40-D60A-53C0-53CB-4FE0E7911534</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b152.24" id="7CD6A976-C852-1DF1-B630-D79E1164B0E5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D47E7727-A925-406B-3BAF-C514700CDC6F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Сон.Эмоции.МКФ" id="B8158E65-E4CC-BE82-51A9-DD221CB674F3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5DD75DBB-7D3B-7C18-7ACF-522835BE4BFB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d330.1" id="80625CBE-6B63-1A9D-641C-A14D066DF484">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E30F9836-A14B-0D40-B261-3C60DA47D1CB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d330.3" id="0E1DAFEE-5D27-F417-6C41-D4594CC15E88">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>14897D7E-316F-670D-DB2D-89AA56524866</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d330.6" id="1E4B6DD6-4A4A-6FE2-1201-745FD55C315A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B70D64AA-E3CD-7E99-55A0-6FD6DFBDA2BB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d330.12" id="8D191912-0DCB-ED8A-0B33-BFEDD2404C6F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5D46BF2A-58E4-8BCA-C3F0-19F40E9A93E2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d330.24" id="86B8460D-1396-4220-C63E-740447A4479F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>2418DB4F-235B-356B-B07B-ECF1187897D0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d330.1" id="070D79E2-D36A-5264-0662-68E5537044B9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>683525B3-62CE-C135-2DB2-0B7508393D02</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d330.3" id="6936EB43-7FAE-D15E-5DC8-88C5D961E3DA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>316A2D9A-7497-B3FB-711A-6802FA762E0A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d330.6" id="910B4FA0-25CF-5772-3F63-9F40C9476877">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>099856A4-C2F6-807A-E364-23E05CFDD9A8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d330.12" id="ED4E266F-45A2-F470-7CAA-DE03C86B32F8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CC4BF673-CA6C-966C-9C72-6290D16F4918</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d330.24" id="D27CEB9F-EFF0-946E-B566-9F028B30AD6C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>3227764E-850B-EA17-6B7A-AA935973FF8B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Речь.МКФ" id="69A3956C-C7AB-C1B7-6620-379BB41B558D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>99837C31-F7FA-0810-EFE7-70F1F400A9A6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4103.1" id="EB11BB0F-D544-66F2-06D7-50544249FEE2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FD36D574-DF13-7CFF-59C6-E611D53E044F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4103.3" id="4B6E2249-0536-E02A-E141-94B2148D4BCD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A4859849-88D9-95D5-EB31-87A09DD7E59E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4103.6" id="94BB5511-7C97-4804-13C0-DD1C266DB1A1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>92B7B278-41EA-25CF-0CCF-FE2403A5C42D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4103.12" id="76EEEAEF-3A7E-8D21-B08F-D8F2FB2C1DDD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>30D4173E-2261-9CEE-3117-560627E8784E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4103.24" id="3BDC2FD1-04E7-1505-F704-2BDF29F32DC8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>988DFBC1-62F8-D452-EA2C-6AA43DD97817</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4103.1" id="43A71132-CF24-B968-3FDD-2BDE8692DABA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CE7B27EB-CF36-2041-4730-39FB2ED36E07</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4103.3" id="ACCD0930-4123-3A9D-67EB-5043B1E93E19">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BBB53E92-5BDF-6519-85FF-DF4EB35CAF1F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4103.6" id="14773795-6663-9162-714F-50D080D5A67B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E4D9EFCE-5CEA-7B57-338B-53E2EFE0BA94</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4103.12" id="3A430B4A-B7D2-AF99-D1EB-86B89560C34A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>45459ABC-887D-5F92-71EE-7229C69DD805</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4103.24" id="09F8B064-450E-2863-5A5E-96D10C5F6C48">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C98D793A-6428-7C99-DF72-F207322A84DA</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4104.1" id="5A139BBD-7EB1-54AE-AB30-B10316DFD5E5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BE2343A4-E626-E87A-44B1-68B5AD57F26B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4104.3" id="AF49DC1E-BC49-16C3-1DF4-7DB983297EE4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D97EA848-14EB-DAC6-2016-784E78A2854E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4104.6" id="760723A2-E9FF-BEB8-F661-C13A88933A44">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>31D3E8DA-2A14-013D-4B68-C9169B9C461B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4104.12" id="DC891855-B6BD-E667-4F57-009D5CAA5B4B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>54B43078-D9B8-1570-B1A7-9B1B00512343</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4104.24" id="DA922A16-B291-106E-8517-0AF55B2B2F8E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>8B72A177-1FD3-6E58-C7E2-91C3BF4B0B7B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4104.1" id="8D6A98B5-4136-47CC-3995-467CD25E8E8F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>013F0B8F-CBCD-C395-02C7-29FF02FC1FD8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4104.3" id="B8F6D445-8FD7-BDB6-CD3A-6F76FEB45781">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BBDCC76D-9444-83DD-A311-F593B1C2C97A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4104.6" id="9FBC92AD-A144-9323-0C2B-C11B5960DF0D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>513C038D-3B8E-E483-A25E-C6774E3706CD</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4104.12" id="4703D207-C5BB-8DD2-2D34-A4E750A0FAD5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CC7193F1-5005-4F7B-634A-6571C8BFB06E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4104.24" id="7127FCEB-0858-5955-C2CB-0F6498B71C24">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9A25E7A1-58EE-EC84-3035-50553020A3C7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4550.1" id="D8D016CD-913F-6642-F15C-DA45C1AF78A3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>05C68CFF-2E1C-E81A-3F03-D5DAA8D8F085</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4550.3" id="BB1CDBDC-C5AE-0539-A1EE-CD84C181ED54">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>0DB5FE5F-462E-E9D2-1511-6D3995E4E56B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4550.6" id="7C8BFF4B-38AE-A268-D24F-6689F7AD6DA6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A9F02C1A-542A-069F-F570-7235C4961A02</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4550.12" id="01114FEC-3C92-BDFF-CEAA-0C86305A4B5F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5FC23409-6F95-56D4-E98F-CE454AFED54E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d4550.24" id="4FDE4A87-E1AF-20CC-CB8D-1EB574CE79C2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>1E199074-C269-A8BF-A4B9-99168AFB0214</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4550.1" id="7D643082-8DAE-7ED0-782B-8380FEE02AF4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FB2BE5AB-C304-699B-C2B7-666CA6DA70B4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4550.3" id="4733AC02-ECF1-F4EF-6266-B32D1C1035F7">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>1BFF1A42-618E-203C-787C-BE44C0E56CB1</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4550.6" id="25A70349-0106-763C-DF64-2006F735CC28">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>248CBDBA-EA18-21F1-39DF-93EF17B686D9</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4550.12" id="AF4564FE-DB84-B6A0-7290-86E9D1F3E2D0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A0C0B57B-4285-DEC2-BB8B-312976C3E81C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m d4550.24" id="C998D493-5E36-D442-255F-2BD605612FF2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>83DE7105-603E-DD63-24D6-D7A801E2983A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ЛМФ.МКФ" id="4AAACB9C-C8DB-6E97-C43E-27FD3D832900">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BF23D655-4BC5-CFE5-5B64-03C1369B4654</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e110.1" id="976CCC55-FEB8-BFC6-AB91-FF5A3A8C48BC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E7DBADD7-EA80-23DF-8F2A-47A8D74291FC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e110.3" id="664B866F-8AFF-60BF-AE94-DC7B16DF7E4A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>AE9BA3DE-41C3-9B27-AC4C-0FFABFA2F011</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e110.6" id="70B04440-B864-15D9-B00C-D4C2E85C1A99">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>73C1DCA1-247B-876D-A8F6-91180AFFD5A5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e110.12" id="4310F9A2-545A-253D-F352-BA72C57FD319">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>FD15E9FC-CC17-FD79-DB65-1CD22EFAF297</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e110.24" id="EC3EDF46-49DA-C748-7E9D-ADCCB5F1AECF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>87111297-9921-E2D6-6FD2-98D1D7435F94</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e1101.1" id="588CA179-A7CC-07BE-0994-33DBF25BB7DA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E57CB65C-5CF9-07BA-E65A-986061620FE7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e1101.3" id="FD8C1400-0091-822D-8E27-4C05F8B8ECBB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>29F47EB3-CF14-5346-711A-1EBDC0473246</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e1101.6" id="F64FAD79-9182-EB2B-D85B-158B0400772A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CA0A2F4F-3CD4-6FD8-2DDE-B8642C1A798F</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e1101.12" id="EF17ABFA-1270-1EEE-C941-4C5357D6CB46">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>12652694-4856-EC4E-4BD5-8353F2B365EF</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e1101.24" id="393249F3-B731-FEB4-1688-EEA887E6C0C4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F0C3C969-E7E0-8AF2-E0C9-870E3BB2A493</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e410.1" id="B41F5887-EADF-B82D-C452-81E045986392">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>833367D7-CFF2-348E-FA7B-BE5276B577A3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e410.3" id="04006EE7-04E2-E50D-078E-C7FDA954236F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>6F61B27A-73DC-C350-E1C0-6F5C68908C8E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e410.6" id="133150D2-E547-AAFE-358B-B98BA876F92C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>CB996A9B-D5EB-1463-3180-80F1DD7144C8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e410.12" id="27864A08-2621-A6D3-80DE-68EB90C72A78">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>DDE30DA3-1A45-6661-4000-84F9516E53DB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e410.24" id="AACD6F42-36B1-9064-D619-65D9D05FE61A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>BB444477-8518-3D9E-DAEC-F60B8ADEBB1D</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e355.1" id="E69CE93D-CCC8-5DB2-A8FF-CDD9035EFE2E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>2008D983-B12E-5ED4-1554-8B9C59EADA17</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e355.3" id="5629B6B9-30EB-C759-A58A-FF7AE459A5B3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F6392EC9-2462-00B4-4E38-85A4201298B3</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e355.6" id="29E3DC39-02F3-109B-06F7-72EA761BD8A2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A06D6C8A-3F88-CEE6-AF41-B6413506EA7B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e355.12" id="DC1B816F-7132-9E2C-2A4C-D89C1CCA75E3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E10DF77B-0FB5-5AF1-5467-CB9AC6A004D2</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e355.24" id="E71E9B73-B60E-B0FE-0F68-BFE6594ED55E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>B79FB983-8524-3A2F-47D7-7B8F2C1EF510</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e580.1" id="137382B7-DF89-9649-FDB1-5076B48BB6E8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>E8875EB1-C933-3E09-EA1F-5918442571D7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e580.3" id="4570F701-4090-A151-0717-9763A77619C0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>39317E6D-A6D6-195C-E81A-F9605D64D4DE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e580.6" id="A78C39FF-BCA7-AA1B-E111-952C5D0DAF70">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>C3F900FB-E08C-21DB-227A-3B45CA521D8A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e580.12" id="1E7156CB-5A3C-976A-7D67-FD09D525D74F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>784CD39D-0476-F246-B57D-E68C8DFD96D0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e580.24" id="3D3EBC5F-E976-A1B1-7416-DF96887425DA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>9BA11201-DAEC-C9D4-F060-8B9D8C92B895</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="s110.1" id="8FB929B1-4C61-664C-0D43-0D48C96E1FD7">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>92FEB659-E06C-674A-F48E-5A7A5B25BF36</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="s110.3" id="0DE1070D-7678-0DA4-904B-D5742EE5D369">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>768E3062-4B43-1329-6CFE-FDAAE2A31725</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="s110.6" id="17EA5155-C081-8E00-1D15-31119B56BAEE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A1F90769-B102-DDC6-81A0-19C21A863BFB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="s110.12" id="B9470D1B-4DAB-9D4E-8051-18C83925E3B3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>A11EB346-AC80-6FDD-CC32-93CC1F111C6A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="s110.24" id="9960FE53-682D-4165-52F8-D417FB309047">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>4098AB1C-930D-6B67-5A46-03B8F9257819</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m s110.1" id="E6238588-0487-71BC-2BAB-99112597C274">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>D0260F1B-297A-9984-6B36-3AA4088A4991</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m s110.3" id="1DD0838C-7871-0A67-63F5-4D8C3781F0ED">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>500E8C88-D592-1861-0E8B-3164E7D19976</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m s110.6" id="3C45A3F9-508E-4329-9510-19F4A219CD38">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>F573D289-8FD9-CF1F-B969-1D868449A51A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m s110.12" id="842D4674-17AC-58C0-6067-8A7660510251">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>4B714058-D1FB-6C0A-7E64-7D4515A287D5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m s110.24" id="152C3A70-F1F2-7B07-8070-EEF2C1FBD8DB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>312A10F3-1315-15A8-59B8-4CA0B358D342</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="surname" id="64217904-F12D-50BC-1520-670E18499E6C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>DC7BCDE1-BE00-7694-6B9F-03774E77029A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DFCDEA6E-62E4-EC09-7652-6EF568D73D1F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="child id" id="CE64AB02-00FB-7D90-85C6-820FD81093A5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:38:19 UTC</createdTime>
+<generatorID>5B4614B9-FC34-6E63-31AD-5DD5CD3FD38E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

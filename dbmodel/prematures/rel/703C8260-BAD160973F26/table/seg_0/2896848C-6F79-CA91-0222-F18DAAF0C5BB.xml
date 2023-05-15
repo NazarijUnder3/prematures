@@ -136,24 +136,21 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="apgar1" id="87FD720E-064F-8624-C84B-A47BE571FEBD">
+<Column name="apgar1_id" id="EC48F31B-BAAB-2D40-DAB3-CD80E8AF7986">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:49:43 UTC</createdTime>
-<generatorID>4EC98493-3D96-B074-AB27-A75ACBC9F42F</generatorID>
+<createdTime>2023-04-20 19:14:17 UTC</createdTime>
+<generatorID>2725CE42-521D-13B9-5356-9A3D970C0BE1</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<domain>6A7A6D10-C463-2360-15ED-94BA852014A9</domain>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>1</beginValue>
-<endValue>9</endValue>
-</rangeDef>
-</listOfRanges>
+<associations>
+<colAssociation fkAssociation="F35D0FA3-B59F-CC31-365D-8468B36DCF6F" referredColumn="0D4F097C-75BA-4CA0-7987-4F8AD55D9CBF"/>
+</associations>
 </Column>
 <Column name="asphyxia" id="C6174F4D-FD92-81B2-652B-0D26168EC832">
 <createdBy>User</createdBy>
@@ -474,16 +471,10 @@
 <shouldEngineer>false</shouldEngineer>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<logicalDatatype>540A5B74-D4C8-0969-11CD-6225B066D539</logicalDatatype>
 <domain>D06FE790-296A-F21D-0EA2-B356C1D7EE64</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>1</beginValue>
-<endValue>60</endValue>
-</rangeDef>
-</listOfRanges>
 </Column>
 <Column name="cpap" id="A0A1FAE6-26A4-C5D9-5BB2-B40C65761960">
 <createdBy>User</createdBy>
@@ -512,7 +503,7 @@
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <use>0</use>
-<logicalDatatype>CA4C3021-85A1-2881-7845-8F5C8D95A720</logicalDatatype>
+<logicalDatatype>540A5B74-D4C8-0969-11CD-6225B066D539</logicalDatatype>
 <domain>C6584D6C-0FD1-4B38-F42F-363481C347C4</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -555,7 +546,7 @@
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <use>0</use>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<logicalDatatype>540A5B74-D4C8-0969-11CD-6225B066D539</logicalDatatype>
 <domain>06486523-3F9B-4A75-3B1C-76D4105FE629</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -827,6 +818,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0C7F7653-7AE9-AA2A-CE8D-B1F6F2115643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="259F4CF9-6963-D9C7-D8B2-66FDFDB688AA" name="child_apgar1_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<generatorID>036AA198-C252-8C6F-FEF0-43E9AAD7E13B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC48F31B-BAAB-2D40-DAB3-CD80E8AF7986"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

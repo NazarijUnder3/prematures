@@ -1,12 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39F07BC3-B278-1D67-36E7-834504F64140" name="wd">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="427391E2-01BC-E8DE-7004-E3B83971B054" name="apgar1">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:10:10 UTC</createdTime>
-<commentInRDBMS><![CDATA[Wakefulness disorder]]></commentInRDBMS>
+<createdTime>2023-04-20 19:08:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apgar1]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
 <typeID>6C310CFB-5398-B476-825B-96F5AD7705FB</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -18,9 +17,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="wd id" id="027BEE9E-299A-4B9A-1D45-55040EEF393B">
+<Attribute name="apgar1 id" id="C182CC85-C550-B7E4-7930-325C0B7B5FAD">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<createdTime>2023-04-20 19:08:35 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -31,9 +30,9 @@
 <domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="wd name" id="6EFA2644-5928-C3E4-F45F-75571ED5AAFC">
+<Attribute name="apgar1 name" id="2022422F-FB6C-6CDF-F185-34B2B84934A3">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<createdTime>2023-04-20 19:08:35 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -46,29 +45,31 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0F1C897E-F2D4-02AD-44BB-77E7B22D511E" name="hospital PK">
+<identifier id="690BA573-6764-4598-6BAE-1AA174F0ABE1" name="apgar1 PK">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<createdTime>2023-04-20 19:08:35 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>C182CC85-C550-B7E4-7930-325C0B7B5FAD</newElementsIDs>
 <usedAttributes>
-<attributeRef>027BEE9E-299A-4B9A-1D45-55040EEF393B</attributeRef>
+<attributeRef>C182CC85-C550-B7E4-7930-325C0B7B5FAD</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="493B0487-5188-4D34-C3BE-2EBABE35FBC8" name="Key_2">
+<identifier id="6C9CF428-1A1B-0745-12A1-EB32C1AFA166" name="Key_2">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:10:10 UTC</createdTime>
+<createdTime>2023-04-20 19:08:35 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
+<newElementsIDs>2022422F-FB6C-6CDF-F185-34B2B84934A3</newElementsIDs>
 <usedAttributes>
-<attributeRef>6EFA2644-5928-C3E4-F45F-75571ED5AAFC</attributeRef>
+<attributeRef>2022422F-FB6C-6CDF-F185-34B2B84934A3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

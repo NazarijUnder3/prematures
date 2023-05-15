@@ -10,7 +10,7 @@
 <referredTableID>3ED6A096-867C-84A4-7FBC-F9D9204C1669</referredTableID>
 <keyObject>1911182D-C225-5104-F750-5F0400A4CAE8</keyObject>
 <referredKeyID>1911182D-C225-5104-F750-5F0400A4CAE8</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>coordination_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

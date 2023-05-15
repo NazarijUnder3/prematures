@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="main" directorySegmentName="seg_0" id="DD182AF0-991F-B4BC-5978-D6F4330CC872">
+<sourceDDLFile>temp.sql</sourceDDLFile>
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:15:39 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<schemaObject>CC726C28-F791-9B53-960B-0847FC7BE8A4</schemaObject>
+</UserOraclev10g>

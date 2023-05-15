@@ -18,5 +18,11 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BF771141-B54B-9516-D61F-10EED01845FA">
 <designStoragePath>G:\2</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5FDC8DFB-295F-8D80-3743-5B374B0196DB">
+<designStoragePath>G:\temp</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AA781E1F-B0DA-AC08-7098-6A8B700D615F">
+<designStoragePath>G:\temp</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

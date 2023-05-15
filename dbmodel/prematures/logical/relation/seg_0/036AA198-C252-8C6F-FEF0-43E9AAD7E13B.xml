@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="followup wd" directorySegmentName="seg_0" id="93DE0BFE-2D5E-7C20-BF6C-3CD7CC475BDE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="child apgar1" directorySegmentName="seg_0" id="036AA198-C252-8C6F-FEF0-43E9AAD7E13B">
 <createdBy>User</createdBy>
-<createdTime>2023-03-14 19:10:45 UTC</createdTime>
+<createdTime>2023-04-20 19:11:39 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
-<sourcePk>0F1C897E-F2D4-02AD-44BB-77E7B22D511E</sourcePk>
+<sourcePk>690BA573-6764-4598-6BAE-1AA174F0ABE1</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>39F07BC3-B278-1D67-36E7-834504F64140</sourceEntity>
+<sourceEntity>427391E2-01BC-E8DE-7004-E3B83971B054</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>656AE141-3F1B-2247-00E4-9FF8BF4105DB</targetEntity>
+<targetEntity>987CEFF6-68FE-C6E4-9ED0-7ADB62C5D470</targetEntity>
 <transferable>true</transferable>
 </Relation>

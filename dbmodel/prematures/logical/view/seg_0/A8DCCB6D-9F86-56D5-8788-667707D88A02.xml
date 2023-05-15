@@ -1,0 +1,657 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="A8DCCB6D-9F86-56D5-8788-667707D88A02" name="v regression">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>0861E314-35ED-440A-41AF-2FD322F0C002</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select id,	
+	"Пол",
+	"ЭКО0",
+	"ЭКО",
+	"Гестация0",
+	"Гестация",
+	"Масса",
+	"Рост",
+	"Апгар0",
+	"Апгар1",
+	"Асфиксия",
+	"Судороги0",
+	"ИВЛ",
+	"Длительность ИВЛ",
+	"Длительность CPAP",
+	"Куросурф",
+	"АСН7",
+	"ВУИ/сепсис",
+	"СЭИ",
+	"НЭ",
+	"ДС",
+	"ДН степень",
+	"ВЧК0",
+	"ВЧК",
+	"ПВК степень",
+	"ПВЛ",
+	"ЭФПН",
+	"Абилитация",
+	"Сухая иммерсия",
+	"возраст начала терапии",
+	"Косоглазие.1",
+	"Нарушения.1.5",
+	"Нарушения.2",
+	"Инвалидность ОФ",
+	"Признаки инвалидности",
+	"Косоглазие2",
+	"Рефлексы",
+	"БВ",
+	lng,
+	lat
+	from stage data
+;]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="id" id="BF6BEBE1-4541-ABDF-DEB6-227B95382204">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>E7892262-08F0-0D7E-3D0B-554E8654E72E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>id</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Пол" id="A0FF1865-43AC-5C68-7252-328143C1CF25">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>2685BEAB-CC51-412B-5092-A13BE3FB0D63</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Пол</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ЭКО0" id="313C4BF8-0FEA-D2AE-184F-4811C48E5EF3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>C61F0857-1FB7-E3D0-7F93-9B719FEDCBE8</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ЭКО0</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ЭКО" id="EA4535AE-8B6D-28DC-74E5-D4DE5412161E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>CDFB4085-3CC0-ED13-CE66-B4C10F6659B6</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ЭКО</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Гестация0" id="07B94C38-6793-A41B-3485-60EE1472A4E3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>2383B353-87FE-28BD-67E5-65F08FB803EC</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Гестация0</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Гестация" id="E8E8F6F4-15C7-08E1-F02B-1768A4110C63">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>3A9CDA39-E00E-9584-2A04-E9DA8AEF7BFE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Гестация</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Масса" id="7730AA73-4EB8-2896-23B5-76986E518F2D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>DEDB48E8-3898-ED4C-3F3B-8F2D0D11BAEE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Масса</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Рост" id="88BAFDB5-FC83-DA77-78C5-69BB30834801">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>99B65C52-A4B3-1A02-BDDE-F98DFB186FDE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Рост</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Апгар0" id="9C4B69F1-1285-8557-DA9C-7C85DA9A806E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>E6E05061-B6A3-67E8-F7CC-E29D62574519</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Апгар0</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Апгар1" id="EE6EEBE6-4CB1-FD0B-3833-D50E33B13BA9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>97C9102E-3ADD-9D91-35A5-594F9BE7E257</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Апгар1</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Асфиксия" id="C5420317-AD9E-0C9A-67E3-C391E0412C36">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>1E447296-CBC6-C953-80EA-CAE95053B740</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Асфиксия</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Судороги0" id="C7C426E0-DFFC-DD36-8E67-205706CE0BC8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>56DE6E90-CD8A-FB99-FC4E-71A6DE2AC706</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Судороги0</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ИВЛ" id="0789D6BB-7EE7-1713-6723-42B377B675A4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>465DFCB5-B0B6-C6B1-2603-196EA0172B53</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ИВЛ</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Длительность ИВЛ" id="77A10739-10BA-BCB1-86FC-A33F67202AEA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>312D34D3-02B4-DCFD-4289-B93BF83F4474</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Длительность ИВЛ&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Длительность CPAP" id="5C7DE603-ABE8-7AD0-8221-AD10EFDE7279">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>282BFD09-4604-A39F-9D74-535BCE85DDED</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Длительность CPAP&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Куросурф" id="E8B29FB4-50CF-0E01-3909-396E581A3AF2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>A5A5101B-90EE-FA84-C0AA-561020E59FC5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Куросурф</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="АСН7" id="DBD17E30-916B-02E0-380D-DFBE4DCE31D4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>769D2A6D-B21D-91F0-0BF6-D56FD7890894</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>АСН7</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ВУИ/сепсис" id="8410173A-4BBB-FCD2-E8D6-3DD49F950D5C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>6FCCE9F2-7568-B0D9-C357-0268638A5178</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<expression>&quot;ВУИ/сепсис&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="СЭИ" id="5B4EDAA7-6FAE-ADB9-9D39-1C45B690C087">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>87EA6A1E-D797-1685-0FEC-8D87C54B2E04</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>СЭИ</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="НЭ" id="9B6B522C-76A1-FEC9-048F-58A463BFBFB0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>BF3C51E1-CA15-37D0-9E7A-38CCF7B6BFFB</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>НЭ</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ДС" id="21FAE538-3E5D-9108-DC3E-144083291CC1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>CC0F06D4-B094-F828-E529-D546B28F8436</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ДС</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ДН степень" id="5BD94D10-6AA4-B499-68D1-05A7DE813B1C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>1B68F5FC-3518-DADF-3142-4B7FB8D60B40</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;ДН степень&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ВЧК0" id="B40DAB80-6B91-A15A-D7C9-46B5B0416DCF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>D1098025-195B-E47B-AB7E-E6601E97A9E5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ВЧК0</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ВЧК" id="0F770C73-E996-F537-C179-8AB227121F7D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>B84D1D08-4E1E-A689-8922-F4B253E94BD0</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ВЧК</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ПВК степень" id="797FBAE3-3715-FB68-A6FE-61110024F684">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>22A1B577-2AA2-8DD8-66A4-70B27132B415</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;ПВК степень&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ПВЛ" id="1CF6C20D-AA44-2887-584F-CC9084AB9F06">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>9D6F2626-C4CB-17FD-33D9-E2914A2C6C50</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ПВЛ</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ЭФПН" id="85485789-7A11-9373-D6BD-E6CCC0FCEF7F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>9E14C0CA-4E29-1B27-114D-1625F103EBE4</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>ЭФПН</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Абилитация" id="074F2ED2-858D-CE45-9772-81E9BDB04868">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>D13BB2B5-E707-3B05-E7C4-1BD0454CDD0A</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Абилитация</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Сухая иммерсия" id="D20E863C-99E7-2792-6D38-B13797C14DDB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>8B243477-3A30-5D52-7777-74B501238A97</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Сухая иммерсия&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="возраст начала терапии" id="5E700F43-7254-1B70-FCAF-354FD41C1C85">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>2D9C4919-6AA3-27C9-EA7B-F0B46386520C</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;возраст начала терапии&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Косоглазие.1" id="CD65CFB6-D2F3-5E68-3456-C8BBF02D28CB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>82602AC5-2EE4-0368-3109-266C181F7903</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Косоглазие.1&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Нарушения.1.5" id="89C9F62F-68E0-3471-6AF4-4873FDE201A5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>C3921C41-753A-9EE7-D260-54F1BA4D8D2E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Нарушения.1.5&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Нарушения.2" id="5BE30D42-D884-9F29-8946-64BA7F344DF3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>DA586B77-1ECD-44F6-EAAD-8177DFAD4757</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Нарушения.2&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Инвалидность ОФ" id="8C376C66-A0E2-C3BC-D3B3-BE229ECCCE56">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>71497834-2353-C190-5B57-D6DDB1DDDBF7</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Инвалидность ОФ&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Признаки инвалидности" id="116137AB-7020-7958-303D-3D1F39B8BD2D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>61336C28-85C1-601F-18C1-73EAD423C022</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>&quot;Признаки инвалидности&quot;</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Косоглазие2" id="A184EB3D-7E41-4758-DE12-40E6442E40BC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>F1607511-9BBF-DA91-9299-EBB88E004677</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Косоглазие2</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Рефлексы" id="C527C337-F7D2-18A8-D0C5-EFA9A5B7ECF1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>7FB695D7-F9AC-0619-6C58-155FADC1FB5E</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>Рефлексы</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="БВ" id="E8BB1817-B524-71AD-5239-3490A03C96FF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>28F92E3C-1F54-E243-9A42-1BC7A86CD914</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>БВ</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="lng" id="45049B1A-041A-1B96-7E4C-8D0BC87D6853">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>2BFD15D9-C66D-A587-18FD-29C1801EEA75</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>lng</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="lat" id="C69CDBC5-ED02-42DB-65DD-9EE300CB4435">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:58 UTC</createdTime>
+<generatorID>ACDD5A6C-3001-9561-DBA2-7A803FF1BED5</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<expression>lat</expression>
+<reference>false</reference>
+<viewID>A8DCCB6D-9F86-56D5-8788-667707D88A02</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

@@ -7,7 +7,7 @@
 <ownerDesignName>prematures</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
 <fileName>premature</fileName>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<logicalDatatype>540A5B74-D4C8-0969-11CD-6225B066D539</logicalDatatype>
 <listOfRanges>
 <rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
 <beginValue>0.5</beginValue>
@@ -277,10 +277,8 @@
 <createdTime>2023-03-07 19:24:17 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>3</dataTypeScale>
 <fileName>premature</fileName>
-<logicalDatatype>CA4C3021-85A1-2881-7845-8F5C8D95A720</logicalDatatype>
+<logicalDatatype>540A5B74-D4C8-0969-11CD-6225B066D539</logicalDatatype>
 <listOfRanges>
 <rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
 <beginValue>1</beginValue>
@@ -293,14 +291,12 @@
 <createdTime>2023-03-07 19:21:07 UTC</createdTime>
 <ownerDesignName>prematures</ownerDesignName>
 <avTSortOrder>0</avTSortOrder>
+<dataTypeScale>1</dataTypeScale>
 <fileName>premature</fileName>
-<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>1</beginValue>
-<endValue>60</endValue>
-</rangeDef>
-</listOfRanges>
+<logicalDatatype>540A5B74-D4C8-0969-11CD-6225B066D539</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12c" definition="(alv &gt; 0) and (alv &lt;= 70)"/>
+</checkConstraint>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="d_description" id="D0D60B08-E09C-8A4A-C88A-89945D11AC59">
 <createdBy>User</createdBy>

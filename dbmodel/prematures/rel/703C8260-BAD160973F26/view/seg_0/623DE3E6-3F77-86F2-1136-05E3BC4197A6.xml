@@ -1,0 +1,1575 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="623DE3E6-3F77-86F2-1136-05E3BC4197A6" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="v_mkf">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:03 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>view_3</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select id,
+	"Гестация",
+	"Абилитация",
+	"Нарушения.2",
+	"Инвалидность ОФ",
+	"Признаки инвалидности",
+	"b750.1",
+	"b750.3",
+	"b750.6",
+	"b750.12",
+	"b750.24",
+	"b730.1",
+	"b730.3",
+	"b730.6",
+	"b730.12",
+	"b730.24",
+	"b735.1",
+	"b735.3",
+	"b735.6",
+	"b735.12",
+	"b735.24",
+	"b755.1",
+	"b755.3",
+	"b755.6",
+	"b755.12",
+	"b755.24",
+	"b760.1",
+	"b760.3",
+	"b760.6",
+	"b760.12",
+	"b760.24",
+	"НС по МКФ",
+	"b134.1",
+	"b134.3",
+	"b134.6",
+	"b134.12",
+	"b134.24",
+	"b152.1",
+	"b152.3",
+	"b152.6",
+	"b152.12",
+	"b152.24",
+	"Сон.Эмоции.МКФ",
+	"d330.1",
+	"d330.3",
+	"d330.6",
+	"d330.12",
+	"d330.24",
+	"m_d330.1",
+	"m_d330.3",
+	"m_d330.6",
+	"m_d330.12",
+	"m_d330.24",
+	"Речь.МКФ",
+	"d4103.1",
+	"d4103.3",
+	"d4103.6",
+	"d4103.12",
+	"d4103.24",
+	"m_d4103.1",
+	"m_d4103.3",
+	"m_d4103.6",
+	"m_d4103.12",
+	"m_d4103.24",
+	"d4104.1",
+	"d4104.3",
+	"d4104.6",
+	"d4104.12",
+	"d4104.24",
+	"m_d4104.1",
+	"m_d4104.3",
+	"m_d4104.6",
+	"m_d4104.12",
+	"m_d4104.24",
+	"d4550.1",
+	"d4550.3",
+	"d4550.6",
+	"d4550.12",
+	"d4550.24",
+	"m_d4550.1",
+	"m_d4550.3",
+	"m_d4550.6",
+	"m_d4550.12",
+	"m_d4550.24",
+	"ЛМФ.МКФ",
+	"e110.1",
+	"e110.3",
+	"e110.6",
+	"e110.12",
+	"e110.24",
+	"e1101.1",
+	"e1101.3",
+	"e1101.6",
+	"e1101.12",
+	"e1101.24",
+	"e410.1",
+	"e410.3",
+	"e410.6",
+	"e410.12",
+	"e410.24",
+	"e355.1",
+	"e355.3",
+	"e355.6",
+	"e355.12",
+	"e355.24",
+	"e580.1",
+	"e580.3",
+	"e580.6",
+	"e580.12",
+	"e580.24",
+	"s110.1",
+	"s110.3",
+	"s110.6",
+	"s110.12",
+	"s110.24",
+	"m_s110.1",
+	"m_s110.3",
+	"m_s110.6",
+	"m_s110.12",
+	"m_s110.24"
+	from stage data
+;]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id" id="2689B9ED-F8CF-A385-1741-F1635C5CC710">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>id</headerAlias>
+<reference>false</reference>
+<referencedColumn>50A2346D-6E5D-61B0-E512-6E3898708E9C</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="гестация" id="F24C88FA-5E2C-38A5-CED0-16ECDA72D3FD">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Гестация</headerAlias>
+<reference>false</reference>
+<referencedColumn>C76DA86C-C180-B4E1-62C2-0AFE3F65F628</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="абилитация" id="EE22A4F1-F5FC-87D2-8E40-F54BBD3E73BB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Абилитация</headerAlias>
+<reference>false</reference>
+<referencedColumn>CF1E92E4-18E6-0F1D-808B-768F0B5CEFBA</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="нарушения.2" id="53929B8A-B846-A91E-942E-8450CA1BB6C4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Нарушения.2</headerAlias>
+<reference>false</reference>
+<referencedColumn>174F4CB5-EA05-6474-9A23-ACE6BF48CB0D</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="инвалидность_оф" id="8FF5E195-EE5F-CC6D-0EEE-4617CC418521">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Инвалидность ОФ</headerAlias>
+<reference>false</reference>
+<referencedColumn>8057CB26-2745-1FA5-B86E-565E99AA9E99</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="признаки_инвалидности" id="9C4117C5-0F81-D24F-68B0-7B8BFA789845">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Признаки инвалидности</headerAlias>
+<reference>false</reference>
+<referencedColumn>B7D1CE1E-6160-0234-AECF-FD467B5D8C75</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b750.1" id="3399766A-86FE-3147-43B0-87F030C498B2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b750.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>9F1B38B4-705E-ABEA-7B74-3169F4A114B6</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b750.3" id="6F516CA0-A5DE-6B34-75F0-FDFCE89A7AB8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b750.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>468668B7-9FA0-3885-40F9-42E1D6C2B031</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b750.6" id="0A8560C6-6C4B-309F-74A6-1BDB6D63DA50">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b750.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>14F6D7C7-4165-369C-2D82-8873B24930F5</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b750.12" id="29D2A856-1AFE-7EA5-4584-C6960B3213D8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b750.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>F81795AB-5D9B-345C-823E-D2B03316533A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b750.24" id="B63FB4B2-2827-A183-D872-6A82253F3339">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b750.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>F7F07385-87A4-B013-AD7B-90FD66F036AB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b730.1" id="C9DA63EE-B35B-E408-367E-FDFE335BD922">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b730.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>4EBE99DB-8D0A-39A1-1529-9B4A438B504E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b730.3" id="4D80DA16-EA4E-3B41-BAC6-7C6C5F957866">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b730.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>845D5E94-50B4-1813-6658-C6AFC5A030F3</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b730.6" id="A6A1DD33-1D8A-EA43-84EA-DD0E5D3842C4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b730.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>F3BC10F9-A46B-1F83-8030-B149DF84F140</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b730.12" id="789D9A74-1657-B683-66F7-B938F3A991A4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b730.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>DF0248ED-E79F-1384-EE32-1EA7301BF7E0</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b730.24" id="B5AD37D4-524E-D6E2-3A9C-6FFACB41FC96">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b730.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>03126FED-D857-C1F6-F90A-1C79A4B15BD2</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b735.1" id="E6F24965-1411-3FE2-7C11-F290313275CB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b735.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>B6DDFD64-7796-24E1-3396-7732815F296E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b735.3" id="88D90FA4-F7B2-C741-55BA-11DA4D0AED7A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b735.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>5DD4D852-AC3D-559A-71FA-4FBA69BA72D6</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b735.6" id="3DE13CFE-6C56-98EA-443B-088AF35A1DA1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b735.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>46397D50-D99A-FF88-9054-1D8C9796D6D2</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b735.12" id="14B66DF7-A961-ECD3-B688-ED8CC60FEEB3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b735.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>8DB4CFA8-166E-C45D-D7D7-6DC9BFA04F5B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b735.24" id="E8DBCE6A-2F2A-66F7-7BD3-46092043B485">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b735.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>DCF69F5A-865C-F52F-F4F3-EF54A3D4E5B8</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b755.1" id="867FC6C5-15F7-5828-33D0-547D1DD44D71">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b755.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>DBCAC77C-57ED-3A67-9652-8E89F2EEC5D5</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b755.3" id="16C33EB2-C3F9-7F35-A057-B79FD379FEDA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b755.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>76CBE5D5-5B64-6AD2-1E31-81D538DB2602</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b755.6" id="A68C20BE-519B-E24D-74B3-195D9CE83B88">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b755.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>43BFFF28-4552-5C76-E956-DAAC6576779A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b755.12" id="2C20A246-76FE-8C52-AF7F-BE75162BFBAE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b755.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>2A0C0423-1A5D-4B16-38CF-2EF3AC72CBFF</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b755.24" id="64B3961B-2863-8709-0CE3-CE3DD77BC0FA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b755.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>2B63B8F6-8855-DCB4-40C9-3998859DFF91</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b760.1" id="F4CC64E8-C004-4297-9D1E-3DE982453A46">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b760.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>203EC5A9-A09D-709D-83A1-9CBDB296D070</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b760.3" id="31B76E56-8769-958F-F690-BA7CF98BC99D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b760.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>FCB81936-5CFC-73F1-2BE9-2411735F12C0</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b760.6" id="80B20EE8-CCA2-4BED-6341-00DEE6B046EF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b760.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>973FC6AE-273C-807F-9986-281C04554FC8</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b760.12" id="7727ECC8-555E-80ED-7F1B-A5FDA467F8C0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b760.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>FE072457-8A3F-C25A-0649-22DB67A4303A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b760.24" id="8416B81C-20C3-785D-72A6-50AFA455949A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b760.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>33E06106-9D92-FF37-6E7D-DF48602A3D32</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="нс_по_мкф" id="944B9212-3704-6A7E-713D-4523333414FE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>НС по МКФ</headerAlias>
+<reference>false</reference>
+<referencedColumn>18DEE8E6-50FA-B324-B048-2B510617703B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b134.1" id="11B75E1E-5912-6EEF-AD40-28591F3B8CA5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b134.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>121517C6-92A2-0AC1-8237-FD78CFFABEB9</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b134.3" id="694A61C0-F0B5-52FD-99E7-649DF6E75BAA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b134.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>41199153-D924-0462-BD2A-F86428972856</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b134.6" id="B04A25CA-E726-9052-F76E-77701FB819A8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b134.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>6E97C875-9860-72CD-D8E3-D25F431E08D3</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b134.12" id="0F46EF01-5702-9EC0-964B-7211A01FB9F9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b134.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>E8B7300B-0DE7-3B40-EC9E-2A7B87B10BE9</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b134.24" id="297B4BB9-90E3-AD88-79FB-457CD60DA01C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b134.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>29961990-6429-1529-87C8-D6AC48EFCF5A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b152.1" id="11ED309D-8568-BAE8-9EC2-298273BBCBBA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b152.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>02DB269E-02B3-E579-CF63-6CCC4B4D8E35</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b152.3" id="0BF6031C-7DCD-9DCA-4777-05A8817CC879">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b152.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>71619965-8CCA-CA03-797C-9EEC60114943</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b152.6" id="B9B6A6D7-48A9-0568-1566-D02C76A2E3B3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b152.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>80AF59EC-492B-F4A8-F4CB-68F4622D8937</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b152.12" id="E7FD2A21-F7DE-6FC5-FDB1-E2DD63C484A8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b152.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>C1D25C40-D60A-53C0-53CB-4FE0E7911534</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="b152.24" id="115A34A0-611B-EC2B-578F-90F96191658A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>b152.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>D47E7727-A925-406B-3BAF-C514700CDC6F</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="сон.эмоции.мкф" id="04633E13-67F0-26FC-CF3C-B0EB860E9420">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Сон.Эмоции.МКФ</headerAlias>
+<reference>false</reference>
+<referencedColumn>5DD75DBB-7D3B-7C18-7ACF-522835BE4BFB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d330.1" id="9B7C42B6-3160-B950-B495-7BD6F443C9E8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d330.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>E30F9836-A14B-0D40-B261-3C60DA47D1CB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d330.3" id="460E0713-545F-7721-9AC6-70CB66B42FA3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d330.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>14897D7E-316F-670D-DB2D-89AA56524866</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d330.6" id="7DC6002E-964E-FA76-8942-9595B98185CA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d330.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>B70D64AA-E3CD-7E99-55A0-6FD6DFBDA2BB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d330.12" id="1EB3FCAE-9FD6-484C-C3CE-7D32584510E3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d330.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>5D46BF2A-58E4-8BCA-C3F0-19F40E9A93E2</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d330.24" id="39DD876D-B47C-FD65-9BDD-0B35D280863A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d330.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>2418DB4F-235B-356B-B07B-ECF1187897D0</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d330.1" id="AB8BF48E-3151-096A-1EA0-CFEA30A804C2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d330.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>683525B3-62CE-C135-2DB2-0B7508393D02</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d330.3" id="EAE1D434-7CE8-4635-D3EC-B1563509B66B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d330.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>316A2D9A-7497-B3FB-711A-6802FA762E0A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d330.6" id="7947ACC8-AD0D-7A8B-3DED-0137A20667BC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d330.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>099856A4-C2F6-807A-E364-23E05CFDD9A8</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d330.12" id="7BF546E6-0BD5-2417-747F-AFFD5B19FDD0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d330.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>CC4BF673-CA6C-966C-9C72-6290D16F4918</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d330.24" id="62EBCA79-7A1B-A082-8BB1-66D523982FAA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d330.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>3227764E-850B-EA17-6B7A-AA935973FF8B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="речь.мкф" id="623B181E-B401-0FAC-3918-4FE37CC84D45">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Речь.МКФ</headerAlias>
+<reference>false</reference>
+<referencedColumn>99837C31-F7FA-0810-EFE7-70F1F400A9A6</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4103.1" id="5C77A2C0-DB0A-9E3E-BA70-864D273A521E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4103.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>FD36D574-DF13-7CFF-59C6-E611D53E044F</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4103.3" id="D7FCBEF5-3A13-1AE9-06CE-63139F076B07">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4103.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>A4859849-88D9-95D5-EB31-87A09DD7E59E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4103.6" id="EE99FBF6-D190-411D-2A09-570A7E4A98EC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4103.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>92B7B278-41EA-25CF-0CCF-FE2403A5C42D</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4103.12" id="4482EE3D-32C5-84CB-3910-F099F07F57D6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4103.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>30D4173E-2261-9CEE-3117-560627E8784E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4103.24" id="46D4A5F3-9E9E-0AAF-C61C-80CAACD1C360">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4103.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>988DFBC1-62F8-D452-EA2C-6AA43DD97817</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4103.1" id="E7EC1274-49B9-50EC-AD5C-D2FCC1269A36">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4103.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>CE7B27EB-CF36-2041-4730-39FB2ED36E07</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4103.3" id="092D3CB5-59BA-A050-0802-AE1CFDFE8094">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4103.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>BBB53E92-5BDF-6519-85FF-DF4EB35CAF1F</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4103.6" id="A3CB0F12-3546-C8F7-DC37-79D03ADA4F15">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4103.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>E4D9EFCE-5CEA-7B57-338B-53E2EFE0BA94</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4103.12" id="3F94916F-9043-5E3C-DA6F-6035FB1DCC66">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4103.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>45459ABC-887D-5F92-71EE-7229C69DD805</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4103.24" id="5D128CB1-760F-3796-3010-059871A300A3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4103.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>C98D793A-6428-7C99-DF72-F207322A84DA</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4104.1" id="3406F6AA-C292-B9DD-23BA-E5BDE2583D0E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4104.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>BE2343A4-E626-E87A-44B1-68B5AD57F26B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4104.3" id="D5FC769A-BEEE-6247-CCC4-F696F2DE7BB1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4104.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>D97EA848-14EB-DAC6-2016-784E78A2854E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4104.6" id="ABFC7CC6-A079-6664-5945-90AB377FBC94">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4104.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>31D3E8DA-2A14-013D-4B68-C9169B9C461B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4104.12" id="C44B5162-8C7A-278F-3FD5-E4E0658FF325">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4104.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>54B43078-D9B8-1570-B1A7-9B1B00512343</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4104.24" id="12BF4B2E-8693-A4FF-0983-F42CE531E326">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4104.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>8B72A177-1FD3-6E58-C7E2-91C3BF4B0B7B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4104.1" id="EBB6CA67-0F12-7108-0905-303CE587FDED">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4104.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>013F0B8F-CBCD-C395-02C7-29FF02FC1FD8</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4104.3" id="E6C39E42-6A94-30E8-2396-21DD3B4ACD3A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4104.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>BBDCC76D-9444-83DD-A311-F593B1C2C97A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4104.6" id="C13EA260-4B9D-0BD5-2596-DFBEA04055BE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4104.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>513C038D-3B8E-E483-A25E-C6774E3706CD</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4104.12" id="C0E04BC4-1395-7564-70ED-6BD62468B369">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4104.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>CC7193F1-5005-4F7B-634A-6571C8BFB06E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4104.24" id="B0046C22-C291-15EE-6D4A-9177D3AEF9AA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4104.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>9A25E7A1-58EE-EC84-3035-50553020A3C7</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4550.1" id="FEC52068-5D40-8A52-BC7F-521F82FFAECF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4550.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>05C68CFF-2E1C-E81A-3F03-D5DAA8D8F085</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4550.3" id="9EB6143C-E3F5-B5B8-EA46-AD9AAB5DFCC9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4550.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>0DB5FE5F-462E-E9D2-1511-6D3995E4E56B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4550.6" id="C9170E40-4D3D-6C55-D716-E66E30C60EFE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4550.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>A9F02C1A-542A-069F-F570-7235C4961A02</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4550.12" id="71446A4B-09CC-C4E7-BAFA-ED794BD86610">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4550.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>5FC23409-6F95-56D4-E98F-CE454AFED54E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="d4550.24" id="8150228D-3DDB-F216-2605-566D99AB8670">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>d4550.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>1E199074-C269-A8BF-A4B9-99168AFB0214</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4550.1" id="C58612AD-E35D-B54D-0459-44D559D35926">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4550.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>FB2BE5AB-C304-699B-C2B7-666CA6DA70B4</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4550.3" id="7FEFD8AD-9A98-B7DC-D31F-97D42DEC173D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4550.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>1BFF1A42-618E-203C-787C-BE44C0E56CB1</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4550.6" id="51A7AAF0-3080-EFFB-B0B4-C6BE12C56A8B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4550.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>248CBDBA-EA18-21F1-39DF-93EF17B686D9</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4550.12" id="6FFE89D6-E80F-7E90-5653-D807D8F98D7A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4550.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>A0C0B57B-4285-DEC2-BB8B-312976C3E81C</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_d4550.24" id="27BA8313-755A-ED40-241E-03D40BDD9D86">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_d4550.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>83DE7105-603E-DD63-24D6-D7A801E2983A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="лмф.мкф" id="66A3A4D2-4C8B-7FD1-4930-DF6F98A4C97D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ЛМФ.МКФ</headerAlias>
+<reference>false</reference>
+<referencedColumn>BF23D655-4BC5-CFE5-5B64-03C1369B4654</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e110.1" id="4E6A550D-1C80-582A-E451-39C6D6858597">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e110.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>E7DBADD7-EA80-23DF-8F2A-47A8D74291FC</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e110.3" id="A5CA43BD-B04C-DE0A-40D1-BBECF8611EAE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e110.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>AE9BA3DE-41C3-9B27-AC4C-0FFABFA2F011</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e110.6" id="685077A4-EF0A-C4E8-E5F2-02A27B7F0797">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e110.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>73C1DCA1-247B-876D-A8F6-91180AFFD5A5</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e110.12" id="670A8D00-C06A-43A9-5124-3A692616A16B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e110.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>FD15E9FC-CC17-FD79-DB65-1CD22EFAF297</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e110.24" id="94BEEDAE-67F7-A249-54BE-03238A05964D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e110.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>87111297-9921-E2D6-6FD2-98D1D7435F94</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e1101.1" id="C3A475C9-91AB-7BA0-FC4A-5C183104FF75">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e1101.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>E57CB65C-5CF9-07BA-E65A-986061620FE7</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e1101.3" id="7ED4C73D-51F7-1C41-7B78-DC39555AF858">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e1101.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>29F47EB3-CF14-5346-711A-1EBDC0473246</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e1101.6" id="4E088D67-FFE5-5B1F-C9A3-78A92F985DE3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e1101.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>CA0A2F4F-3CD4-6FD8-2DDE-B8642C1A798F</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e1101.12" id="5D93FAE4-1AF0-60BD-1A5B-42B1F867EC03">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e1101.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>12652694-4856-EC4E-4BD5-8353F2B365EF</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e1101.24" id="DF6CCDAE-613D-6C2E-EFBE-92F6EDCF2B73">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e1101.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>F0C3C969-E7E0-8AF2-E0C9-870E3BB2A493</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e410.1" id="A153999B-C1C9-D5D4-65C4-574C3B1B3315">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e410.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>833367D7-CFF2-348E-FA7B-BE5276B577A3</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e410.3" id="58265CB3-3528-C779-9B05-1BA1D484285C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e410.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>6F61B27A-73DC-C350-E1C0-6F5C68908C8E</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e410.6" id="9FA15623-DB4E-8721-5ECB-A9265E4B5DE5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e410.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>CB996A9B-D5EB-1463-3180-80F1DD7144C8</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e410.12" id="792F6D83-FC25-5CC8-838F-5AE1F771BB0B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e410.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>DDE30DA3-1A45-6661-4000-84F9516E53DB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e410.24" id="79262F35-AD26-2F05-2E74-617CABFE27C5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e410.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>BB444477-8518-3D9E-DAEC-F60B8ADEBB1D</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e355.1" id="6D79EEB6-00DE-5E08-51F2-63C6364B8E51">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e355.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>2008D983-B12E-5ED4-1554-8B9C59EADA17</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e355.3" id="0507CAF7-D1C6-2799-ED66-05A4CF9B7D32">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e355.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>F6392EC9-2462-00B4-4E38-85A4201298B3</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e355.6" id="96DFB6CA-329F-CB86-6FE3-9ACBB1658FE9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e355.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>A06D6C8A-3F88-CEE6-AF41-B6413506EA7B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e355.12" id="FD732A81-197C-093A-6F7E-D4DD80C69B9C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e355.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>E10DF77B-0FB5-5AF1-5467-CB9AC6A004D2</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e355.24" id="BB7023AC-2B03-09E8-0BC8-C357807B5BB8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e355.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>B79FB983-8524-3A2F-47D7-7B8F2C1EF510</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e580.1" id="5C59C1E9-FDD9-83CE-9948-F3B652E71F0E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e580.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>E8875EB1-C933-3E09-EA1F-5918442571D7</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e580.3" id="96638BA8-EA01-6701-0351-4F0BF587CA16">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e580.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>39317E6D-A6D6-195C-E81A-F9605D64D4DE</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e580.6" id="FA5A9F9D-7FA7-6698-48F1-3FFA447A5743">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e580.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>C3F900FB-E08C-21DB-227A-3B45CA521D8A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e580.12" id="B11F7743-7522-E27D-96D1-7EF0075CDD7E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e580.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>784CD39D-0476-F246-B57D-E68C8DFD96D0</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="e580.24" id="4AAED41C-9E0C-655E-3927-3075B5ABB840">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>e580.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>9BA11201-DAEC-C9D4-F060-8B9D8C92B895</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="s110.1" id="43205009-0753-5FAA-E2F7-123A8EE39988">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>s110.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>92FEB659-E06C-674A-F48E-5A7A5B25BF36</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="s110.3" id="C5D833AF-5DC2-5968-8D11-A5C6C4A4DBC4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>s110.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>768E3062-4B43-1329-6CFE-FDAAE2A31725</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="s110.6" id="35163D5F-ADBF-FA7F-261F-378E91F6FB2B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>s110.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>A1F90769-B102-DDC6-81A0-19C21A863BFB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="s110.12" id="DF94D540-04FF-11DB-51D0-A67D3D25FAEF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>s110.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>A11EB346-AC80-6FDD-CC32-93CC1F111C6A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="s110.24" id="985C1709-200F-9099-8DF4-7B8C0682A5C4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>s110.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>4098AB1C-930D-6B67-5A46-03B8F9257819</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_s110.1" id="EF0A903E-C225-D964-755E-60D033DBB9C2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_s110.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>D0260F1B-297A-9984-6B36-3AA4088A4991</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_s110.3" id="43F09044-E08E-0908-B527-95052D617AC5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_s110.3</headerAlias>
+<reference>false</reference>
+<referencedColumn>500E8C88-D592-1861-0E8B-3164E7D19976</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_s110.6" id="53144152-6E7F-A5DA-D37D-118E130217C9">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_s110.6</headerAlias>
+<reference>false</reference>
+<referencedColumn>F573D289-8FD9-CF1F-B969-1D868449A51A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_s110.12" id="68772CB9-9D14-CC33-0925-1D62EF63FE9D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_s110.12</headerAlias>
+<reference>false</reference>
+<referencedColumn>4B714058-D1FB-6C0A-7E64-7D4515A287D5</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="m_s110.24" id="702F6D5A-3213-D290-2DAF-6356F63A2396">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:37:27 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>m_s110.24</headerAlias>
+<reference>false</reference>
+<referencedColumn>312A10F3-1315-15A8-59B8-4CA0B358D342</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+</viewElements>
+</TableView>

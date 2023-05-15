@@ -4,8 +4,9 @@
 <createdTime>2023-03-14 18:54:16 UTC</createdTime>
 <commentInRDBMS><![CDATA[Additionaд (follow up) information about strabismus, sleep disorders, etc.]]></commentInRDBMS>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -48,8 +49,9 @@
 <createdTime>2023-03-14 19:02:32 UTC</createdTime>
 <generatorID>9EFB25B1-11FE-3236-7F09-29EBA4D64C24</generatorID>
 <ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="false"/>
 </engineerTo>
 <referedAttribute>C518099F-9D46-95D8-FCB4-D6A25911C84F</referedAttribute>
 <use>0</use>
@@ -139,6 +141,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>027BEE9E-299A-4B9A-1D45-55040EEF393B</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -168,6 +171,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>6C8ABAA1-28F5-7BCD-B7BD-C1BB6E98940A</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -182,6 +186,7 @@
 <engineerTo>
 <item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>D708D900-A6E6-E2FA-1754-881A5521E12E</referedAttribute>
 <use>0</use>
 <logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
@@ -200,6 +205,20 @@
 <use>0</use>
 <logicalDatatype>26FAAB15-89C7-9B42-76FD-D37D9638D5F9</logicalDatatype>
 <domain>D0D60B08-E09C-8A4A-C88A-89945D11AC59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disorder type id" id="6C0ACCD3-F857-03A1-89FC-5B6B6D193E86">
+<createdBy>User</createdBy>
+<createdTime>2023-05-15 19:23:17 UTC</createdTime>
+<generatorID>960D9338-AFFF-283D-5DD7-51BD4EC9ABCE</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<engineerTo>
+<item key="703C8260-0AB3-959A-EC1B-BAD160973F26" value="true"/>
+</engineerTo>
+<referedAttribute>79A3C367-F9B2-DF9C-FFB0-9F48E8CF7E4D</referedAttribute>
+<use>0</use>
+<logicalDatatype>79E55A7B-BBD6-463A-77FC-99B3FD36B7E7</logicalDatatype>
+<domain>254E95BC-6582-2370-BB3C-8BEF3683AFDD</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

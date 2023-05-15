@@ -10,7 +10,7 @@
 <referredTableID>D570F21D-6B3A-BA62-E70E-A9C4FB1BEA12</referredTableID>
 <keyObject>C1AD89FB-0AB4-9A7B-6221-AC56B93B009F</keyObject>
 <referredKeyID>C1AD89FB-0AB4-9A7B-6221-AC56B93B009F</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ps_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

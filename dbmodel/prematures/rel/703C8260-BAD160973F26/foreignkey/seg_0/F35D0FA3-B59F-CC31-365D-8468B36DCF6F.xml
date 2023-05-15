@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F35D0FA3-B59F-CC31-365D-8468B36DCF6F" containerWithKeyObject="2896848C-6F79-CA91-0222-F18DAAF0C5BB" localFKIndex="259F4CF9-6963-D9C7-D8B2-66FDFDB688AA" name="child_apgar1_fk">
+<createdBy>User</createdBy>
+<createdTime>2023-04-20 19:15:30 UTC</createdTime>
+<generatorID>036AA198-C252-8C6F-FEF0-43E9AAD7E13B</generatorID>
+<ownerDesignName>prematures</ownerDesignName>
+<referredTableLongName>main.apgar1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C63E54A-8888-2D9A-E986-911F80C7BF55</referredTableID>
+<keyObject>A0B88C00-BF45-F30A-1C16-863C0654DB9C</keyObject>
+<referredKeyID>A0B88C00-BF45-F30A-1C16-863C0654DB9C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>apgar1_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

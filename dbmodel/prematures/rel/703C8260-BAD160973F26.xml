@@ -17,5 +17,10 @@
 <pathName>C:\Users\User\Desktop</pathName>
 <dbType>11</dbType>
 </importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>temp.sql</fileName>
+<pathName>G:\</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
 </importDDLFileStamps>
 </relationalModel>

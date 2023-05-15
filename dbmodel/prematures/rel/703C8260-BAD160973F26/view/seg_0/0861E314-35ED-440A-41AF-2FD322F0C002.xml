@@ -1,0 +1,531 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="0861E314-35ED-440A-41AF-2FD322F0C002" schemaObject="CC726C28-F791-9B53-960B-0847FC7BE8A4" name="v_regression">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:10:01 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>view_2</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[select id,	
+	"Пол",
+	"ЭКО0",
+	"ЭКО",
+	"Гестация0",
+	"Гестация",
+	"Масса",
+	"Рост",
+	"Апгар0",
+	"Апгар1",
+	"Асфиксия",
+	"Судороги0",
+	"ИВЛ",
+	"Длительность ИВЛ",
+	"Длительность CPAP",
+	"Куросурф",
+	"АСН7",
+	"ВУИ/сепсис",
+	"СЭИ",
+	"НЭ",
+	"ДС",
+	"ДН степень",
+	"ВЧК0",
+	"ВЧК",
+	"ПВК степень",
+	"ПВЛ",
+	"ЭФПН",
+	"Абилитация",
+	"Сухая иммерсия",
+	"возраст начала терапии",
+	"Косоглазие.1",
+	"Нарушения.1.5",
+	"Нарушения.2",
+	"Инвалидность ОФ",
+	"Признаки инвалидности",
+	"Косоглазие2",
+	"Рефлексы",
+	"БВ",
+	lng,
+	lat
+	from stage data
+;]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id" id="E7892262-08F0-0D7E-3D0B-554E8654E72E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>id</headerAlias>
+<reference>false</reference>
+<referencedColumn>50A2346D-6E5D-61B0-E512-6E3898708E9C</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="пол" id="2685BEAB-CC51-412B-5092-A13BE3FB0D63">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Пол</headerAlias>
+<reference>false</reference>
+<referencedColumn>3C741744-A79F-C51C-875D-D1473C3DACB0</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="эко0" id="C61F0857-1FB7-E3D0-7F93-9B719FEDCBE8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ЭКО0</headerAlias>
+<reference>false</reference>
+<referencedColumn>6D5D83C2-C746-E885-83E7-1BE3FFC4E4B1</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="эко" id="CDFB4085-3CC0-ED13-CE66-B4C10F6659B6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ЭКО</headerAlias>
+<reference>false</reference>
+<referencedColumn>0DBE0DCA-844B-B89F-6073-CAEE25423007</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="гестация0" id="2383B353-87FE-28BD-67E5-65F08FB803EC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Гестация0</headerAlias>
+<reference>false</reference>
+<referencedColumn>06B9BCA0-A622-8FEC-9DFB-C5DDCC6F9008</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="гестация" id="3A9CDA39-E00E-9584-2A04-E9DA8AEF7BFE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Гестация</headerAlias>
+<reference>false</reference>
+<referencedColumn>C76DA86C-C180-B4E1-62C2-0AFE3F65F628</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="масса" id="DEDB48E8-3898-ED4C-3F3B-8F2D0D11BAEE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Масса</headerAlias>
+<reference>false</reference>
+<referencedColumn>85CF03EA-A747-6C56-C607-C5998396C8B8</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="рост" id="99B65C52-A4B3-1A02-BDDE-F98DFB186FDE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Рост</headerAlias>
+<reference>false</reference>
+<referencedColumn>BF7297AC-FE01-43D4-64AB-B2B9ABD54747</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="апгар0" id="E6E05061-B6A3-67E8-F7CC-E29D62574519">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Апгар0</headerAlias>
+<reference>false</reference>
+<referencedColumn>9E40D853-F4B0-0DBF-05FF-799793034BD4</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="апгар1" id="97C9102E-3ADD-9D91-35A5-594F9BE7E257">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Апгар1</headerAlias>
+<reference>false</reference>
+<referencedColumn>075078A4-2997-96CE-4C78-57C6D7A77B40</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="асфиксия" id="1E447296-CBC6-C953-80EA-CAE95053B740">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Асфиксия</headerAlias>
+<reference>false</reference>
+<referencedColumn>BE182E2D-F236-6C55-717F-486E35E386CB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="судороги0" id="56DE6E90-CD8A-FB99-FC4E-71A6DE2AC706">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Судороги0</headerAlias>
+<reference>false</reference>
+<referencedColumn>BF7F45FF-B45F-4C97-309B-E2550585C550</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ивл" id="465DFCB5-B0B6-C6B1-2603-196EA0172B53">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ИВЛ</headerAlias>
+<reference>false</reference>
+<referencedColumn>8E2FDF28-901A-9D29-B755-EA9D25D44400</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="длительность_ивл" id="312D34D3-02B4-DCFD-4289-B93BF83F4474">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Длительность ИВЛ</headerAlias>
+<reference>false</reference>
+<referencedColumn>A30D91BF-BD5B-5482-2002-7D929289E138</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="длительность_cpap" id="282BFD09-4604-A39F-9D74-535BCE85DDED">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Длительность CPAP</headerAlias>
+<reference>false</reference>
+<referencedColumn>FCF89EFE-1399-46AE-0A9E-867C277F8195</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="куросурф" id="A5A5101B-90EE-FA84-C0AA-561020E59FC5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Куросурф</headerAlias>
+<reference>false</reference>
+<referencedColumn>EBEB3AB5-4154-9EEE-91BF-3CBE1E318943</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="асн7" id="769D2A6D-B21D-91F0-0BF6-D56FD7890894">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>АСН7</headerAlias>
+<reference>false</reference>
+<referencedColumn>3306D87B-34B4-D04F-C6F2-97A4D73F4F2A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="вуи/сепсис" id="6FCCE9F2-7568-B0D9-C357-0268638A5178">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ВУИ/сепсис</headerAlias>
+<reference>false</reference>
+<referencedColumn>443D6458-2D4B-0BE4-E898-DC06DE71F32C</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="сэи" id="87EA6A1E-D797-1685-0FEC-8D87C54B2E04">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>СЭИ</headerAlias>
+<reference>false</reference>
+<referencedColumn>3CF921C7-6F50-E847-E204-1372A195F97A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="нэ" id="BF3C51E1-CA15-37D0-9E7A-38CCF7B6BFFB">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>НЭ</headerAlias>
+<reference>false</reference>
+<referencedColumn>6ACA6FAD-8F19-9F00-B64E-3222983AFEEB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="дс" id="CC0F06D4-B094-F828-E529-D546B28F8436">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ДС</headerAlias>
+<reference>false</reference>
+<referencedColumn>EB0A9754-E274-E872-3410-291574A2246F</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="дн_степень" id="1B68F5FC-3518-DADF-3142-4B7FB8D60B40">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ДН степень</headerAlias>
+<reference>false</reference>
+<referencedColumn>391F1B0C-311E-C6E7-E473-7E6141046C35</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="вчк0" id="D1098025-195B-E47B-AB7E-E6601E97A9E5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ВЧК0</headerAlias>
+<reference>false</reference>
+<referencedColumn>D162D4FF-A829-E33C-82CA-7AEF1BE0683F</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="вчк" id="B84D1D08-4E1E-A689-8922-F4B253E94BD0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ВЧК</headerAlias>
+<reference>false</reference>
+<referencedColumn>29495517-12C0-1C19-DF35-B70CBD98845B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="пвк_степень" id="22A1B577-2AA2-8DD8-66A4-70B27132B415">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ПВК степень</headerAlias>
+<reference>false</reference>
+<referencedColumn>835D3D7D-B099-61BE-971A-E7A6BCF6A74D</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="пвл" id="9D6F2626-C4CB-17FD-33D9-E2914A2C6C50">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ПВЛ</headerAlias>
+<reference>false</reference>
+<referencedColumn>1C490E29-8D17-0C08-C1AD-294D8E185C10</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="эфпн" id="9E14C0CA-4E29-1B27-114D-1625F103EBE4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>ЭФПН</headerAlias>
+<reference>false</reference>
+<referencedColumn>221F2A7C-5C1B-F0C7-AF59-5D520CA548C1</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="абилитация" id="D13BB2B5-E707-3B05-E7C4-1BD0454CDD0A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Абилитация</headerAlias>
+<reference>false</reference>
+<referencedColumn>CF1E92E4-18E6-0F1D-808B-768F0B5CEFBA</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="сухая_иммерсия" id="8B243477-3A30-5D52-7777-74B501238A97">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Сухая иммерсия</headerAlias>
+<reference>false</reference>
+<referencedColumn>8588322D-67DE-06B4-5116-88A85416DFFB</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="возраст_начала_терапии" id="2D9C4919-6AA3-27C9-EA7B-F0B46386520C">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>возраст начала терапии</headerAlias>
+<reference>false</reference>
+<referencedColumn>12F5ED80-0D5E-0DC2-BCF7-D62F2FCFA29A</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="косоглазие.1" id="82602AC5-2EE4-0368-3109-266C181F7903">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Косоглазие.1</headerAlias>
+<reference>false</reference>
+<referencedColumn>B596C39F-0C96-52F9-3092-3C404617F540</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="нарушения.1.5" id="C3921C41-753A-9EE7-D260-54F1BA4D8D2E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Нарушения.1.5</headerAlias>
+<reference>false</reference>
+<referencedColumn>6DDF8E9A-FE98-2582-CAA6-7ACF4305750C</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="нарушения.2" id="DA586B77-1ECD-44F6-EAAD-8177DFAD4757">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Нарушения.2</headerAlias>
+<reference>false</reference>
+<referencedColumn>174F4CB5-EA05-6474-9A23-ACE6BF48CB0D</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="инвалидность_оф" id="71497834-2353-C190-5B57-D6DDB1DDDBF7">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Инвалидность ОФ</headerAlias>
+<reference>false</reference>
+<referencedColumn>8057CB26-2745-1FA5-B86E-565E99AA9E99</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="признаки_инвалидности" id="61336C28-85C1-601F-18C1-73EAD423C022">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Признаки инвалидности</headerAlias>
+<reference>false</reference>
+<referencedColumn>B7D1CE1E-6160-0234-AECF-FD467B5D8C75</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="косоглазие2" id="F1607511-9BBF-DA91-9299-EBB88E004677">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Косоглазие2</headerAlias>
+<reference>false</reference>
+<referencedColumn>191B483D-E5E8-E1BC-CA3E-34B982C45F11</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="рефлексы" id="7FB695D7-F9AC-0619-6C58-155FADC1FB5E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>Рефлексы</headerAlias>
+<reference>false</reference>
+<referencedColumn>61C27B1F-0DE8-A158-50F0-975BC4A6A6F1</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="бв" id="28F92E3C-1F54-E243-9A42-1BC7A86CD914">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>БВ</headerAlias>
+<reference>false</reference>
+<referencedColumn>A1E6B2AD-E28D-F7C2-6AB7-5813C89B279B</referencedColumn>
+<table>EF17048A-FBE1-B7FA-A700-160D39ECA5F6</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="lng" id="2BFD15D9-C66D-A587-18FD-29C1801EEA75">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>lng</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="lat" id="ACDD5A6C-3001-9561-DBA2-7A803FF1BED5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-01 19:36:59 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>UNKNOWN</dataType>
+<headerAlias>lat</headerAlias>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+</TableView>
