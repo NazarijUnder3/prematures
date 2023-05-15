@@ -1,10 +1,18 @@
-drop table if exists main.stage_data;
+drop table if exists main.stage_data cascade;
 
 --Import data
 select main.fn_dynamic_copy('G:\premature_data_final_2.csv', 'stage_data', ';');
 
 
 
+--correct data
+update main.stage_data
+	set lng = replace(lng, ',', '.')
+;
+
+update main.stage_data
+	set lat = replace(lat, ',', '.')
+;
 
 --Add column
 alter table main.stage_data
@@ -16,7 +24,9 @@ update stage_data
 create index surname_idx 
 	on main.stage_data (surname)
 ;
-
+alter table main.stage_data
+	add column child_id smallint
+;
 
 
 --Clean data
@@ -152,6 +162,114 @@ with
 			from pathology_stage
 			where "Беременность.МВС" <> trim('нет')
 	)
+	, ins_end_syst as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('энд.система')
+					, "Беременность.Энд.система0"
+					, 'да'
+			from pathology_stage
+			where "Беременность.Энд.система0" <> trim('нет')
+	)
+	, ins_sss as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('ССС')
+					, "Беременность.ССС0"
+					, 'да'
+			from pathology_stage
+			where "Беременность.ССС0" <> trim('нет')
+	)
+	, ins_git as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('ЖКТ')
+					, "Беременность.ЖКТ"
+					, 'да'
+			from pathology_stage
+			where "Беременность.ЖКТ" <> trim('нет')
+	)
+	, ins_smoking as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('курение')
+					, "Беременность.Курение"
+					, 'да'
+			from pathology_stage
+			where "Беременность.Курение" <> trim('отрицает')
+	)
+	, ins_ns as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('НС')
+					, "Беременность.НС0"
+					, 'да'
+			from pathology_stage
+			where "Беременность.НС0" <> trim('нет')
+	)
+	, ins_gynecology as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('гинекология')
+					, "Беременность.Гинекология0"
+					, 'да'
+			from pathology_stage
+			where "Беременность.Гинекология0" <> trim('нет')
+	)
+	, ins_threat as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('угроза')
+					, "Беременность.Угроза0"
+					, 'да'
+			from pathology_stage
+			where "Беременность.Угроза0" <> trim('нет')
+	)
+	, ins_hfpn_hvgp as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('ХФПН/ХВГП')
+					, "Беременность.ХФПН/ХВГП"
+					, 'да'
+			from pathology_stage
+			where "Беременность.ХФПН/ХВГП" <> trim('нет')
+	)
+	, ins_icn as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('ИЦН')
+					, "Беременность.ИЦН"
+					, 'да'
+			from pathology_stage
+			where "Беременность.ИЦН" <> trim('нет')
+	)
+	, ins_colpitis as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('кольпит')
+					, "Беременность.Кольпит"
+					, 'да'
+			from pathology_stage
+			where "Беременность.Кольпит" <> trim('нет')
+	)
+	, ins_orvi as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('ОРВИ')
+					, "Беременность.ОРВИ0"
+					, 'да'
+			from pathology_stage
+			where "Беременность.ОРВИ0" <> trim('нет')
+	)
+	, ins_imt as (
+		insert into main.pathology (pregnancy_id, pathology_id, pathology_full_name, pathology_short_name)
+			select pregnancy_id
+					, fn_get_pathology_type_id('ИМТ')
+					, "ИМТ"
+					, 'да'
+			from pathology_stage
+			where "ИМТ" <> trim('нет')
+	)
 	select *
 		from pathology
 ;
@@ -159,18 +277,18 @@ with
 
 
 --Import child data
-insert into main.child (pregnancy_id, child_name, child_surname, address, height, weight, apgar0, apgar1, asphyxia
+insert into main.child (pregnancy_id, child_name, child_surname, address, height, weight, apgar0, apgar1_id, asphyxia
 					, hospital_id, gender_id, locality_id, eco_id, convulsion0_id, convulsion7_id, sepsis_id, sepsis_ethiology_id
 					, pcr_blood_id, pcr_saliva_id, rt_kfg_id, reanimation, alv, cpap, ph, surfactant, child_card
-					, ir, white_body_id, reflex_id, ne, amniotic_fluid_id, fluid_id, presentation_id, compitation_id, user_id, ts)
-	select ...--pregnancy_id
-			, "ФИО"
-			, "ФИО"
+					, ir, white_body_id, reflex_id, ne, amniotic_fluid_id, fluid_id, presentation_id, compitation_id, user_id)
+	select p.pregnancy_id
+			, split_part("ФИО", ' ', 2)
+			, surname
 			, "Адрес"
-			, (cast ("Рост" as smallint))
+			, (cast(cast(replace("Рост", ',', '.') as numeric) as smallint))
 			, (cast ("Масса" as smallint))
 			, (cast ("Апгар0" as smallint))
-			, ... -- апгар1 - содержит не только цифры
+			, fn_get_apgar1_id (trim("Апгар1"))
 			, (cast (case
 						when "Асфиксия" = 'да'
 							then 'yes'
@@ -178,12 +296,12 @@ insert into main.child (pregnancy_id, child_name, child_surname, address, height
 							then 'no'
 					 end
 				as boolean))
-			, fn_get_hospital_id("Роддом") -- нужно добвить Мид в alt_haspital
+			, fn_get_hospital_id("Роддом")
 			, fn_get_gender_id("Пол")
-			, fn_get_locality_id-------------
+			, 0
 			, fn_get_eco_id(trim("ЭКО0"))
-			, fn_get_convulsion_id---
-			, fn_get_convulsion_id--- как заполнять conv0 и conv7
+			, fn_get_convulsion_id("Судороги0")
+			, fn_get_convulsion_id(replace ("АСН7", 'да', 'АСН'))
 			, fn_get_sepsis_id("ВУИ/сепсис")
 			, fn_get_sepsis_ethiology_id("ВУИ/сепсис.Этиология")
 			, fn_get_pcr_id("ПЦР кровь")
@@ -196,9 +314,9 @@ insert into main.child (pregnancy_id, child_name, child_surname, address, height
 							then 'no'
 					 end
 				as boolean))
-			, cast(rtrim(rtrim("Длительность ИВЛ", '0'), ',') as smallint) -- значение 0.5
-			, cast("Длительность CPAP" as smallint)
-			, cast("pH" as numeric) -- нецелые значение
+			, cast(replace(replace("Длительность ИВЛ", ',', '.'), '0', null) as float(1))
+			, cast(replace("Длительность CPAP", '0', null) as smallint)
+			, cast(replace("pH", ',', '.') as float)
 			, (cast (case
 						when "Куросурф" = 'да'
 							then 'yes'
@@ -207,7 +325,7 @@ insert into main.child (pregnancy_id, child_name, child_surname, address, height
 					 end
 				as boolean))
 			, cast("ИБ" as varchar)
-			, cast("IR" as smallint) -- нецелые значения
+			, cast(replace("IR", ',', '.') as float)
 			, fn_get_white_body_id(trim ("БВ"))
 			, fn_get_reflex_id("Рефлексы")
 			, (cast (case
@@ -222,10 +340,204 @@ insert into main.child (pregnancy_id, child_name, child_surname, address, height
 			, fn_get_presentation_id("Беременность.Предлежание")
 			, fn_get_compitation_id("Осложнения")
 			, 1
-	from stage_data
+		from main.stage_data sd 
+			inner join main.mother m on (m.mother_last_name = sd.surname)
+			inner join main.pregnancy p on (p.mother_id = m.mother_id
+												and p.pregnancy_count = cast(left(sd."Беременность счет0", 1) as smallint))
 ;
 
 
-select distinct "Роддом", fn_get_hospital_id(trim("Роддом"))
-	from stage_data
+
+update main.stage_data sd
+	set child_id = c.child_id
+	from main.child c
+	where sd."ФИО" = (c.child_surname || ' ' || c.child_name) 
+		and sd."Адрес" = c.address 
+;
+
+create index child_id_idx 
+	on main.stage_data (child_id)
+;
+--добавлено поле child_id в stage_data для упрощения работы
+
+
+
+--Insert diagnosis
+insert into main.diagnosis (child_id, diagnosis)
+	select child_id
+			, "Диагноз"
+		from main.stage_data
+;
+
+
+
+--Insert phone
+insert into main.phone (child_id, phone)
+	select child_id
+			, "Контакт" 
+		from main.stage_data
+;
+
+
+
+--Import mkf
+select fn_insert_mkf_all();
+
+
+
+--Insert followup for 0 months
+insert into main.followup (child_id, followup_time, fad, sd
+							, wd_id, ps_id, coordination_id, disorder_structure)
+	select child_id
+			, 0
+			, (cast (case
+						when "Нарушение засыпания.0" = 'да'
+							then 'yes'
+						when "Нарушение засыпания.0" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, (cast (case
+						when "Нарушение сна.0" = 'да'
+							then 'yes'
+						when "Нарушение сна.0" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, fn_get_wd_id ("Нарушение бодрствования.0")
+			, fn_get_ps_id ("Нарушения.ПС.0")
+			, fn_get_coordination_id ("Нарушения.Координация.0")
+			, cast("Структура нарушений.0" as varchar)
+		from main.stage_data sd
+;
+
+
+
+--Insert followup for 12 months
+insert into main.followup (child_id, followup_time, strabismus, dss, disorder_structure)
+	select child_id
+			, 12
+			, (cast (case
+						when "Косоглазие.1" = 'да'
+							then 'yes'
+						when "Косоглазие.1" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, (cast (case
+						when "Задержка речевых навыков.1" = 'да'
+							then 'yes'
+						when "Задержка речевых навыков.1" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, cast("Нарушения.1" as varchar)
+		from main.stage_data sd
+;
+
+--Insert followup for 18 months
+insert into main.followup (child_id, followup_time, disorder_structure)
+	select child_id
+			, 18
+			--, cast ("Нарушения.1.5" as varchar) есть и нарушения.1.5, и структура нарушений
+		from main.stage_data sd
+;
+
+--Insert followup for 24 months
+--косоглазие 2 сюда не загружать
+insert into main.followup (child_id, followup_time, disorder_structure)
+	select child_id
+			, 24
+			--, cast ("Нарушения.2" as varchar) есть и нарушения.2, и структура нарушений
+		from main.stage_data sd
+;
+
+--Insert followup for 36 months
+insert into main.followup (child_id, followup_time, ee)
+	select child_id
+			, 36
+			, (cast (case
+						when "Избыточная возбудимость.3" = 'да'
+							then 'yes'
+						when "Избыточная возбудимость.3" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+		from main.stage_data sd
+;
+
+
+--Insert disorder
+insert into main.disorder (child_id, disability_oficial, disability_sign, physical_id, slf_id, gc_id, sse_id, rf_id, pf_id, strabismus_id, disorder_kind_id, disorder_type_id
+							, ims_id, mps_id, es_id, cvs_id, vision_id, git_id, bs_id, mrt_id, skin_id, ct_id, hearing_id, user_id)
+	select child_id
+			, (cast (case
+						when "Инвалидность ОФ" = 'да'
+							then 'yes'
+						when "Инвалидность ОФ" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, (cast (case
+						when "Признаки инвалидности" = 'да'
+							then 'yes'
+						when "Признаки инвалидности" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, fn_get_physical_id (trim("Двигательная"))
+			, fn_get_slf_id (trim("СЛФ"))
+			, fn_get_gc_id (trim("ГЦ"))
+			, fn_get_sse_id (trim("СС/Э"))
+			, fn_get_rf_id (trim("РФ"))
+			, fn_get_pf_id (trim("ПФ"))
+			, fn_get_strabismus_id (trim("Косоглазие2"))
+			, fn_get_disorder_kind_id (trim("ЭФ.Характер нарушений.2"))
+			, fn_get_disorder_type_id (trim("Нарушения.2"))
+			, fn_get_ims_id (trim("ИС"))
+			, fn_get_mps_id (trim("МПС"))
+			, fn_get_es_id (trim("Энд.система"))
+			, fn_get_cvs_id (trim("ССС2"))
+			, fn_get_vision_id (trim("ОФТ"))
+			, fn_get_git_id (trim("ЖКТ"))
+			, fn_get_bs_id (trim("Ортопед"))
+			, fn_get_mrt_id (trim("МРТ"))
+			, fn_get_skin_id (trim("Кожа, стигмы"))
+			, fn_get_ct_id (trim("КТ"))
+			, fn_get_hearing_id (trim("Слух"))
+			, 1
+		from main.stage_data sd
+;
+
+
+
+--Insert disability
+insert into main.disability (child_id, breathing_syndrom_id, intracranial_id, npt_id, immersion_id, leukomalacia_id, status_30_id, habilitation_id, hemorrhage
+							, breathing_failure, sei, encephalopathy, user_id)
+	select child_id
+			, fn_get_breathing_syndrom_id ("ДС")
+			, fn_get_intracranial_id ("ВЧК0")
+			, fn_get_npt_id (trim(replace("возраст начала терапии", '..', '.'))) --???
+			, fn_get_immersion_id ("Сухая иммерсия")
+			, fn_get_leukomalacia_id ("ПВЛ")
+			, fn_get_status_30_id (trim("30 дней"))
+			, fn_get_habilitation_id ("Абилитация")
+			, cast("ПВК степень" as smallint)
+			, cast("ДН степень" as smallint)
+			, (cast (case
+						when "СЭИ" = 'да'
+							then 'yes'
+						when "СЭИ" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, (cast (case
+						when "ЭФПН" = 'да'
+							then 'yes'
+						when "ЭФПН" = 'нет'
+							then 'no'
+					 end
+				as boolean))
+			, 1
+		from main.stage_data sd
 ;
