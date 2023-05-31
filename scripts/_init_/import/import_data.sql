@@ -314,8 +314,18 @@ insert into main.child (pregnancy_id, child_name, child_surname, address, height
 							then 'no'
 					 end
 				as boolean))
-			, cast(replace(replace("Длительность ИВЛ", ',', '.'), '0', null) as float(1))
-			, cast(replace("Длительность CPAP", '0', null) as smallint)
+			, cast (case 
+					when replace("Длительность ИВЛ", ',', '.') = '0'
+						then null
+					else replace("Длительность ИВЛ", ',', '.')
+				end
+		 		as float(1))
+			, cast(case 
+						when "Длительность CPAP" = '0'
+							then null
+						else "Длительность CPAP"
+					end
+		 		as smallint)
 			, cast(replace("pH", ',', '.') as float)
 			, (cast (case
 						when "Куросурф" = 'да'
@@ -387,7 +397,7 @@ select fn_insert_mkf_all();
 
 --Insert followup for 0 months
 insert into main.followup (child_id, followup_time, fad, sd
-							, wd_id, ps_id, coordination_id, disorder_structure)
+							, wd_id, ps_id, coordination_id, disorder_structure, disorder_type_id)
 	select child_id
 			, 0
 			, (cast (case
@@ -408,13 +418,14 @@ insert into main.followup (child_id, followup_time, fad, sd
 			, fn_get_ps_id ("Нарушения.ПС.0")
 			, fn_get_coordination_id ("Нарушения.Координация.0")
 			, cast("Структура нарушений.0" as varchar)
+			, NULL
 		from main.stage_data sd
 ;
 
 
 
 --Insert followup for 12 months
-insert into main.followup (child_id, followup_time, strabismus, dss, disorder_structure)
+insert into main.followup (child_id, followup_time, strabismus, dss, disorder_structure, disorder_type_id)
 	select child_id
 			, 12
 			, (cast (case
@@ -432,28 +443,32 @@ insert into main.followup (child_id, followup_time, strabismus, dss, disorder_st
 					 end
 				as boolean))
 			, cast("Нарушения.1" as varchar)
+			, NULL
 		from main.stage_data sd
 ;
 
 --Insert followup for 18 months
-insert into main.followup (child_id, followup_time, disorder_structure)
+insert into main.followup (child_id, followup_time, disorder_structure, disorder_type_id)
 	select child_id
 			, 18
-			--, cast ("Нарушения.1.5" as varchar) есть и нарушения.1.5, и структура нарушений
+			, cast ("Структура нарушений.1.5" as varchar)
+			, fn_get_disorder_type_id ("Нарушения.1.5")
 		from main.stage_data sd
 ;
 
+
 --Insert followup for 24 months
 --косоглазие 2 сюда не загружать
-insert into main.followup (child_id, followup_time, disorder_structure)
+insert into main.followup (child_id, followup_time, disorder_structure, disorder_type_id)
 	select child_id
 			, 24
-			--, cast ("Нарушения.2" as varchar) есть и нарушения.2, и структура нарушений
+			, cast ("Структура нарушений.2" as varchar)
+			, fn_get_disorder_type_id ("Нарушения.2")
 		from main.stage_data sd
 ;
 
 --Insert followup for 36 months
-insert into main.followup (child_id, followup_time, ee)
+insert into main.followup (child_id, followup_time, ee, disorder_type_id)
 	select child_id
 			, 36
 			, (cast (case
@@ -463,6 +478,7 @@ insert into main.followup (child_id, followup_time, ee)
 							then 'no'
 					 end
 				as boolean))
+			, NULL
 		from main.stage_data sd
 ;
 
@@ -517,7 +533,7 @@ insert into main.disability (child_id, breathing_syndrom_id, intracranial_id, np
 	select child_id
 			, fn_get_breathing_syndrom_id ("ДС")
 			, fn_get_intracranial_id ("ВЧК0")
-			, fn_get_npt_id (trim(replace("возраст начала терапии", '..', '.'))) --???
+			, fn_get_npt_id (trim(replace("возраст начала терапии", '..', '.')))
 			, fn_get_immersion_id ("Сухая иммерсия")
 			, fn_get_leukomalacia_id ("ПВЛ")
 			, fn_get_status_30_id (trim("30 дней"))
