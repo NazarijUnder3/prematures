@@ -448,3 +448,44 @@ alter table main.disability
 ;
 
 --rollback alter table main.disability add column if not exists ne boolean null;
+
+
+
+--changeset NP:30 labels:alter_table dbms:postgresql context:dev,qa,uat,prod
+--comment: adjust followup
+alter table main.followup 
+	add column disorder_type_id smallint
+;
+
+alter table main.followup 
+add constraint followup_disorder_type_fk 
+		foreign key (disorder_type_id) 
+			references main.disorder_type (disorder_type_id)
+;
+
+insert 
+	into main.disorder_type
+	values (3, 'МВПР')
+	on conflict 
+		do nothing
+;
+
+--rollback delete from main.disorder_type where disorder_type_id = 3;
+--rollback alter table main.followup drop constraint followup_disorder_type_fk;
+--rollback alter table main.followup drop column disorder_type_id;
+
+
+
+--changeset NP:31 labels:alter_table dbms:postgresql context:dev,qa,uat,prod
+--comment: adjust followup
+alter table main.followup 
+	drop constraint followup_followup_time_check
+;
+
+alter table main.followup 
+	add constraint followup_followup_time_check
+		check (followup_time = any (array[0, 12, 18, 24, 36]))
+;
+
+--rollback alter table main.followup drop constraint followup_followup_time_check;
+--rollback alter table main.followup add constraint followup_followup_time_check check (((followup_time)::numeric = any (array[(0)::numeric, (1)::numeric, 1.5, (2)::numeric])));
