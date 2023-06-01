@@ -2,3 +2,6 @@
 scripts/liquibase.log
 scripts/liquibase.log
 *.log
+scripts/liquibase.properties
+scripts/.ipynb_checkpoints/prem.logistic-checkpoint.ipynb
+*.log
