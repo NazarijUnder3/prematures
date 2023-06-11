@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InfoStore class="oracle.dbtools.crest.model.design.process.InfoStore" name="stage_data" directorySegmentName="seg_0" id="47A679F7-6F94-BA6C-A307-FCCDB7D974EB">
+<createdBy>User</createdBy>
+<createdTime>2023-06-06 20:56:50 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<rdbmsSite>Oracle Database 12c</rdbmsSite>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<type>RDBMS</type>
+</InfoStore>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="insert pregnancy data" directorySegmentName="seg_0" id="DADE0AA2-DF3F-62BE-C829-6560C88577EC">
+<createdBy>User</createdBy>
+<createdTime>2023-06-06 21:00:22 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<footNote>Inserted 192 rows: 1 mother had 2 pregnancies in different time</footNote>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

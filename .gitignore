@@ -5,3 +5,4 @@ scripts/liquibase.log
 scripts/liquibase.properties
 scripts/.ipynb_checkpoints/prem.logistic-checkpoint.ipynb
 *.log
+scripts/.ipynb_checkpoints/prem.logistic-checkpoint.ipynb

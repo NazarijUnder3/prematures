@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InfoStore class="oracle.dbtools.crest.model.design.process.InfoStore" name="premature.csv" directorySegmentName="seg_0" id="AE21BC25-4732-A67C-5C3B-7FF69787F44F">
+<createdBy>User</createdBy>
+<createdTime>2023-06-06 20:52:19 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<fieldSeparator>,</fieldSeparator>
+<fileType>CSV</fileType>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<transfertype>Full Refresh</transfertype>
+<type>File</type>
+</InfoStore>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InfoStore class="oracle.dbtools.crest.model.design.process.InfoStore" name="followup" directorySegmentName="seg_0" id="B1B06371-D756-AFAC-8856-E8010B6AE2CE">
+<createdBy>User</createdBy>
+<createdTime>2023-06-07 09:25:38 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<rdbmsSite>Oracle Database 12c</rdbmsSite>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<type>RDBMS</type>
+</InfoStore>

@@ -1,11 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="sub_view" objectID="29B0295B-F099-4CA7-F01F-943F019409C7" name="Relational_1 - SubView_1v2" visible="false"/>
    <object objectType="sub_view" objectID="59050600-5149-E3A8-83FA-9776CE6E7857" name="Pregnancy" visible="true"/>
+   <object objectType="sub_view" objectID="65914A64-3FFA-2C14-4806-CDDE1E24B9AE" name="Relational_1 - SubView_1v1" visible="false"/>
+   <object objectType="sub_view" objectID="671093BD-5FC2-77CC-2DB0-C37816F8E21C" name="Relational_1 - SubView_1v3" visible="false"/>
    <object objectType="sub_view" objectID="7C40D667-D421-D047-2A7F-DAB027A76A4E" name="Disorder" visible="true"/>
    <object objectType="sub_view" objectID="84FBD4CF-51D3-3007-787E-FDCA7F7F06C5" name="From_LM_Logical - SubView_1v2" visible="false"/>
    <object objectType="main_view" objectID="861619B2-5DAA-54C7-DA7C-C46C052C994E" name="Relational_1" visible="true"/>
    <object objectType="sub_view" objectID="87F59CDF-ADA5-A06E-A813-D305E1B5E90E" name="Followup" visible="true"/>
-   <object objectType="sub_view" objectID="8AF7654C-7253-408B-9BDC-95AB0B36051A" name="Child" visible="true"/>
+   <object objectType="sub_view" objectID="8AF7654C-7253-408B-9BDC-95AB0B36051A" name="Child" visible="false"/>
+   <object objectType="sub_view" objectID="8E94D392-E3B1-8021-2694-D533D797BC32" name="Relational_1 - SubView_1v4" visible="false"/>
    <object objectType="sub_view" objectID="A00EA8D3-4FBB-533C-2746-5CFC89F5042D" name="From_LM_Logical - SubView_1v3" visible="false"/>
    <object objectType="sub_view" objectID="AB3F8E74-3421-30FB-B349-1D637C046CED" name="From_LM_Concept" visible="false"/>
    <object objectType="sub_view" objectID="B7562E65-189A-7423-6FD5-D06F93DF1480" name="From_LM_disoders" visible="false"/>

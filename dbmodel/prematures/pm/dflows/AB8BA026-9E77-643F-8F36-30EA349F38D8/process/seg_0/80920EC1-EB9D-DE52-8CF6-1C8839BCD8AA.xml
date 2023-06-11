@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="insert followup data" directorySegmentName="seg_0" id="80920EC1-EB9D-DE52-8CF6-1C8839BCD8AA">
+<createdBy>User</createdBy>
+<createdTime>2023-06-07 09:19:08 UTC</createdTime>
+<ownerDesignName>prematures</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<footNote>Separate insert for different periods: 0, 12, 18, 24, 36 months
+Inserted 1060 rows</footNote>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>
